@@ -11,8 +11,8 @@ permalink:           pretty
 
 # Setup
 title:               Anifacc
-tagline:             'α2Ω.'
-description:         '客旅.'
+tagline:             'α2Ω.客旅'
+description:         'Life is an _if_ case & an accumulation!'
 url:                 http://anifacc.github.io
 baseurl:             /
 paginate:            7
@@ -20,7 +20,7 @@ paginate:            7
 # About/contact
 author:
   name:              Jeremy Anifacc
-  url:               https://www.macundexiatian.com
+  url:               https://jeremiahzhang.github.io
   email:             z.l12@mail.scut.edu.cn
 
 # Custom vers
