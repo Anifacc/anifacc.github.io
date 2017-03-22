@@ -10,25 +10,26 @@ permalink:           pretty
 
 
 # Setup
-title:               Yixuan
-tagline:             '厨娘界元老, 书呆界新人.'
-description:         '尘世间一只迷途小书虫.'
-url:                 http://yixuan.li
+title:               Anifacc
+tagline:             'α2Ω.'
+description:         '客旅.'
+url:                 http://anifacc.github.io
 baseurl:             /
 paginate:            7
 
 # About/contact
 author:
-  name:              Yixuan Li
+  name:              Jeremy Anifacc
   url:               https://www.macundexiatian.com
-  email:             liyixuan5402@gmail.com
+  email:             z.l12@mail.scut.edu.cn
 
 # Custom vers
 version:             3.0
 
 # Social Media
-github:				https://github.com/YixuanFranco
-twitter:			https://twitter.com/Yixuan5402
+github:				https://github.com/Anifacc
+weibo:				http://weibo.com/ZhangXiaowoStef
+disqus:				LeiyuZhang
 
 # Theme Author (Please don't edit this line cause of MIT LICENSE rules)
 theme:
