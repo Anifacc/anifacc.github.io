@@ -88,10 +88,14 @@ categories:
 2. [git - Multiple github accounts on the same computer? - Stack Overflow](http://stackoverflow.com/questions/3860112/multiple-github-accounts-on-the-same-computer)
 3. [Quick Tip: How to Work with GitHub and Multiple Accounts](https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574)
 4. [一台电脑上的git同时使用两个github账户 - 小蒋不素小蒋 - 博客园](http://www.cnblogs.com/xjnotxj/p/5845574.html)
-  
+
+---
+
 	beta 1.0  
 	Anifacc  
 	2017-03-22  
+
+---
 
 [1]:	https://github.com/YixuanFranco/yixuanfranco.github.io
 [2]:	anifacc.github.io
