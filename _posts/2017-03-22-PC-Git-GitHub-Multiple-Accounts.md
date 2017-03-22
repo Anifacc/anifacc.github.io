@@ -18,7 +18,9 @@ categories:
 ## Step 1 - Generating a new SSH key
 
 1. open Git bash, 路径 __~/.ssh__ 下运行命令行
-2. 为 github账户 Anifacc 建立新的 ssh key, 在 git 中键入：
+2. 为 github账户 Anifacc 建立新的 ssh key, 按如下步骤
+
+在 git 中键入：
 
 	$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
