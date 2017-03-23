@@ -82,6 +82,28 @@ categories:
 
 ---
 
+## But
+
+第二日, 俺打开Laptop 编辑 About me, 再推送, 却出现问题, error like this
+
+	ERROR: Permission to user1/repo.git denied to user2
+
+then search get [github - ERROR: Permission to user1/repo.git denied to user2 - Stack Overflow](http://stackoverflow.com/questions/9607952/error-permission-to-user1-repo-git-denied-to-user2)
+
+选用第一个答案, 让Anifacc的repo 添加collaborator,"JeremiahZhang", 因为我git bash 中一直是我之间github账户"JeremiahZhang". 添加 Collaborators 之后, 一切就简单咯.
+
+---
+
+## end
+
+原来之前的路是弯的,不过不走过,又怎么能走到现在呢. 
+
+anyway, thinking and action. 
+
+__止损__ 务必.
+
+---
+
 # reference 
 
 1. [Generating a new SSH key and adding it to the ssh-agent - User Documentation](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#adding-your-ssh-key-to-the-ssh-agent)
@@ -91,9 +113,10 @@ categories:
 
 ---
 
-	beta 1.0  
+	beta 2.0  
 	Anifacc  
-	2017-03-22  
+	2017-03-22 
+	2017-03-23 23:17:21 
 
 ---
 
