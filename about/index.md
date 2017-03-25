@@ -6,7 +6,7 @@ layout: page
 
   <img width="300" height="400" alt="A photo of Anifacc" src="https://dn-jeremiahzhang.qbox.me/me.jpg">
 
-Hola, 我是 __Anifacc__. 喜欢探索未知领域. 现在集中在培养专注, 有恒能力及一些技能训练. 这儿就是我的记录之地. 离开学校, 一切靠自学, 进入社会大学, 建立__selfEduSystem__对我而言极其重要. 那么这里会记录我的成长轨迹. 
+Hola, 我是 __Anifacc__. 喜欢探索未知领域. 现在集中在培养专注, 有恒能力及一些技能训练. 这儿就是我的记录之地. 离开学校, 一切靠自学, 进入社会大学, 建立 __selfEduSystem__ 对我而言极其重要. 那么这里会记录我的成长轨迹. 
 
 	Don’t Think you are
 	Know you are
