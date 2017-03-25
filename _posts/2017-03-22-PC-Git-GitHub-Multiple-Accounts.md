@@ -2,7 +2,7 @@
 layout: post
 title: Github-多账户同时使用
 categories:
-- Matrix
+- Toolkit
 ---
 
 安然想新建一个blog, 使用Github page, fork [班长yixuan的极客绿][1], 建立自己的blog [α2Ω][2]. 
