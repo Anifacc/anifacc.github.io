@@ -1,24 +1,32 @@
-## 极客绿
+## Intro
 
-Hi, 这是我从人家那个模板里 fork 过来的,  
-改了一些颜色. 因为蓝色实在是...让人感觉很微妙.  
+blog fork [Yixuan的极客绿]( http://yixuan.li/)  
 
-原样请跑去原作那看一下, 具体怎么用我就不详述了. 毕竟我也没看.  
-就自己摸索着瞎改的.  
+1. fork 后 更改了 google analysis 内容, 对应自己的 google account. 更改
 
-但可以保证的是! 我的配色比他的好看多了! 经历过三次大的迭代!  
-所以, 用了最适合的灰黑色背景, 用了最适合的 Green.  
-无数小白鼠亲证!  
+		+ _includes
+			+ analytics.html
+中相关内容.
 
-以上. 
+2. 使用了自己的 Disqus, 更改
 
-Mar.13, 2016 __Yixuan 亲笔  
+		+ _layouts
+			+ post.html
+中相关内容.
 
+## 其他
 
+当然要把班长Yixuan原有的blog file 删除, 极其其他内容.
+
+## 感谢 
+
+感谢班长Yixuan的极客绿.
 
 ---
 
-* 已于 `May 30, 2016` 补全了自动分类系统.   
-* 已于 `May 30, 2016` 解决了音乐播放器不能用的问题.   
+@Anifacc   
+2017-03-25 22:01:18
 
-* [Yixuan的极客绿]( http://yixuan.li/)
+
+
+
