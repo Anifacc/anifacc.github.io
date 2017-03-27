@@ -4,7 +4,7 @@ highlighter:         rouge
 kramdown:
   input: GFM
   hard_wrap: false
-  math_engine: mathjax
+  
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
