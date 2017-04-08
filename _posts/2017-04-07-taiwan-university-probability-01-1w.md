@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 顽想学概率一: 1w 看待世界的方式-概率
+title: 顽想学概率一-1w看待世界的方式
 categories:
 - Math
 ---
