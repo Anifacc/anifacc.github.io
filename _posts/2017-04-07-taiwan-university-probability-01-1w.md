@@ -3,7 +3,6 @@ layout: post
 title: 顽想学概率一: 1w 看待世界的方式-概率
 categories:
 - Math
-- MOOC
 ---
 
 本周(1w)的概率一课程主要内容分为三部分:
