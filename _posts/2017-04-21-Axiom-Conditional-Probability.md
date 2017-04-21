@@ -131,7 +131,7 @@ coursera 台大 顽想学概率 一 第二周的主要内容是
 
 # 2 条件概率
 
-条件概率就是在一定条件Y下, 事件发生的概率P(X|Y).
+条件概率就是在一定条件Y下, 事件发生的概率$$ P(X|Y) $$.
 
 ## 条件概率性质
 
@@ -139,7 +139,7 @@ coursera 台大 顽想学概率 一 第二周的主要内容是
 
 1. $$ P(X|Y) = \frac{P(X \cap Y) \geq 0 }{P(Y) \geq 0} \geq 0 $$   
 2. $$ P(Y|Y) = 1 $$   
-3. A, B互斥 $$ \Rightarrow P(A \cup B\|Y) = P(A\|Y) + P(B\|Y) $$   
+3. A, B互斥 $$ \Rightarrow P(A \cup B|Y) = P(A|Y) + P(B|Y) $$   
 
 还有就是 Total Probability Law 和 Bayes Law.
 
@@ -154,7 +154,7 @@ $$ P(A) = P(A|C_1)P(C_1) + P(A|C_2)P(C_2) + \cdots + P(A|C_n)P(C_n) $$
 
 若 $$ C_1, C_2, ..., C_n $$ 互斥且 $$C_1 \cup C_2 \cup \cdots \cup C_n = S $$, 则对任意事件A, 有:
 
-$$ P(C_j|A) = \frac{P(A|C_j)P(C_j)}{P(A|C_1)P(C_1) + P(A|C_2)P(C_2) + \cdots + P(A|C_n}P(C_n)} $$
+$$ P(C_j|A) = \frac{P(A|C_j)P(C_j)}{P(A|C_1)P(C_1) + P(A|C_2)P(C_2) + \cdots + P(A|C_n)P(C_n)} $$
 
 ---
 
