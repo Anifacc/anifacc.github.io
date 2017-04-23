@@ -42,7 +42,7 @@ coursera 台大 顽想学概率 一 第二周的主要内容是
 
 ## 衍生性质
 
-1. 若 $$ E = \{o_1, o_2, ..., o_n\} $$, 则 $$ P(E) = P(\{o_1\}) + P(\{o_2\}) + \cdots + P(\{o_n\}) $$
+1 若 $$ E = \{o_1, o_2, ..., o_n\} $$, 则 $$ P(E) = P(\{o_1\}) + P(\{o_2\}) + \cdots + P(\{o_n\}) $$
 
 证明:
 
@@ -50,7 +50,7 @@ coursera 台大 顽想学概率 一 第二周的主要内容是
 > 因 $$ \{o_1\}, \{o_2\}, \cdots \{o_n\} $$ 互斥    
 > $$ \Rightarrow P(E) = P(E) = P({o_1}) + P({o_2}) + \cdots + P({o_n}) $$ (公理3)   
 
-2. $$ P(\phi) = 0 $$: 不能可能事件(空集)发生的概率为0.
+2 $$ P(\phi) = 0 $$: 不能可能事件(空集)发生的概率为0.
 
 证明:
 
@@ -59,7 +59,7 @@ coursera 台大 顽想学概率 一 第二周的主要内容是
 > $$ \Rightarrow P(s) = P(S \cup \phi) = P(S) + P(\phi) $$  (公理3)    
 > $$ \Rightarrow P(\phi) = 0 $$    
 
-3. $$ P(A) = 1 - P(A^{c}) $$
+3 $$ P(A) = 1 - P(A^{c}) $$
 
 证明:
 
@@ -67,7 +67,7 @@ coursera 台大 顽想学概率 一 第二周的主要内容是
 > $$ \Rightarrow 1 = P(S) = P(A \cup A^{c}) = P(A) + P(A^{c}) $$ (公理2 和 公理3)   
 > $$ \Rightarrow P(A) = 1 - P(A^{c}) $$   
 
-4. $$ P(A) = P(A-B) + P(A \cap B) $$
+4 $$ P(A) = P(A-B) + P(A \cap B) $$
 
 证明: 
 
@@ -75,14 +75,14 @@ coursera 台大 顽想学概率 一 第二周的主要内容是
 > $$ \Rightarrow P(A) = P((A-B) \cup (A \cap B)) $$   
 > $$ \Rightarrow P(A) = P(A-B) + P(A \cap B) $$ (公理3)   
 
-5. $$ P(A \cup B) = P(A) +P(B) - P(A \cap B) $$
+5 $$ P(A \cup B) = P(A) +P(B) - P(A \cap B) $$
 
 证:
 
 > $$ A \cup B = (A-B) \cup (A \cap B) \cup (B-A) $$    
 > $$ \Rightarrow P(A \cup B) = P(A) - P(A \cap B) + P(B) $$ 使用公理3 和 上面的性质4  
 
-6. 切面包定理: if $$ C_1, C_2, \cdots, C_n $$ 互斥, 且 $$ C_1 \cup C_2 \cup \cdots \cup C_n = S $$, then 对任意事件 A: $$ P(A) = P(A \cap C_1) + P(A \cap C_2) + \cdots + (A \cap C_n) $$
+6  切面包定理: if $$ C_1, C_2, \cdots, C_n $$ 互斥, 且 $$ C_1 \cup C_2 \cup \cdots \cup C_n = S $$, then 对任意事件 A: $$ P(A) = P(A \cap C_1) + P(A \cap C_2) + \cdots + (A \cap C_n) $$
 
 证明:
 
@@ -92,14 +92,14 @@ coursera 台大 顽想学概率 一 第二周的主要内容是
 > $$ \Rightarrow (A \cap C_1) \cup (A \cap C_2) \cup \cdots \cup (A \cap C_n) = A $$
 > {1} + {2} $$ \Rightarrow P(A) = P(A \cap C_1) + P(A \cap C_2) + \cdots + (A \cap C_n) $$
 
-7. 若 $$ A \subset B $$ then $$ P(A) \leq P(B) $$   
+7 若 $$ A \subset B $$ then $$ P(A) \leq P(B) $$   
 
 > 因为 $$ A \subset B \Rightarrow B = A \cup (B-A)$$
 > 而 $$ A, (B-A) $$ 互斥
 > $$ \Rightarrow P(B) = P(A) + P(B-A) \geq P(A) $$ (公理3 和 公理1)
 > $$ \Rightarrow P(A) \leq P(B) $$
 
-8. Boole's 不等式: 对于任意n个事件 $$ A_1, A_2, \cdots, A_n $$ 而言, $$ P(\cup_{i=1}^n A_i) \leq \sum_{i=1}^n P(A_{i}) $$
+8 Boole's 不等式: 对于任意n个事件 $$ A_1, A_2, \cdots, A_n $$ 而言, $$ P(\cup_{i=1}^n A_i) \leq \sum_{i=1}^n P(A_{i}) $$
 
 可以用归纳法, 先从 $$ A_1, A_2 $$两个开始证, 比如:
 
@@ -112,7 +112,7 @@ coursera 台大 顽想学概率 一 第二周的主要内容是
 
 > $$ P(\cup_{i=1}^n A_i) \leq \sum_{i=1}^n P(A_{i}) $$
 
-9. Bonferroini's 不等式: 对于任意n个事件 $$ A_1, A_2, \cdots, A_n $$ 而言, $$ P(\cap_{i=1}^n A_i) \geq 1 - \sum_{i=1}^n P(A_{i}^c) $$
+9 Bonferroini's 不等式: 对于任意n个事件 $$ A_1, A_2, \cdots, A_n $$ 而言, $$ P(\cap_{i=1}^n A_i) \geq 1 - \sum_{i=1}^n P(A_{i}^c) $$
 
 我们还是从任意两个事件 $$ A_1, A_2 $$来证明.
 
@@ -131,22 +131,22 @@ coursera 台大 顽想学概率 一 第二周的主要内容是
 
 # 2 条件概率
 
-条件概率就是在一定条件Y下, 事件发生的概率$$ P(X|Y) $$.
+条件概率就是在一定条件Y下, 事件发生的概率$$ P(X \mid Y) $$.
 
 ## 条件概率性质
 
 还是可以从公理得到
 
-1. $$ P(X|Y) = \frac{P(X \cap Y) \geq 0 }{P(Y) \geq 0} \geq 0 $$   
-2. $$ P(Y|Y) = 1 $$   
-3. A, B互斥 $$ \Rightarrow P(A \cup B|Y) = P(A|Y) + P(B|Y) $$   
+1. $$ P(X \mid Y) = \frac{P(X \cap Y) \geq 0 }{P(Y) \geq 0} \geq 0 $$   
+2. $$ P(Y \mid Y) = 1 $$   
+3. A, B互斥 $$ \Rightarrow P(A \cup B \mid Y) = P(A \mid Y) + P(B \mid Y) $$   
 
 还有就是 Total Probability Law 和 Bayes Law.
 
 > Total Probability Law: 
 
 若 $$ C_1, C_2, ..., C_n $$ 互斥且 $$C_1 \cup C_2 \cup \cdots \cup C_n = S $$, 则对任意事件A, 有:   
-$$ P(A) = P(A|C_1)P(C_1) + P(A|C_2)P(C_2) + \cdots + P(A|C_n)P(C_n) $$
+$$ P(A) = P(A \mid C_1)P(C_1) + P(A \mid C_2)P(C_2) + \cdots + P(A \mid C_n)P(C_n) $$
 
 证明和上面的切面包定理类似, 只不过换为条件概率而已.
 
@@ -154,7 +154,7 @@ $$ P(A) = P(A|C_1)P(C_1) + P(A|C_2)P(C_2) + \cdots + P(A|C_n)P(C_n) $$
 
 若 $$ C_1, C_2, ..., C_n $$ 互斥且 $$C_1 \cup C_2 \cup \cdots \cup C_n = S $$, 则对任意事件A, 有:
 
-$$ P(C_j|A) = \frac{P(A|C_j)P(C_j)}{P(A|C_1)P(C_1) + P(A|C_2)P(C_2) + \cdots + P(A|C_n)P(C_n)} $$
+$$ P(C_j \mid A) = \frac{P(A \mid C_j)P(C_j)}{P(A \mid C_1)P(C_1) + P(A \mid C_2)P(C_2) + \cdots + P(A \mid C_n)P(C_n)} $$
 
 ---
 
