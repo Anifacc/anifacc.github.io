@@ -27,7 +27,7 @@ Review of the key ideas.
 2. The length $$\parallel v \parallel$$ of a vector is the square root of $$v \cdot v$$.
 3. $$ u = \frac{v}{\parallel v \parallel} $$ is a *unit vector*. Its length is 1.
 4. The dot product is $$v \cdot w = 0$$ when vectors $$v $$ and $$w$$ are perpendicular.
-5. The cosine of $$\theta$$ (the angle between any nonzero $$v$$ and $$w$$) never exeeds 1: $$\cos\theta = \frac{v \cdot w}{\parallel v \parallel \parallel w \parallel}$$, **Schwarz inequality** $$\mid v \cdot w \mid \leq \parallel v \parallel \parallel w \parallel}$$.
+5. The cosine of $$\theta$$ (the angle between any nonzero $$v$$ and $$w$$) never exeeds 1: $$\cos\theta = \frac{v \cdot w}{\parallel v \parallel \parallel w \parallel}$$, **Schwarz inequality** $$\mid v \cdot w \mid \leq \parallel v \parallel \parallel w \parallel$$.
 6. Triangle inequality $$\parallel v + w \parallel \leq \parallel v \parallel + \parallel w \parallel$$.
 
 # 3 Matrices #
@@ -43,9 +43,9 @@ Review of the key ideas.
 
 - 矩阵乘以向量, 从向量角度来理解.
 - 矩阵是否可逆? 观察矩阵内各列向量是否独立.将矩阵的可逆性转换到向量的独立与否.
-  - **Difference matrix** A :  $$\begin{bmatrix} 1 & 0 & 0 \\ -1 $ 1 & 0 \\ 0 & -1 & 1 \end{bmatrix}$$
-  - Dot products with rows: $$Ax = \begin{bmatrix} 1 & 0 & 0 \\ -1 $ 1 & 0 \\ 0 & -1 & 1 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix} = \begin{bmatrix} (1, 0, 0) \cdot (x_1, x_2, x_3) \\ (-1, 1, 0) \cdot (x_1, x_2, x_3) \\ (0, -1, 1) \cdot (x_1, x_2, x_3) \end{bmatrix}$$. 可逆其列向量互相独立.
-  - **Cyclic Differences** $$Cx=\begin{bmatrix} 1 & 0 & -1 \\ -1 $ 1 & 0 \\ 0 & -1 & 1 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix} = \begin{bmatrix} x_1 - x_3 \\ x_2 - x_1 \\ x_3 - x_2 \end{bmatrix} = b$$ **Cyclic difference matrix** $$C$$ 是不可逆的, 其列向量不独立. 其中一个列向量可以由另外两个列向量线性表示.
+  - **Difference matrix** A :  $$\begin{bmatrix} 1 & 0 & 0 \\ -1 & 1 & 0 \\ 0 & -1 & 1 \end{bmatrix}$$
+  - Dot products with rows: $$Ax = \begin{bmatrix} 1 & 0 & 0 \\ -1 & 1 & 0 \\ 0 & -1 & 1 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix} = \begin{bmatrix} (1, 0, 0) \cdot (x_1, x_2, x_3) \\ (-1, 1, 0) \cdot (x_1, x_2, x_3) \\ (0, -1, 1) \cdot (x_1, x_2, x_3) \end{bmatrix}$$. 可逆其列向量互相独立.
+  - **Cyclic Differences** $$Cx=\begin{bmatrix} 1 & 0 & -1 \\ -1 & 1 & 0 \\ 0 & -1 & 1 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix} = \begin{bmatrix} x_1 - x_3 \\ x_2 - x_1 \\ x_3 - x_2 \end{bmatrix} = b$$ **Cyclic difference matrix** $$C$$ 是不可逆的, 其列向量不独立. 其中一个列向量可以由另外两个列向量线性表示.
 - Independence and Dependence: 独立与不独立.
   - $$u, v, w$$ are **independent**. No combination except $$0u+0v+0w=0$$ gives $$b=0$$
   - $$u, v, w^{1}$$ are **dependent**. Other combinations(specifically $$u + v + w^{1}$$) give $$b=0$$.
