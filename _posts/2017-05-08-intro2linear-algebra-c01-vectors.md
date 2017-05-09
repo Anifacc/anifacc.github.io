@@ -27,8 +27,8 @@ Review of the key ideas.
 2. The length $$\parallel v \parallel$$ of a vector is the square root of $$v \cdot v$$.
 3. $$ u = \frac{v}{\parallel v \parallel} $$ is a *unit vector*. Its length is 1.
 4. The dot product is $$v \cdot w = 0$$ when vectors $$v $$ and $$w$$ are perpendicular.
-5. The cosine of $$\theta$$ (the angle between any nonzero $$v$$ and $$w$$) never exeeds 1: $$\cos\theta = \frac{v \cdot w}{\parallel v \parallel \parallel w \parallel}$$, **Schwarz inequality** $$\mid v \cdot w \mid \leq \parallel v \parallel \parallel w \parallel$$.
-6. Triangle inequality $$\parallel v + w \parallel \leq \parallel v \parallel + \parallel w \parallel$$.
+5. The cosine of $$\theta$$ (the angle between any nonzero $$v$$ and $$w$$) never exeeds 1: $$\cos\theta = \frac{v \cdot w}{\parallel v \parallel \parallel w \parallel}$$, **Schwarz inequality**: $$\mid v \cdot w \mid \leq \parallel v \parallel \parallel w \parallel$$ .
+6. **Triangle inequality**: $$\parallel v + w \parallel \leq \parallel v \parallel + \parallel w \parallel$$.
 
 # 3 Matrices #
 
