@@ -3,6 +3,7 @@ layout: post
 title: 顽想学概率一-3w-你知道概率独立性么
 categories:
 - Math
+- Probability
 ---
 
 顽想学概率一 第三周的主题:

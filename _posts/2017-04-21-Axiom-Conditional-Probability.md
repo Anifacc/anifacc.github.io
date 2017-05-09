@@ -3,6 +3,7 @@ layout: post
 title: 顽想学概率一-2w-极简公理-条件概率
 categories:
 - Math
+- Probability
 ---
 
 coursera 台大 顽想学概率 一 第二周的主要内容是
@@ -31,8 +32,8 @@ coursera 台大 顽想学概率 一 第二周的主要内容是
 
 对于整个样本空间, 其概率为1. 样本空间是概率实验所有可能结果的集合, 其概率之和肯定为1啦.
 
-> 公理3: 
-> 事件 $$A_1$$, $$A_2$$, ... 互斥, 
+> 公理3:
+> 事件 $$A_1$$, $$A_2$$, ... 互斥,
 > $$ \Rightarrow P(A_1 \cup A_2 \cup A_3 \cup \cdots) $$
 > $$ = P(A_1) + P(A_2) + P(A_3) + \cdots $$
 
@@ -69,7 +70,7 @@ coursera 台大 顽想学概率 一 第二周的主要内容是
 
 4 $$ P(A) = P(A-B) + P(A \cap B) $$
 
-证明: 
+证明:
 
 > because: $$ (A-B) $$ 和 $$ A \cap B $$ 互斥, $$ A = (A-B) \cup (A \cap B) $$   
 > $$ \Rightarrow P(A) = P((A-B) \cup (A \cap B)) $$   
@@ -86,7 +87,7 @@ coursera 台大 顽想学概率 一 第二周的主要内容是
 
 证明:
 
-> {1}  若 $$ C_1, C_2, \cdots, C_n $$ 互斥, 
+> {1}  若 $$ C_1, C_2, \cdots, C_n $$ 互斥,
 > $$ \Rightarrow (A \cap C_1), (A \cap C_2), \cdots, (A \cap C_n) $$ 也互斥
 > {2} 又 $$ C_1 \cup C_2 \cup \cdots \cup C_n = S $$
 > $$ \Rightarrow (A \cap C_1) \cup (A \cap C_2) \cup \cdots \cup (A \cap C_n) = A $$
@@ -105,7 +106,7 @@ coursera 台大 顽想学概率 一 第二周的主要内容是
 
 > 对于任意两个事件 $$ A_1, A_2 $$, 他们有可能互斥(交集为空集), 也有可能交集不为空集   
 >   - 若互斥 $$ \Rightarrow P(A_1 \cup A_2) = P(A_1) + P(A_2) $$ 公理3
->   - 若有交集 $$ \Rightarrow P(A_1 \cup A_2) = P(A_1) + P(A_2) - P(A_1 \cap A_2) $$ 
+>   - 若有交集 $$ \Rightarrow P(A_1 \cup A_2) = P(A_1) + P(A_2) - P(A_1 \cap A_2) $$
 > $$ \Rightarrow P(A_1 \cup A_2) \leq P(A_1) + P(A_2) $$ (公理1)
 
 那么对于任意3个事件, $$ A_1, A_2, A_3 $$, 也类似, 可以将 $$ A_1, A_2 $$ 看作为一个事件, 那么证明就如上面的... 4,5,..., n个事件类似推导, 最后证明得到
@@ -116,11 +117,11 @@ coursera 台大 顽想学概率 一 第二周的主要内容是
 
 我们还是从任意两个事件 $$ A_1, A_2 $$来证明.
 
-> 由上面衍生的性质 5 $$ P(A \cup B) = P(A) +P(B) - P(A \cap B) $$, 
+> 由上面衍生的性质 5 $$ P(A \cup B) = P(A) +P(B) - P(A \cap B) $$,
 > 即 $$ P(A_1 \cup A_2) = P(A_1) +P(A_2) - P(A_1 \cap A_2) $$
 > $$ \Rightarrow P(A_1 \cap A_2) = P(A_1) +P(A_2) - P(A_1 \cup A_2) $$
 > 由性质3. $$ P(A) = 1 - P(A^{c})$$
-> $$ \Rightarrow P(A_1 \cap A_2) = 1 - P(A_{1}^{c}) + 1 - P(A_{2}^{c}) - P(A_1 \cup A_2) $$ 
+> $$ \Rightarrow P(A_1 \cap A_2) = 1 - P(A_{1}^{c}) + 1 - P(A_{2}^{c}) - P(A_1 \cup A_2) $$
 > $$ \Rightarrow P(A_1 \cap A_2) = 1 - (P(A_{1}^{c})+P(A_{2}^{c})) + 1 - P(A_1 \cup A_2)$$
 > 由公理2 可知 $$ 1 - P(A_1 \cup A_2) \geq 0 $$
 > 所以有 $$ P(A_1 \cap A_2) \geq 1 - (P(A_{1}^{c})+P(A_{2}^{c})) $$ 得证
@@ -143,7 +144,7 @@ coursera 台大 顽想学概率 一 第二周的主要内容是
 
 还有就是 Total Probability Law 和 Bayes Law.
 
-> Total Probability Law: 
+> Total Probability Law:
 
 若 $$ C_1, C_2, ..., C_n $$ 互斥且 $$C_1 \cup C_2 \cup \cdots \cup C_n = S $$, 则对任意事件A, 有:   
 $$ P(A) = P(A \mid C_1)P(C_1) + P(A \mid C_2)P(C_2) + \cdots + P(A \mid C_n)P(C_n) $$
