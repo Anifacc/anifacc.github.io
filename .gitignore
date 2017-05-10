@@ -4,6 +4,7 @@
 *.db
 *.log
 *.wsgic
+*.DS_Store
 
 # 
 mykv.db
