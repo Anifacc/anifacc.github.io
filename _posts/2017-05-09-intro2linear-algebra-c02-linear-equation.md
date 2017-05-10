@@ -42,7 +42,7 @@ Elimination leads to an equation **$$0\neq0$$(no solution)** or **$$0=0$$(many s
 
 1. A linear system ($$Ax=b$$) becomes upper triangular ($$Ux=c$$) after elimination.
 2. We subtract $$l_{ij}$$ times equation $$j$$ from equation $$i$$, to make the ($$(i, j)$$) entry zero.
-3. The multiplier is $$l_{ij} = \frac{entry to eliminate in row i}{pivot in row j}$$. Pivots can not be zero!
+3. The multiplier is $$l_{ij} = \frac{entry\ to\ eliminate\ in\ row\ i}{pivot\ in\ row\ j}$$. Pivots can not be zero!
 4. A zero in the pivot position can be repaired if there is a nonzero below it.
 5. The upper triangular system is solved by back substitution (starting at the bottom).
 6. When breakdown is permanent, the system has no solution or infinitely many.
