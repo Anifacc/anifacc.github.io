@@ -23,8 +23,8 @@ The review of the key ideas: are from chapter 2 of Introduction to Linear Algebr
 1. The basic operations on vectors are multiplication $$cv$$ and vector addition $$v+w$$.
 2. Together those operations give linear combinations $$cv + dw$$.
 3. Matrix-vector multiplication $$Ax$$ can be computed by dot products, a row at a time. But $$Ax$$ should be understood as a combination of the columns of $$A$$.
-4. Column picture: $$Ax=b$$ asks for a combination of columns to produce $$b$$.
-5. Row picture: Each equation  in $$Ax = b$$ gives a line ($$n=2$$) or a plane($$n=3$$) or a "hyperplane"($$n>3$$). They intersect at the solution or solutions, if any.
+4. **Column picture**: $$Ax=b$$ asks for a combination of columns to produce $$b$$.
+5. **Row picture**: Each equation  in $$Ax = b$$ gives a line ($$n=2$$) or a plane($$n=3$$) or a "hyperplane"($$n>3$$). They intersect at the solution or solutions, if any.
 
 # 2.The idea of elimination #
 
