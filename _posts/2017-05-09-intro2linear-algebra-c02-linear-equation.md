@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 线性代数:向量-矩阵
+title: 线性代数:线性方程
 categories:
 - Math
 - Linear Algebra
@@ -42,7 +42,7 @@ Elimination leads to an equation **$$0\neq0$$(no solution)** or **$$0=0$$(many s
 
 1. A linear system ($$Ax=b$$) becomes upper triangular ($$Ux=c$$) after elimination.
 2. We subtract $$l_{ij}$$ times equation $$j$$ from equation $$i$$, to make the ($$(i, j)$$) entry zero.
-3. The multiplier is $$l_{ij} = \frac{entry to eliminate in row i}{pivot in row j}. Pivots can not be zero!
+3. The multiplier is $$l_{ij} = \frac{entry to eliminate in row i}{pivot in row j}$$. Pivots can not be zero!
 4. A zero in the pivot position can be repaired if there is a nonzero below it.
 5. The upper triangular system is solved by back substitution (starting at the bottom).
 6. When breakdown is permanent, the system has no solution or infinitely many.
@@ -59,8 +59,7 @@ Elimination leads to an equation **$$0\neq0$$(no solution)** or **$$0=0$$(many s
 
 **Exchange matrix(Permutation matrix)** 置换矩阵 $$P_{23}=\begin{bmatrix} 1 & 0 & 0 \\ 0 & 0 & 1 \\ 0 & 1 & 0 \end{bmatrix}$$, exchanges row 2 with row 3.(左乘情况). 其他置换, 类似.
 
-1. 从 row-pictures 来理解线性方程组 $$Ax=b$$. 其中: **$$Ax$$ is a combination of the columns of A.** 矩阵$$A$$的第i行写成列矩阵形式: $$[a_{i1}, a_{i2}, \cdots , a_{in}]$$, $$x^T=[x_1, x_2, \cdots, x_n]. 那么$$Ax$$中的任意一个元素可表示为:  
-$$ a_{i1}x_1 + a_{i2}x_2 + \cdots + a_{in}x_n, == \sum_{j=1}^{n}a_{ij}x_j$$.
+1. 从 row-pictures 来理解线性方程组 $$Ax=b$$. 其中: **$$Ax$$ is a combination of the columns of A.** 矩阵$$A$$的第i行写成列矩阵形式: $$[a_{i1}, a_{i2}, \cdots , a_{in}]$$, $$x^T=[x_1, x_2, \cdots, x_n]$$. 那么$$Ax$$中的任意一个元素可表示为: $$a_{i1}x_1 + a_{i2}x_2 + \cdots + a_{in}x_n, == \sum_{j=1}^{n}a_{ij}x_j$$.
 2. Identity matrix = $$I$$, elimination matrix = $$E_{ij}$$ using $$l_{ij}$$, exchange matrix = $$P_{ij}$$.
 3. Multiplying $$Ax=b$$ by $$E_{21}$$ subtracts a multiple $$l_{21}$$ of equation 1 from equation 2. The number $$-l{21}$$ is the $$(2,1)$$ entry of the elimination matrix $$E_{21}$$.
 4. For the augmented matrix $$\begin{bmatrix} A & b\end{bmatrix}$$, the elimination step gives $$\begin{bmatrix} E_{21}A & E_{21}b \end{bmatrix}$$.
