@@ -6,7 +6,7 @@ categories:
 - Linear Algebra
 ---
 
-The review of the key ideas: are from chapter 2 of Introduction to Linear Algebra, Book of Gilbert Strang, editon 4th.
+The review of the key ideas are from chapter 2 of Introduction to Linear Algebra, Book of Gilbert Strang, editon 4th.
 
 - Vectors and linear equations
 - The idea of elimination
