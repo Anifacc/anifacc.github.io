@@ -34,7 +34,7 @@ The review of the key ideas are from chapter 3 of Introduction to Linear Algebra
 In the definition of a *vector space*, vector addition $$x+y$$ and scalar multiplication $$cx$$ must obey the following eight rules:
 
 1. $$x + y = y + x$$
-2. $$x + (y + z) = (x + y) + z
+2. $$x + (y + z) = (x + y) + z$$
 3. There is a unique "zero vector" such that $$x + 0 = x$$ for all $$x$$(0 is zero vector)
 4. For each $$x$$ there is a unique vector $$-x$$ that $$x + (-x) = 0$$
 5. 1 times $$x$$ equals $$x$$
@@ -64,7 +64,7 @@ In short, **all linear combinations stay in the subspace**.
   1. **Every subspace contain the zero vector.**
   2. **Lines through the origin are also subspaces.**
 
-> A subspace containing $$v$$ and $$w## must contain all linear combinations $$cv + dw$$.
+> A subspace containing $$v$$ and $$w$$ must contain all linear combinations $$cv + dw$$.
 
 ## 1.3 The Column Space of A
 
@@ -81,7 +81,7 @@ Remember: **$$Ax$$ is a combination of the columns of $$A$$**. So **to sovle $$A
 ## 2.0 Key ideas
 
 1. The nullspace $$N(A)$$ is a subspace of $$R^{n}$$. It contains all solutions to $$Ax=0$$.
-2. Elimination produces an echelon matrix $$U$$, and then a row reduced $$R$$, with pivot column and free columns.
+2. Elimination produces an echelon matrix $$U$$, and then a row reduced $$R$$, with pivot columns and free columns.
 3. Every free column of $$U$$ or $$R$$ leads to a special solution. The free variable equals 1 and the other free variables equals 0. Back substitution solves $$Ax=0$$.
 4. The complete solution to $$Ax=0$$ is a combination of the special solutions.
 5. If $$n > m$$ then $$A$$ has at least one column without pivots, giving a special solution. So there are nonzero vectors $$x$$ in the nullspace of this rectangular $$A$$.
@@ -148,7 +148,7 @@ $$A = \begin{bmatrix}1 & 1 & 2 & 4 \\ 1 & 2 & 2 & 5 \\ 1 & 3 & 2 & 6\end{bmatrix
 
 $$A = \begin{bmatrix} 1 & 3 & 10 \\ 2 & 6 & 20 \\ 3 & 9 & 30 \end{bmatrix} \Rightarrow R = \begin{bmatrix} 1 & 3 & 10 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix}$$.
 
-Pivot row [1\ 3\ 10]  
+Pivot row [1 3 10]  
 Pivot variable $$x_1$$    
 Free variables $$x_2, x_3$$  
 special solutions: $$ s_1 = \begin{bmatrix} -3 \\ 1 \\ 0 \end{bmatrix}, s_2 = \begin{bmatrix} -10 \\ 0 \\ 1 \end{bmatrix}$$.
