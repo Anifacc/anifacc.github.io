@@ -341,7 +341,7 @@ $$n$$ by $$n$$ 矩阵空间有 $$n^2$$ 个 basis matrices.
 **Function spaces**:
 
 1. $$y^{"} = 0$$ is solved by any linear function $$ y = cx + d$$.
-2. $$y^{"} = -y$$ is solved by any combination $$y = c \sin x = d \cos x$$.
+2. $$y^{"} = -y$$ is solved by any combination $$y = c \sin x + d \cos x$$.
 3. $$y^{"} = y$$ is solved by any combination $$y = ce^{x} = de^{-x}$$.
 
 The empty set (containing no vectors) is a basis for Z(space that contains only the zero vector, the dimension of this space is zero).
@@ -380,7 +380,7 @@ The echelon matrix $$R_{m,n}$$:
 
 $$R=\begin{bmatrix} 1 & 3 & 5 & 0 & 7 \\ 0 & 0 & 0 & 1 & 2 \\ 0 & 0 & 0 & 0 & 0 \end{bmatrix}$$
 
-- $$ m=3, n=5, r=2$$
+- \$$ m=3, n=5, r=2$$
 - pivot rows 1, 2
 - pivot columns 1, 4
 
