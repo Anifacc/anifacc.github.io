@@ -349,3 +349,66 @@ The empty set (containing no vectors) is a basis for Z(space that contains only 
 ---
 
 # 6.Dimension of the Four Subspaces #
+
+## 6.0 Key ideas
+
+1. The $$r$$ pivot rows of $$R$$ are a basis for the row spaces of $$R$$ and $$A$$ (same space).
+2. The $$r$$ pivot columns of $$A(!)$$ are a basis for its column space.
+3. The $$n-r$$ special solutions are a basis for the nullspaces of $$A$$ and $$R$$(same space).
+4. The last $$m-r$$ rows of $$I$$ are a basis for the left nullspace of $$R$$.
+5. The last $$m-r$$ rows of $$E$$ are a basis for the left nullspace of $$A$$.
+
+Main theorem: **rank** and **dimension**. The rank of a matrix is the number of pivots. The dimension of a subspace is the number of vectors in a basis.
+
+**The rank of $$A_{m,n}$$ reveals the dimensons of all four fundamental subspaces**:
+
+1. The **row space** is $$C(A^T)$$, a subspace of $$R^n$$.
+2. The **column space** is $$C(A)$$, a subspace of $$R^m$$.
+3. The **nullspace** is $$N(A)$$, a subspace of $$R^n$$.
+4. The **left nullspace** is $$N(A^T)$$, a subspace of $$R^m$$. (new space.)
+
+> For the left nullspace we solve $$A^Ty=0$$---that system is n by m. This is the nullspace of $$A^T$$.  $$A^Ty=0 \rightarrow y^{T}A=\bf 0^T$$.
+
+**Facts**
+
+> **The row space and column space have the same dimension $$r$$**(the rank of the matrix).  
+> $$N(A), N(A^T)$$ have dimension $$n-r$$, $$m-r$$, to make up the full $$n$$ and $$m$$.
+
+## 6.1 The Four Subspaces for R
+
+The echelon matrix $$R_{m,n}$$:
+
+$$R=\begin{bmatrix} 1 & 3 & 5 & 0 & 7 \\ 0 & 0 & 0 & 1 & 2 \\ 0 & 0 & 0 & 0 & 0 \end{bmatrix}$$
+
+- $$ m=3, n=5, r=2$$
+- pivot rows 1, 2
+- pivot columns 1, 4
+
+So:
+
+1. The **row space** of $$R$$ has dimension 2, matching the rank.
+  - The dimension of the row space is the rank $$r$$. The nonzero rows of $$R$$ form a basis.
+2. The **column space** of $$R$$ also has dimension $$r=2$$.
+  - The dimension of the column space is the rank $$r$$. The pivot columns form a basis.
+3. The **nullspace** has dimension $$n-r=5-2$$. There are $$n-r=3$$ free variables. Here $$x_2, x_3, x_5$$ are free (no pivots in those columns). They yield the three special solutions to $$Rx=0$$. Set a free variable to 1, and solve for $$x_1, x_4$$.
+  - The nullspace has dimension $$n-r$$. The special solutions form a basis.
+4. The **nullspace** of $$R^T$$ (left nullspace of $$R$$) has dimension $$m-r = 3-2 = 1$$.
+
+以上, 看多了, 习题做多了, 自然而然就知道咯.
+
+## 6.2 The Four Subspace for A
+
+![four-fundamental-subspaces-of-A](https://dn-jeremiahzhang.qbox.me/image/math/four-fundamental-subspaces-of-A.JPG)
+
+一图解疑. 自己琢磨.
+
+## 6.3 Matrices of Rank One
+
+**Every rank one matrix has the special form $$A=uv^T=$$column times row.**
+
+---
+
+```
+@Anifacc
+2017-05-16
+```
