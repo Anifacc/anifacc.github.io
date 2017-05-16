@@ -230,7 +230,7 @@ $$ m = n = r, \bf{x = x_p + x_n = A^{-1}b + 0}.$$
 Every matrix $$A$$ with *full row rank* ($$r=m$$) has all these properties:
 
 1. All rows have pivots, and $$R$$ has no zero rows.
-2. $$A \bf x = \br b$$ has a solution for every right side $$\bf b$$.
+2. $$A \bf x = \bf b$$ has a solution for every right side $$\bf b$$.
 3. The column space is the whole space $$\bf R^{m}$$.
 4. There are $$n - r = n - m$$ special solutions in the nullspace of $$A$$.
 
@@ -271,9 +271,9 @@ Every matrix $$A$$ with *full row rank* ($$r=m$$) has all these properties:
 
 | Linear Independence   |
 | :------------- |
-| $$x_1v_1 + x_2v_2 + \cdots + x_nv_n = \br 0 $$ only happens when all $$x$$'s are zero|
+| $$x_1v_1 + x_2v_2 + \cdots + x_nv_n = \bf 0 $$ only happens when all $$x$$'s are zero|
 
-> **Full column rank** The columns of $$A$$ are independent exactly when the rank is $$r=n$$. There are n pivots and no free variables. Only $$\br x=0$$ is in the nullspace.
+> **Full column rank** The columns of $$A$$ are independent exactly when the rank is $$r=n$$. There are n pivots and no free variables. Only $$\bf x=0$$ is in the nullspace.
 
 > Any set of n vectors in $$R^m$$ must be linearly dependent if $$n>m$$.
 
