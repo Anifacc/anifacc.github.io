@@ -75,5 +75,99 @@ $$A_{n,n}$$:
 ---
 
 # 2. Projections #
+
+## 2.0 Key Ideas
+
+1. The projection of $$b$$ onto the line through $$a$$ is $$p=a \widehat x = a(a^T b/a^T a)$$.
+2. The rank one projection matrix $$P= aa^T/a^Ta$$ multiplies $$b$$ to produce $$p$$.
+3. Projecting $$b$$ onto a subspace leave $$e = b - p$$ perpendicular to the subspace.
+4. When $$A$$ has full rank $$n$$, the equation $$A^T A \widehat x = A^T b$$ leads to $$\widehat x$$ and $$p = A \widehat x$$.
+5. The projection matrix $$P = A(A^T A)^{-1} A^T$$ has $$P^T=P$$ and $$P^2=P$$.
+
+## 2.1 Introduction
+
+极简入手:
+
+1. What are the projections of $$b=(2, 3, 4)$$ onto the $$z$$ axis and the $$xy$$ plane?
+2. What matrices produce those projections onto a line and a plane?
+
+个例-->泛例:
+
+第一个问题: 投影到z轴的向量为, $$p_1=(0,0,4)$$, 投影到 $$xy$$ 平面的向量为 $$p_2 = (2,3,4)$$
+
+分别对应的投影矩阵为:
+
+Onto the $$z$$ axis: $$P_1 = \begin{bmatrix} 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 1 \end{bmatrix}$$. Onto the $$xy$$ plane $$P_2 = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 0\end{bmatrix}$$
+
+$$p_1 = P_1 b = \begin{bmatrix} 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} x \\ y \\ z\end{bmatrix} = \begin{bmatrix} 0 \\ 0 \\ z \end{bmatrix}$$.  
+$$p_2 = P_2 b = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 0\end{bmatrix} \begin{bmatrix} x \\ y \\ 0 \end{bmatrix}$$.
+
+直观这两个投影向量:
+
+![projection_vectors](https://dn-jeremiahzhang.qbox.me/image/math/projection_vectors.JPG)
+
+- $$p_1, p_2$$ are perpendicular
+- The line and plane (subpaces) are orthogonal complements. The vectors gives $$p_1 + p_2 = b$$. The matrices gives $$P_1 + P_2 = I$$.
+
+> The best description of a subspace is a basis. We put the basis vectors into the columns of $$A$$. Now we are projecting onto the column space of $$A$$. Certainly the z axis is the column space of the 3 by 1 matrix $$A_1$$. The $$xy$$ plane is the column space of $$A_2$$. That plane is also the column space of $$A_3$$ (a subspace has mang bases):
+
+$$A_1 =\begin{bmatrix} 0 \\ 0 \\ 1 \end{bmatrix}$$ and $$A_2 =\begin{bmatrix} 1 & 0 \\ 0 & 1 \\ 0 & 0 \end{bmatrix}$$ and $$A_3 = \begin{bmatrix} 1 & 2 \\ 2 & 3 \\ 0 & 0  \end{bmatrix}$$
+
+> Our problem is to project any $$b$$ onto the column space of any $$m$$ by $$n$$ matrix. Start with a line (dimensions n = 1). The matrix A has only column. Call it $$\bf a$$.
+
+## 2.2 Projection Onto a Line
+
+A line goes through the origin in the direction of $$\bf a = (a_1, a_2, \cdots, a_m)$$. In figure 4-5, the line from $$\bf b$$ to $$\bf p$$ is perpendicular to the vector $$\bf a$$.
+
+Projecting $$\bf b$$ onto $$\bf a$$, error $$\bf e = \bf {b-\widehat x a}, \bf{a\cdot(b- \widehat x a)} = 0$$, or $$\bf{a \cdot b - \widehat x a \cdot a} = 0 \rightarrow \br{\widehat x = \frac{a \cdot b}{a \cdot a} = \frac{a^T b}{a^T a}}$$.
+
+So:
+
+**The projection of $$\bf b$$ onto the line through $$\bf a$$ is the vector $$\bf{p = \widehat x a = \frac{a^T b}{a^T a} a}$$.**
+
+Special case 1: $$\bf {b = a}$$.  
+Special case 2: $$\bf b$$ is perpendicular to $$\bf a$$.
+
+**Projection Matrix**:  
+
+$$\bf{p = a \widehat x  = a \frac{a^T b}{a^T a} = Pb}$$. When the matrix is $$P = \bf{\frac{a a^T}{a^T a}}$$.
+
+Projecting a seconde time does not change anything, so $$P^2 = P$$.
+
+Note: the matrix $$I-P$$ should be a projection too. $$(I-P) \bf b = \bf{b-p} = \bf e$$. **When $$P$$ projects onto one subspace, $$I-P$$ projects onto the perpendicular subspace.**
+
+## 2.3 Projection Onto a Subspace
+
+Start with $$n$$ vectors $$\bf{a_1, a_2, \cdots, a_n}$$ in $$R^m$$. Assume that these $$\bf a$$'s are linear independent.
+
+**Problem: Find the combination** $$\bf p = \widehat{x_1} \bf {a_1} + \cdots + \widehat{x_n} \bf{a_n}$$ closet to a given vector $$\bf b$$. Look in figure 4-5.
+
+$$\bf{e = b - A \widehat{x}}$$ is perpendicular to the subspace.
+
+$$\matrix{a^{T}_{1} (b - A \widehat{x}) = 0 \\ \vdots \\ a^{T}_{n} (b - A \widehat{x}) = 0 }$$ or $$\begin{bmatrix} a^{T}_{1} \\ \vdots \\ a^{T}_{n} \end{bmatrix} \begin{bmatrix} b - A \widehat{x} \end{bmatrix} = \begin{bmatrix} 0 \end{bmatrix}$$.
+
+$$\Rightarrow A^T(b-A \widehat{x})=0 \Rightarrow A^T A \widehat{x} = A^T b$$.
+
+$$p = A \widehat{x} = A(A^T A)^{-1} A^T b$$.
+
+project matrix: $$P = A(A^T A)^{-1} A^T$$.
+
+The key step is $$A^T(b-A \widehat{x})=0$$. We used to geometry ($$\br e$$ is perpendicular to all the $$\bf a$$'s). Linear algebra gives this "normal equation" too, in a very way:
+
+1. Our subspace is the column space of $$A$$.
+2. The error vector $$b-A \widehat{x}$$ is perpendicular to tha column space.
+3. Therefor $$b-A \widehat{x}$$ is in the nullspace of A^T. This means $$A^T(b-A \widehat{x})=0$$.
+
+**$$A^T A$$ is invertible if and only if $$A$$ has linearly independent columns.**
+
+$$ A^T Ax=0 $$  
+$$ \rightarrow x^T A^T A x = 0 $$   
+$$ \rightarrow (Ax)^T(Ax)=0 $$ or  
+$$ \parallel Ax \parallel ^ 2 = 0 $$
+
+**When $$A$$ has independent columns, $$A^T A$$ is square, symmetric, and invertible.**
+
+---
+
 # 3. Least Square Approximations #
 # 4. Orthogonal Bases and Gram-Schmidt #
