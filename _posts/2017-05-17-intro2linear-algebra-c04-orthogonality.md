@@ -144,7 +144,7 @@ Start with $$n$$ vectors $$\bf{a_1, a_2, \cdots, a_n}$$ in $$R^m$$. Assume that 
 
 $$\bf{e = b - A \widehat{x}}$$ is perpendicular to the subspace.
 
-$$\matrix{a^{T}_{1} (b - A \widehat{x}) = 0 \\ \vdots \\ a^{T}_{n} (b - A \widehat{x}) = 0 }$$ or $$\begin{bmatrix} a^{T}_{1} \\ \vdots \\ a^{T}_{n} \end{bmatrix} \begin{bmatrix} b - A \widehat{x} \end{bmatrix} = \begin{bmatrix} 0 \end{bmatrix}$$.
+$$\matrix{a^{T}_{1} (b - A \widehat{x}) = 0 \\ \vdots \\ a^{T}_{n} (b - A \widehat{x}) = 0 }$$ or $$\begin{bmatrix} ---a^{T}_{1}--- \\ \vdots \\ ---a^{T}_{n}--- \end{bmatrix} \begin{bmatrix} b - A \widehat{x} \end{bmatrix} = \begin{bmatrix} 0 \end{bmatrix}$$.
 
 $$\Rightarrow A^T(b-A \widehat{x})=0 \Rightarrow A^T A \widehat{x} = A^T b$$.
 
@@ -152,7 +152,7 @@ $$p = A \widehat{x} = A(A^T A)^{-1} A^T b$$.
 
 project matrix: $$P = A(A^T A)^{-1} A^T$$.
 
-The key step is $$A^T(b-A \widehat{x})=0$$. We used to geometry ($$\br e$$ is perpendicular to all the $$\bf a$$'s). Linear algebra gives this "normal equation" too, in a very way:
+The key step is $$A^T(b-A \widehat{x})=0$$. We used to geometry ($$\bf e$$ is perpendicular to all the $$\bf a$$'s). Linear algebra gives this "normal equation" too, in a very way:
 
 1. Our subspace is the column space of $$A$$.
 2. The error vector $$b-A \widehat{x}$$ is perpendicular to tha column space.
