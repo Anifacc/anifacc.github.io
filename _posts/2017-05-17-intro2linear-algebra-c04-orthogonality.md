@@ -119,7 +119,9 @@ $$A_1 =\begin{bmatrix} 0 \\ 0 \\ 1 \end{bmatrix}$$ and $$A_2 =\begin{bmatrix} 1 
 
 A line goes through the origin in the direction of $$\bf a = (a_1, a_2, \cdots, a_m)$$. In figure 4-5, the line from $$\bf b$$ to $$\bf p$$ is perpendicular to the vector $$\bf a$$.
 
-Projecting $$\bf b$$ onto $$\bf a$$, error $$\bf e = \bf {b-\widehat x a}, \bf{a\cdot(b- \widehat x a)} = 0$$, or $$\bf{a \cdot b - \widehat x a \cdot a} = 0 \rightarrow \br{\widehat x = \frac{a \cdot b}{a \cdot a} = \frac{a^T b}{a^T a}}$$.
+![projections](https://dn-jeremiahzhang.qbox.me/image/math/projections.JPG)
+
+Projecting $$\bf b$$ onto $$\bf a$$, error $$\bf e = \bf {b-\widehat x a}, \bf{a\cdot(b- \widehat x a)} = 0$$, or $$\bf{a \cdot b - \widehat x a \cdot a} = 0 \rightarrow \bf{\widehat x = \frac{a \cdot b}{a \cdot a} = \frac{a^T b}{a^T a}}$$.
 
 So:
 
@@ -155,7 +157,7 @@ project matrix: $$P = A(A^T A)^{-1} A^T$$.
 The key step is $$A^T(b-A \widehat{x})=0$$. We used to geometry ($$\bf e$$ is perpendicular to all the $$\bf a$$'s). Linear algebra gives this "normal equation" too, in a very way:
 
 1. Our subspace is the column space of $$A$$.
-2. The error vector $$b-A \widehat{x}$$ is perpendicular to tha column space.
+2. The error vector $$b-A \widehat{x}$$ is perpendicular to the column space.
 3. Therefor $$b-A \widehat{x}$$ is in the nullspace of A^T. This means $$A^T(b-A \widehat{x})=0$$.
 
 **$$A^T A$$ is invertible if and only if $$A$$ has linearly independent columns.**
