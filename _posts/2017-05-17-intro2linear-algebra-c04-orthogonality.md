@@ -172,4 +172,54 @@ $$ \parallel Ax \parallel ^ 2 = 0 $$
 ---
 
 # 3. Least Square Approximations #
+
+## 3.0 Key Ideas
+
+1. The least square solution $$\widehat x$$ minimizes $$E = \parallel Ax-b \parallel^2$$. This is the sum of squares of the errors in the $$m$$ equations($$m>n$$).
+2. The best $$\widehat x$$ comes from the normal equations $$A^TA \widehat x = A^Tb$$.
+3. To fit $$m$$ points by a line $$b = C + Dt$$, the normal eqautions give $$C$$ and $$D$$.
+4. The heights of the best line are $$p=(p_1, p_2, ..., p_m)$$. The vertical distances to the data points are the errors $$e = (e_1, ..., e_m)$$.
+5. If we try to fit $$m$$ points by a combination of $$n<m$$ functions, the $$m$$ equations $$Ax=b$$ are generally unsolvable. The $$n$$ equations $$A^TA \widehat x = A^T b$$ give the least squares solution -- the combination with smallest MSE(mean square error).
+
+## 3.1 Introduction
+
+When $$Ax=b$$ has no solution, multiply by $$A^T$$ and solve $$A^T A \widehat x = A^Tb$$.
+
+## 3.2 Minimizing the Error
+
+The least square solution $$\widehat x$$ makes $$E = \parallel Ax-b \parallel ^ 2$$ as small as possible.
+
+![best-line-projects](https://dn-jeremiahzhang.qbox.me/image/math/best-line-projects.JPG)
+
+Squared length for any $$x: \parallel Ax-b \parallel ^ 2 = \parallel Ax-p \parallel ^ 2 + \parallel e \parallel ^ 2$$
+
+在上节正交的基础上可以得到: $$e=b-A \widehat x$$ 与A中所有的列向量 $$a_n$$ 垂直, 那么 $$A^T e =0 \rightarrow  A^T (b - A \widehat x) = 0 \rightarrow A^T A \widehat x = A^T b$$.
+
+The partial derivatives of $$\parallel Ax-b \parallel ^ 2$$ are zero when $$A^T A \widehat x = A^Tb$$.
+
+## 3.3 The big picture
+
+![big-picture](https://dn-jeremiahzhang.qbox.me/image/math/big-picture.JPG)
+
+自行体会.
+
+## 3.4 Fitting a Straight Line
+
+The closet line $$C+Dt$$ has heights $$p_1, ..., p_m$$ with errors $$e_1, ..., e_m$$.  
+Solve $$A^TA \widehat X = A^T b$$ for $$\widehat x = (C, \ D). The errors are $$e_i = b_i - C -D t_i$$.
+
+解 $$A^TA \widehat X = A^T b$$ 就可得到一元一次方程的系数。  
+
+拟合点为$$(t_1, b_1), \cdot, (t_m, b_m)$$, 则 $$A =\begin{bmatrix} 1 & t_1 \\ \vdots & \vdots \\ 1 & t_m \end{bmatrix}, b=\begin{bmatrix} b_1 \\ \vdots \\ b_m \end{bmatrix}$$.
+
+## 3.5 Fitting by Parabola
+
+若是 $$C+Dt + Et^2$$ 曲线拟合呢？
+
+同理, 求解 解 $$A^TA \widehat X = A^T b$$  的方程系数.
+
+拟合点为$$(t_1, b_1), \cdot, (t_m, b_m)$$, 则 $$A =\begin{bmatrix} 1 & t_1 & t_{1}^{2} \\ \vdots & \vdots \\ 1 & t_m & t_{m}^{2}\end{bmatrix}, b=\begin{bmatrix} b_1 \\ \vdots \\ b_m \end{bmatrix}$$.
+
+---
+
 # 4. Orthogonal Bases and Gram-Schmidt #
