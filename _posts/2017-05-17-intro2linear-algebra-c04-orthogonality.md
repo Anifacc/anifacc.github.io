@@ -218,7 +218,7 @@ Solve $$A^TA \widehat X = A^T b$$ for $$\widehat x = (C, \ D). The errors are $$
 
 同理, 求解 解 $$A^TA \widehat X = A^T b$$  的方程系数.
 
-拟合点为$$(t_1, b_1), \cdot, (t_m, b_m)$$, 则 $$A =\begin{bmatrix} 1 & t_1 & t_{1}^{2} \\ \vdots & \vdots \\ 1 & t_m & t_{m}^{2}\end{bmatrix}, b=\begin{bmatrix} b_1 \\ \vdots \\ b_m \end{bmatrix}$$.
+拟合点为$$(t_1, b_1), \cdot, (t_m, b_m)$$, 则 $$A =\begin{bmatrix} 1 & t_1 & t_{1}^{2} \\ \vdots & \vdots & \vdots \\ 1 & t_m & t_{m}^{2}\end{bmatrix}, b=\begin{bmatrix} b_1 \\ \vdots \\ b_m \end{bmatrix}$$.
 
 ---
 
