@@ -206,7 +206,7 @@ The partial derivatives of $$\parallel Ax-b \parallel ^ 2$$ are zero when $$A^T 
 ## 3.4 Fitting a Straight Line
 
 The closet line $$C+Dt$$ has heights $$p_1, ..., p_m$$ with errors $$e_1, ..., e_m$$.  
-Solve $$A^TA \widehat X = A^T b$$ for $$\widehat x = (C, \ D). The errors are $$e_i = b_i - C -D t_i$$.
+Solve $$A^TA \widehat X = A^T b$$ for $$\widehat x = (C, \ D)$$ . The errors are $$e_i = b_i - C -D t_i$$.
 
 解 $$A^TA \widehat X = A^T b$$ 就可得到一元一次方程的系数。  
 
