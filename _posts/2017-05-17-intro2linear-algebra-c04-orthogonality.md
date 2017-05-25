@@ -197,7 +197,7 @@ Squared length for any $$x: \parallel Ax-b \parallel ^ 2 = \parallel Ax-p \paral
 
 The partial derivatives of $$\parallel Ax-b \parallel ^ 2$$ are zero when $$A^T A \widehat x = A^Tb$$.
 
-## 3.3 The big picture
+## 3.3 The Big Picture
 
 ![big-picture](https://dn-jeremiahzhang.qbox.me/image/math/big-picture.JPG)
 
@@ -223,3 +223,58 @@ Solve $$A^TA \widehat X = A^T b$$ for $$\widehat x = (C, \ D)$$ . The errors are
 ---
 
 # 4. Orthogonal Bases and Gram-Schmidt #
+
+## 4.0 Key Ideas
+
+1. If the orthonormal vectors $$q_1, \cdots , q_n$$ are the columns of $$Q$$, then $$q^{T}_{i}q_j=0$$ and $$q^{T}_{i}q_i=0$$ translate into $$Q^T Q=I$$.
+2. If $$Q$$ is square (an orthogonal matrix) then $$Q^T=Q^{-1}$$: transpose = inverse.
+3. The length of $$Qx$$ equals the length of $$x: \parallel{Qx}\parallel = \parallel{x}\parallel$$.
+4. The projection onto the column space spanned by the $$q$$'s is $$P=QQ^T$$.
+5. If $$Q$$ is square then $$P=I$$ and every $$b=q_1(q_1^Tb) + \cdots +  q_n(q_n^Tb)$$.
+6. Gram-Schmidt produces orthogonal vectors $$q_1, q_2, q_3$$ from independent $$a, b, c$$. In matrix form this is the Factorization $$A=QR=$$(orthogonal$$Q$$)(triangular$$R$$).
+
+
+## 4.1 Introduction
+
+矩阵$$Q$$的列向量正交:  
+
+$$Q^T Q = \begin{bmatrix} ---q^{T}_{1} --- \\ ---q^{T}_{2} --- \\ \vdots \\ ---q^{T}_{n} --- \end{bmatrix} \begin{bmatrix} \mid & \mid & \cdots & \mid \\ q_1 & q_2 & \cdots & q_3 \\ \mid & \mid & \cdots & \mid \end{bmatrix} = I$$.
+
+**When $$Q$$ is square, $$Q^T Q=I$$ means that $$Q^T=Q^{-1}$$: transpose = inverse.**
+
+Examples:
+
+Rotation: $$Q=\begin{bmatrix} \cos{\theta} & -\sin{\theta} \\ \sin{\theta} & \cos{\theta} \\end{bmatrix}$$
+
+Permutation: $$Q=\begin{bmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 1 & 0 & 0 \end{bmatrix}$$. **Every Permutation matrix is an orthogonal matrix**.
+
+Reflection: If $$u$$ is any unit vector, set $$Q=I-2uu^T$$.
+
+## 4.2 Projections Using Orthogonal Bases: Q Replaces A
+
+![gram-schmidt](https://dn-jeremiahzhang.qbox.me/image/math/gram-schmidt.JPG)
+
+Gram-Schmidt 基本原理就是投影得到正交向量矩阵.
+
+第一步: $$A=a, B=b-\frac{A^Tb}{A^TA}A$$
+
+第二步: $$C = c - \frac{A^Tc}{A^TA}A - \frac{B^Tc}{B^TB}B$$.
+
+(前提: 各向量$$a,b,c$$线性独立.)
+
+## 4.3 The Factorization $$A=QR$$
+
+$$\begin{bmatrix} \ & \ & \ \\ a & b & c \\ \ & \ & \ \end{bmatrix} = \begin{bmatrix} \ & \ & \ \\ q_1 & q_2 & q_3 \\ \ & \ & \ \end{bmatrix} \begin{bmatrix} q_1^T a & q_1^T b & q_1^T c \\ \ & q_2^Tb & q_2^Tc \\ \ & \ & q_3^Tc \end{bmatrix}$$ or $$A=QR$$.
+
+$$A^TA=R^TQ^TQR=R^TR$$
+
+The least squares equation $$A^TA \widehat{x} = A^Tb$$ simplifies to $$Rx=Q^Tb$$:  
+
+**Least squares** $$ R^TR \widehat{x} = R^TQ^Tb$$ or $$R \widehat{x} = Q^Tb$$ or $$\widehat{x} = R^{-1}Q^Tb$$
+
+---
+
+```
+@Anifacc
+2017-05-25
+```
