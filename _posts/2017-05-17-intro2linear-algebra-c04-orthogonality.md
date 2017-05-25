@@ -244,7 +244,7 @@ $$Q^T Q = \begin{bmatrix} ---q^{T}_{1} --- \\ ---q^{T}_{2} --- \\ \vdots \\ ---q
 
 Examples:
 
-Rotation: $$Q=\begin{bmatrix} \cos{\theta} & -\sin{\theta} \\ \sin{\theta} & \cos{\theta} \\end{bmatrix}$$
+Rotation: $$Q=\begin{bmatrix} \cos{\theta} & -\sin{\theta} \\ \sin{\theta} & \cos{\theta} \end{bmatrix}$$
 
 Permutation: $$Q=\begin{bmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 1 & 0 & 0 \end{bmatrix}$$. **Every Permutation matrix is an orthogonal matrix**.
 
