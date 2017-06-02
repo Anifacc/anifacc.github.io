@@ -41,18 +41,18 @@ categories:
 
 离散随机变数之CDF：
 
-$$ F_X(x^+) = F_X(x) $$  
-$$ F_X(x^-) = F_X(x) - P(X=x) $$  
+- $$ F_X(x^+) = F_X(x) $$  
+- $$ F_X(x^-) = F_X(x) - P(X=x) $$  
 
 连续随机变数之CDF：
 
-$$ F_X(x^-)=F_X(x)=F_X(x^+) $$  
+- $$ F_X(x^-)=F_X(x)=F_X(x^+) $$  
 
 共同性质：
 
-$$ F_X(-\infty) = 0 $$   
-$$ F_X(\infty) = 1 $$   
-$$ 0 \leq F_X(x) \leq 1 $$  
+- $$ F_X(-\infty) = 0 $$   
+- $$ F_X(\infty) = 1 $$   
+- $$ 0 \leq F_X(x) \leq 1 $$  
 
 ## 3.概率质量函数 PMF
 
