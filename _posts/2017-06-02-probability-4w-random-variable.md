@@ -60,7 +60,7 @@ categories:
   - 对于任一个整数值的离散随机变数 **X**， 定义其PMF为函数$$ p_X(x)=P(X=x) $$
 - PMF和CDF关系
   - PMF --> CDF : ex, $$ F_X(x) = \sum_{n=-\infty}^{\mid x \mid}p_X(n) $$
-  - CDF --> PMF : ex, $$ P_X(x) = F_X(x^+) - F_X(x^-)
+  - CDF --> PMF : ex, $$ P_X(x) = F_X(x^+) - F_X(x^-) $$
 
 
   概率分布（Probability Distribution）
