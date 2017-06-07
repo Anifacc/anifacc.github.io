@@ -48,7 +48,7 @@ n次伯努利试验，每次试验成功机率为p，做n次试验，X表示成�
 
 | PMF | CDF|
 | :------------- | :------------- |
-| $$\begin{align} p_X(x) &= P(X=x) \\ &= \binom{n}{x}p^x(1-p)^{n-x} \end{align}$$      | \begin{align} F_X(x) &= \sum_{m=-\infty}^{\mid x \mid}p_X(m) \\ &= \sum_{m=-\infty}^{\mid x \mid} \binom{n}{m}p^m(1-p)^{n-m} \end{align}$$ |
+| $$\begin{align} p_X(x) &= P(X=x) \\ &= \binom{n}{x}p^x(1-p)^{n-x} \end{align}$$      | $$\begin{align} F_X(x) &= \sum_{m=-\infty}^{\mid x \mid}p_X(m) \\ &= \sum_{m=-\infty}^{\mid x \mid} \binom{n}{m}p^m(1-p)^{n-m} \end{align}$$ |
 
 
 ### Uniform 均匀分布
