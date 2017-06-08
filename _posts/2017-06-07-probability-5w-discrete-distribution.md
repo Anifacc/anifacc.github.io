@@ -126,8 +126,7 @@ n次伯努利试验，每次试验成功机率为p，做n次试验，X表示成�
 
 | PMF | CDF    |
 | :------------- | :------------- |
-| $$p_X(x)=P(X=x)=e^{-\lambda T}\cdot \frac{(\lambda T)^{x}}{x!}$$,  
-| $$\begin{align} F_X(x) &= \sum_{n=-\infty}{\mid x \mid}p_X(x) \\ &= \begin{cases} \sum_{n=-\infty}{\mid x \mid}e^{-\mu}\frac{\mu^n}{n!} & , x = 0, 1, 2, ... \\ 0 & , otherwise \end{cases}\end{align}$$ |
+| $$p_X(x)=P(X=x)=e^{-\lambda T}\cdot \frac{(\lambda T)^{x}}{x!}$$ | $$\begin{align} F_X(x) &= \sum_{n=-\infty}{\mid x \mid}p_X(x) \\ &= \begin{cases} \sum_{n=-\infty}{\mid x \mid}e^{-\mu}\frac{\mu^n}{n!} & , x = 0, 1, 2, ... \\ 0 & , otherwise \end{cases}\end{align}$$ |
 
 ---
 
