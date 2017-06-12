@@ -141,7 +141,7 @@ $$\triangledown_{\theta}J(\theta) = X^TX\theta - X^Ty$$
 
 要是代价函数最小，上面的导数必须为0，就得到 **normal equations**：$$X^TX\theta = X^Ty$$，从而可以求得
 
-$$\theta = (X^TX)^{-1}X^Ty$$.
+$$\theta = (X^TX)^{-1}X^Ty$$
 
 这里有个前提就是矩阵$$X^TX$$可逆，只要矩阵X中各列向量线性独立，就可以满足。也就是样本集中样本属性（特征）是线性独立的。
 
@@ -149,15 +149,17 @@ $$\theta = (X^TX)^{-1}X^Ty$$.
 
 已知矩阵$$X,y$$， 我们的目标是找到参数$$\theta$$使$$X\theta = y$$，这里最理想的，然后现实很残酷，我们不一定能找不到参数满足上面理想的等式。但我们能找到的参数满足
 
-$$X\theta \rightarrow y$$即$$X\theta$$近似$$y$$，也就是存在一定误差，得到误差向量$$E=X\theta - y$$。
+$$X\theta \rightarrow y$$即$$X\theta$$近似$$y$$，也就是存在一定误差，得到误差向量
+
+$$E=X\theta - y$$
 
 从矩阵正交角度理解（可参考文献[2]），该误差向量垂直于$$X$$中所有的列向量，也就得到
 
-$$X^TE=0 \rightarrow X^T(X\theta-y)=0 \rightarrow X^TX\theta = X^Ty$$.
+$$X^TE=0 \rightarrow X^T(X\theta-y)=0 \rightarrow X^TX\theta = X^Ty$$
 
 若$$X$$中的列向量线性独立，那么就可得到
 
-$$\theta = (X^TX)^{-1}X^Ty$$.
+$$\theta = (X^TX)^{-1}X^Ty$$
 
 用矩阵方式来证明更容易。
 
