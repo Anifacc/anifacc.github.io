@@ -137,7 +137,7 @@ $$y=\begin{bmatrix} y^1 \\ y^2 \\ \vdots \\ y^m \end{bmatrix}$$
 
 $$\begin{align} \frac{1}{2} (X\theta-y)^T(X\theta-y) &= \frac{1}{2} \sum_{i=1}^{m}(h_{\theta}(x^i)-y^i)^2 \\ &= J(\theta) \end{align}$$
 
-最后对参数求偏导可以得到（具体推导过程省略，可参考文献[1]）
+最后对参数求偏导可以得到（具体推导过程省略，可参考[文献1][1]）
 
 $$\triangledown_{\theta}J(\theta) = X^TX\theta - X^Ty$$
 
@@ -155,7 +155,7 @@ $$X\theta \rightarrow y$$即$$X\theta$$近似$$y$$，也就是存在一定误差
 
 $$E=X\theta - y$$
 
-从矩阵正交角度理解（可参考文献[2]），该误差向量垂直于$$X$$中所有的列向量，也就得到
+从矩阵正交角度理解（可参考[文献2][2]），该误差向量垂直于$$X$$中所有的列向量，也就得到
 
 $$X^TE=0 \rightarrow X^T(X\theta-y)=0 \rightarrow X^TX\theta = X^Ty$$
 
@@ -181,5 +181,10 @@ $$\theta = (X^TX)^{-1}X^Ty$$
 
 ## Reference
 
-[1]: [cs229-notes1.dvi - cs229-notes1.pdf](http://cs229.stanford.edu/notes/cs229-notes1.pdf)  
-[2]: [线性代数:正交 · Anifacc](https://anifacc.github.io/math/linear%20algebra/2017/05/17/intro2linear-algebra-c04-orthogonality/)
+1. [cs229-notes1.dvi - cs229-notes1.pdf](http://cs229.stanford.edu/notes/cs229-notes1.pdf)  
+2. [线性代数:正交 · Anifacc](https://anifacc.github.io/math/linear%20algebra/2017/05/17/intro2linear-algebra-c04-orthogonality/)
+
+---
+
+[1]:  http://cs229.stanford.edu/notes/cs229-notes1.pdf
+[2]:  https://anifacc.github.io/math/linear%20algebra/2017/05/17/intro2linear-algebra-c04-orthogonality/
