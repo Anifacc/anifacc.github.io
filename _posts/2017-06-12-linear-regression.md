@@ -75,7 +75,7 @@ $$ \begin{align} \frac{\partial}{\partial \theta_j} J(\theta) &= \frac{\partial}
 2. 学习因子影响迭代更新
 3. 误差项也影响迭代步数
 
-> Batch Gradien Descent
+**Batch Gradien Descent**
 
 那么对于具有m个样本的训练集，若预测函数参数的LMS迭代算法为：
 
@@ -86,9 +86,9 @@ $$\theta_j := \theta_j + \alpha \sum_{i=1}^{m}(y^i-h_{\theta}(x^i))x_j^i$$
 
 其中，$$j=0, 1, ..., n$$。推导类似，只有把代价函数$$J(\theta)$$**式(2-1)**。
 
-这种迭代方式称为**batch gradien descent(BGD)**（批量梯度下降法）。
+这种迭代方式称为 **batch gradien descent(BGD)**（批量梯度下降法）。
 
-> Stochastic Gradient Descent
+**Stochastic Gradient Descent**
 
 另外一种迭代更新方式为：
 
@@ -96,7 +96,9 @@ $$\theta_j := \theta_j + \alpha \sum_{i=1}^{m}(y^i-h_{\theta}(x^i))x_j^i$$
 Loop {
   for i = 1 to m, {
 ```
-  $$\theta_j := \theta_j + \alpha (y^i - h_{\theta}(x^i))x_j^i, (for \ every \ j)$$
+
+$$\theta_j := \theta_j + \alpha (y^i - h_{\theta}(x^i))x_j^i, (for \ every \ j)$$
+
 ```
   }
 }
@@ -104,7 +106,7 @@ Loop {
 
 此方法称为随机梯度下降（**stochastic gradient descent(SGD)** or **incremental gradient descent**）
 
-> BGD 和 SGD 的区别
+**BGD 和 SGD 的区别**
 
 1. BGD 每一步参数更新是在整个样本集之上，而SGD是在一个样本集上，更新参数。
 2. 通常 SGD 比 BGD 更快得到参数$$\theta$$，使得代价函数最小，但SGD可能不收敛，在最小值附近振荡，但其也接近真实最小值。
