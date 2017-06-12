@@ -79,8 +79,10 @@ $$ \begin{align} \frac{\partial}{\partial \theta_j} J(\theta) &= \frac{\partial}
 
 那么对于具有m个样本的训练集，若预测函数参数的LMS迭代算法为：
 
-对于每个j按式 {
+对于每个j按式 {  
+
 $$\theta_j := \theta_j + \alpha \sum_{i=1}^{m}(y^i-h_{\theta}(x^i))x_j^i$$
+
 }
 重复迭代，直到收敛。
 
