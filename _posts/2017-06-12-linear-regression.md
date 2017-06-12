@@ -186,5 +186,13 @@ $$\theta = (X^TX)^{-1}X^Ty$$
 
 ---
 
+```
+Beta 1.0
+@Anifacc  
+2017-06-12 (1.0 - 2.2)
+```
+
+---
+
 [1]:  http://cs229.stanford.edu/notes/cs229-notes1.pdf
 [2]:  https://anifacc.github.io/math/linear%20algebra/2017/05/17/intro2linear-algebra-c04-orthogonality/
