@@ -9,7 +9,7 @@ categories:
 
 线性回归（Linear Regression）是一种线性模型，试图通过样本（训练样本）属性的线性组合得到预测函数，以尽可能准确预测新样本的输出。线性回归模型需要训练样本，因此一该模型为基础的机器学习（Machine Learning）被分类为有监督学习（Supervised Learning）。
 
-Keywords：Linear Model, Hypothesis, Supervised Learning, LMS, Gradient Descent, Parametric Algorithm, Non-parametric Algorithm
+Keywords：Linear Model, Hypothesis, Supervised Learning, LMS, Gradient Descent, Parametric Algorithm, Non-parametric Algorithm, Cost Function
 
 ## 2. 介绍
 
@@ -167,9 +167,32 @@ $$\theta = (X^TX)^{-1}X^Ty$$
 
 用矩阵方式来证明更容易。
 
-## 3. Inspiration
+### 2.3 Locally weighted linear regression
+
+样本特征的选择对算法的学习性能至关重要。
+
+> Locally weighted linear regression(LWR) algorithm which, assuming there is sufficient training data, makes the choice of features less critical.
+
+LWR算法减弱算法性能对样本特征的敏感性。具体实现就是：
+
+1. 求取$$\theta$$, 使得  $$\sum_i w^i(y^i - \theta^T x^i)^2$$ 最小化。
+2. 得到预测值: $$\theta^T x$$.
+
+和原始的线性回归算法，LWR在代价函数中为每个样本增加了对应权重（weights，正数）$$w^i$$, 其大小决定最小二乘误差的代价函数中的影响程度。标准的选择是：
+
+$$w^i = e^(-\frac{(x^i - x)^2}{2\tau^2})$$
+
+这里的$$x$$是我们特定一个点（at which we're trying to evaluate x），$$\tau$$为 bandwidth。 可以看出，预测样本与训练样本差距越小时，权重接近1，相反，权重就越小。
+
+因此，LWR对每个需要训练样本都需要计算权重，训练样本数越多，则权重数目跟着增多。LWR是“non-parametric algorithm”的一种。
+
+## 3. Inspiration or Interpretation
+
+为什么代价函数选择公式(2-1)的形式？ 可用概率方面进入，来解释，使用最大似然估计来解释为什么选择该代价函数。具体可参见[文献1-Probabilistic interpretation][1]的讲解。
 
 ## 4. Metaphor
+
+梯度下降法类似爬山坡，一步步下山，找山谷最低点。
 
 ## 5. Strategy
 
