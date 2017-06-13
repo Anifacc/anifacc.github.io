@@ -9,7 +9,7 @@ categories:
 
 线性回归（Linear Regression）是一种线性模型，试图通过样本（训练样本）属性的线性组合得到预测函数，以尽可能准确预测新样本的输出。线性回归模型需要训练样本，因此一该模型为基础的机器学习（Machine Learning）被分类为有监督学习（Supervised Learning）。
 
-关键词：线性模型，预测函数，机器学习，有监督学习， LMS，梯度下降，
+Keywords：Linear Model, Hypothesis, Supervised Learning, LMS, Gradient Descent, Parametric Algorithm, Non-parametric Algorithm
 
 ## 2. 介绍
 
