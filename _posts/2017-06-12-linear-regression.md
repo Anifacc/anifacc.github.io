@@ -9,6 +9,12 @@ categories:
 
 线性回归（Linear Regression）是一种线性模型，试图通过样本（训练样本）属性的线性组合得到预测函数，以尽可能准确预测新样本的输出。线性回归模型需要训练样本，因此一该模型为基础的机器学习（Machine Learning）被分类为有监督学习（Supervised Learning）。
 
+线性回归，以线性函数表示预测函数（Hypothesis），以最小化代价函数（Cost Function）为目标，利用训练样本通过梯度下降法（Gradient Descent），当然也有其他方法，求得预测函数的的参数，进而得到预测函数。所得预测函数对新样本进行预测，得到预测结果。
+
+通常情况，代价函数为最小二乘代价函数，为什么使用该代价函数，可以用概率中的极大似然估计方法来解释。
+
+原始的线性回归是 Parametric Algorithm，其参数数目固定，由样本特征数目确定。我们还会讲到 Locally weighted linear regression，它是一种 Non-parametric Algorithm，其权重数目随训练样本数目增加而增加，并不固定。
+
 Keywords：Linear Model, Hypothesis, Supervised Learning, LMS, Gradient Descent, Parametric Algorithm, Non-parametric Algorithm, Cost Function
 
 ## 2. 介绍
