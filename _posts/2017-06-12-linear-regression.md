@@ -192,15 +192,20 @@ $$w^i = e^{(-\frac{(x^i - x)^2}{2\tau^2})}$$
 
 因此，LWR对每个需要训练样本都需要计算权重，训练样本数越多，则权重数目跟着增多。LWR是“non-parametric algorithm”的一种。
 
-## 3. Inspiration or Interpretation
+## 3. Taxonomy
+
+以线性模型为基础，线性回归算法是有监督学习算法中的一种。（模型，算法好混乱。）
+
+
+## 4. Inspiration or Interpretation
 
 为什么代价函数选择公式(2-1)的形式？ 可用概率方面进入，来解释，使用最大似然估计来解释为什么选择该代价函数。具体可参见[文献1-Probabilistic interpretation][1]的讲解。
 
-## 4. Metaphor
+## 5. Metaphor
 
 梯度下降法类似爬山坡，一步步下山，找山谷最低点。
 
-## 5. Strategy
+## 6. Strategy
 
 最小二乘回归模型最小化代价函数来得到预测函数的参数。
 
