@@ -59,7 +59,8 @@ $$\begin{align}
               4 & 5 & 6
               \end{vmatrix} \\
           &= (-1)(\det A)
-\end{align}$$
+\end{align}$$,
+
 因此可以得到$$\det A = -(4)(2)(1) = -8$$
 
 > 例 2: -1,2,-1 矩阵 A
@@ -101,12 +102,9 @@ $$d_k = \frac{d_1 d_2 \cdots d_k}{d_1 d_2 \cdots d_{k-1}}=\frac{\det A_k}{\det A
 $$A=\begin{bmatrix}
 a & b \\
 c & d
-\end{bmatrix}$$  
-
-$$[a \ b] = [a \ 0] + [0 \ b]$$
-
-$$[c \ d] = [c \ 0] + [0 \ d]$$  
-
+\end{bmatrix}$$,
+$$[a \ b] = [a \ 0] + [0 \ b]$$,
+$$[c \ d] = [c \ 0] + [0 \ d]$$,
 $$\begin{align}
 \det A &= \begin{vmatrix}
             a+0 & 0+b \\
@@ -205,7 +203,7 @@ $$\begin{align}
           \begin{vmatrix}
                &  & a_{13} \\
                & a_{22} &  \\
-              a_{31} &  & 
+              a_{31} &  &
           \end{vmatrix}                 
 \end{align}$$
 
