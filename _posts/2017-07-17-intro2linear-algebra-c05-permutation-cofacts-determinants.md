@@ -101,9 +101,12 @@ $$d_k = \frac{d_1 d_2 \cdots d_k}{d_1 d_2 \cdots d_{k-1}}=\frac{\det A_k}{\det A
 $$A=\begin{bmatrix}
 a & b \\
 c & d
-\end{bmatrix}$$
+\end{bmatrix}$$  
+
 $$[a \ b] = [a \ 0] + [0 \ b]$$
-$$[c \ d] = [c \ 0] + [0 \ d]$$
+
+$$[c \ d] = [c \ 0] + [0 \ d]$$  
+
 $$\begin{align}
 \det A &= \begin{vmatrix}
             a+0 & 0+b \\
@@ -175,34 +178,34 @@ $$\begin{align}
             a_{31} & a_{32} & a_{33}
           \end{vmatrix} \\
        &= \begin{vmatrix}
-            a_{11} & 0 & 0 \\
-            0 & a_{22} & 0 \\
-            0 & 0 & a_{33}
+            a_{11} &  &  \\
+             & a_{22} &  \\
+             &  & a_{33}
           \end{vmatrix} +
           \begin{vmatrix}
-            0 & a_{12} & 0 \\
-            0 & 0 & a_{23} \\
-            a_{31} & 0 & 0
+             & a_{12} &  \\
+             &  & a_{23} \\
+            a_{31} &  &
           \end{vmatrix} +  
           \begin{vmatrix}
-            0 & 0 & a_{13} \\
-            a_{21} & 0 & 0 \\
-            0 & a_{32} & 0
+             &  & a_{13} \\
+            a_{21} &  &  \\
+             & a_{32} &
           \end{vmatrix} \\
         &+\begin{vmatrix}
-            a_{11} & 0 & 0 \\
-            0 & 0 & a_{23} \\
-            0 & a_{32} & 0
+            a_{11} &  &  \\
+             &  & a_{23} \\
+             & a_{32} &
           \end{vmatrix} +
           \begin{vmatrix}
-              0 & a_{12} & 0 \\
-              a_{21} & 0 & 0 \\
-              0 & 0 & a_{33}
+               & a_{12} &  \\
+              a_{21} &  &  \\
+               &  & a_{33}
           \end{vmatrix} +
           \begin{vmatrix}
-              0 & 0 & a_{13} \\
-              0 & a_{22} & 0 \\
-              a_{31} & 0 & 0
+               &  & a_{13} \\
+               & a_{22} &  \\
+              a_{31} &  & 
           \end{vmatrix}                 
 \end{align}$$
 
