@@ -1,10 +1,8 @@
 # 隐藏文件 不被push
 
 *.pyc
-*.db
 *.log
 *.wsgic
-*.DS_Store
 
 # 
 mykv.db
