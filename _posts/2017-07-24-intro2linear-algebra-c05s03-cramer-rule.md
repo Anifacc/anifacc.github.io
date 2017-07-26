@@ -144,3 +144,82 @@ $$a_{21}C_{11}+a_{22}C_{12}+a_{23}C_{13}=0$$.
 ---
 
 ## 2.三角形的面积
+
+只要知晓矩阵的长和宽，就能求得矩形面积。相对而言，三角形面积计算简单：底乘以高。但如果仅知道三角形三个角（点）的坐标，如下图，如何计算三角形的面积呢？答案是：利用行列式。
+
+![triangle](https://dn-jeremiahzhang.qbox.me/image/math/linearalgebra/sec5_1_triangle.JPG)
+
+如果知晓三角形的三个角（点）的坐标，如上图最左边的三角形所示，该三角形的面积为：（3x3行列式的一半）
+
+$$\frac{1}{2}
+\begin{vmatrix}
+x_1 & y_1 & 1 \\
+x_2 & y_2 & 1 \\
+x_3 & y_3 & 1
+\end{vmatrix}$$
+
+当三角形为上图5.1中的中间那个三角形时，其面积为：
+
+$$Aera=\frac{1}{2}
+\begin{vmatrix}
+x_1 & y_1 \\
+x_2 & y_2
+\end{vmatrix},
+\ because \ (x_3, y_3)=(0, 0)$$
+
+至于如何证明，可参考书籍讲解。
+
+Three dimension box体积（如下图所示）计算：
+
+![3dbox](https://dn-jeremiahzhang.qbox.me/image/math/linearalgebra/sec5_4_3Dbox.JPG)
+
+其体积为图中3点坐标值构成矩阵A的行列式值.
+
+$$Volume \ of \ box = \det A =
+\begin{vmatrix}
+a_{11} & a_{12} & a_{13} \\
+a_{21} & a_{22} & a_{23} \\
+a_{31} & a_{32} & a_{33}
+\end{vmatrix}$$
+
+## 3.向量叉乘
+
+两个**向量叉乘**的定义：
+
+> $$\boldsymbol u=(u_1, u_2, u_3), \boldsymbol v=(v_1, v_2, v_3)$$ 为两个向量，其叉乘为：  
+>  $$\boldsymbol u \times \boldsymbol v =\begin{vmatrix}
+\vec i & \vec j & \vec k \\
+u_1 & u_2 & u_3 \\
+v_1 & v_2 & v_3  
+\end{vmatrix}=(u_2v_3-u_3v_2)\vec i + (u_3v_1-u_1v_3)\vec j+(u_1v_2-u_2v_1)\vec k$$.
+
+两向量叉乘仍然得到一个向量。
+
+其性质:
+
+1. 顺序：$$\vec u \times \vec v=-\vec v \times \vec u$$
+2. 垂直：$$(\vec u \times \vec v) \perp \vec u, (\vec u \times \vec v) \perp \vec v$$
+3. 自叉乘为0向量: $$(\vec u \times \vec u)=\vec 0$$
+
+两向量叉乘的模：
+
+$$\parallel \vec u \times \vec v \parallel = \parallel \vec u \parallel \parallel \vec v \parallel |\sin \theta|$$
+
+## 4.三重积=行列式=体积
+
+三重积（Triple product）：
+
+$$(\vec u \times \vec v) \cdot w =
+\begin{vmatrix}
+w_1 & w_2 & w_3 \\
+u_1 & u_2 & u_3 \\
+v_1 & v_2 & v_3
+\end{vmatrix}$$
+
+---
+
+## Changelog
+```
+@Anifacc
+2017-07-26 Beta 1.0
+```
