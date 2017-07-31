@@ -8,7 +8,7 @@ categories:
 
 矩阵特征值和特征向量是线性代数中的一个重点内容。我们之前学习如何计算一个矩阵的特征值和特征向量，这里我们利用矩阵的特征值和特征向量对矩阵进行对角化处理。
 
-本问内容是参考文献[^1]的学习笔记.
+本文内容是参考文献[^1]的学习笔记.
 
 - 1.矩阵对角化
 - 2.应用: 斐波那契数列
@@ -157,11 +157,11 @@ $$A^k u_0$$主要还是利用矩阵特征值和特征向量定义特性。
 
 > 交换矩阵(Commuting matrices) 共享特征向量。假如A和B都能对角化，当且仅当AB=BA时，A和B共享特征向量（特征向量相同）。
 
-## 参考
-
-[^1]:   G. Strang, Introduction to Linear Algebra(4th edition)
+---
 
 ```
 @Anifacc
 2017-07-31 beta 1.0
 ```
+
+[^1]:   G. Strang, Introduction to Linear Algebra(4th edition)
