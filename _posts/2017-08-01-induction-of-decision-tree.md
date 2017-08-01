@@ -1,7 +1,13 @@
-# Induction of Decision Tress
+---
+layout: post
+title: 初探决策树-ID3
+categories:
+- Machine Learning
+---
 
-J.R.Quinlan 1986
-论文摘要
+本文是阅读 J.R.Quinlan 1986 论文后的简单笔记记录。
+
+论文摘要：
 
 论文介绍学习系统中TDIDT家族中的算法，详细介绍ID3方法（一种归纳方法），以及在噪声和不完全信息下ID3的处理方法，最后介绍归纳算法的核心方面内容并依次提出可能的改进方法。
 
