@@ -70,7 +70,7 @@ D \begin{bmatrix}
 
 **备注**：以上没有考虑矩阵特征值相同的情形。
 
-## 二阶常系数微分方程
+## 2.二阶常系数微分方程
 
 对于二阶常系数微分方程：
 
@@ -115,7 +115,7 @@ $$u(t)=c_1 e^{\lambda_1 t}\begin{bmatrix}1 \\ \lambda_1 \end{bmatrix}+ c_2 e^{\l
 
 如果有初始条件的话，就可以求出参数。
 
-## 2x2矩阵的稳定性
+## 3.2x2矩阵的稳定性
 
 > For the solution of du/dt = Au, there is a fundamental question. Does the solutionapproach u = 0 as t--->+ oo? Is the problem stable, by dissipating energy?
 
@@ -129,8 +129,61 @@ $$u(t)=c_1 e^{\lambda_1 t}\begin{bmatrix}1 \\ \lambda_1 \end{bmatrix}+ c_2 e^{\l
 > - 矩阵的迹小于0， trace = a+d = $$\lambda_1 + \lambda_2 < 0$$
 > - 矩阵行列式大于0，$$\lambda_1 \lambda_2 > 0$$ 。
 
-## 矩阵的指数
+## 4.矩阵指数形式
+
+关于矩阵的指数形式$$e^{At}$$，其所在层面似乎上了一层，我暂时没有完全明白。看书籍讲解，我还是似懂非懂，和一般的e的指数类比理解，看上去清晰些。
+
+$$e^x = 1 + x + \frac{1}{2}x^2 + \frac{1}{6}x^3 + \cdots$$   
+
+矩阵指数形式：
+$$e^{At} = I + At + \frac{1}{2}(At)^2 + \frac{1}{6}(At)^3 + \cdots$$
+
+对矩阵指数求对t的导数：
+$$Ae^{At} = A+ A^2t + \frac{1}{2}A^3t^2 + \cdots $$
+
+其特征值为$$e^{\lambda t}$$:
+$$(I + At + \frac{1}{2}(At)^2 + \frac{1}{6}(At)^3 + \cdots)\boldsymbol = (1 + \lambda t + \frac{1}{2}(\lambda t)^2 + \frac{1}{6}(\lambda t)^3) + \cdots$$
+
+如果矩阵A可对角化，则：
+
+$$\begin{cases}
+e^{At} &= I + S \Lambda S^{-1} t + \frac{1}{2}(S \Lambda S^{-1} t)(S \Lambda S^{-1} t) + \cdots \\
+      &= S[I+\Lambda t + \frac{1}{2}(\Lambda t)^2 + \cdots]S^{-1} \\
+      &= Se^{\Lambda t}S^{-1}
+\end{cases}$$
+
+再来看看 $$Se^{\Lambda t}S^{-1}u(0) = u(t)$$
+
+$$e^{At}u(0)=Se^{\Lambda t}S^{-1}u(0)=
+\begin{bmatrix}
+ & & \\
+ x_1 & \cdots & x_n \\
+  & & \\
+\end{bmatrix}
+\begin{bmatrix}
+ e^{\lambda_1 t}& & \\
+  & \ddots &  \\
+  & & e^{\lambda_n t}\\
+\end{bmatrix}
+\begin{bmatrix}
+c_1 \\ \vdots \\ c_n
+\end{bmatrix}$$
+
+这个解和常系数微分方程的解一样：
+
+$$\boldsymbol u(t)=c_1e^{\lambda_1 t}\boldsymbol x_1 + \cdots + e^{\lambda_n t}\boldsymbol x_n$$
+
+同样的三部曲。
+
+看！作者将以上放在一起讲解，似乎是看重他们的通性。那么我们就得思考下，这个通性是什么？是否还存在其他类似的性质？
 
 ---
+
+## ChangeLog
+
+```
+@anifac
+2017-08-02 beta 1.0
+```
 
 [^1]:   G. Strang, Introduction to Linear Algebra(4th edition)
