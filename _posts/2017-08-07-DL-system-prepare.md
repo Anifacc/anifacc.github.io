@@ -27,7 +27,7 @@ WIN10 系统配置
     keras: 2.0.6
 ```
 
-- Anacoda：[Anaconda | Continuum](https://www.continuum.io/anaconda-overview) 下载安装，更新参考 Help 文档.
+- Anacoda：[Anaconda- Continuum](https://www.continuum.io/anaconda-overview) 下载安装，更新参考 Help 文档.
 - Theano：安装参考[Windows Installation Instructions — Theano 0.9.0 documentation](http://deeplearning.net/software/theano/install_windows.html)
 - Keras：安装参考[Keras Documentation](https://keras.io/#installation)
 
@@ -40,15 +40,15 @@ WIN10 系统配置
 修改 ~/.keras/keras.json 文件
 
 {
-    "epsilon": 1e-07, 
-    "floatx": "float32", 
-    "image_data_format": "channels_last", 
+    "epsilon": 1e-07,
+    "floatx": "float32",
+    "image_data_format": "channels_last",
     "backend": "theano"
 }
 ```
 ---
 
 ```
-@Anifacc 
+@Anifacc
 2017-08-08 Beta 1.0
 ```
