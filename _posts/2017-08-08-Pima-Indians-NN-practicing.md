@@ -2,8 +2,8 @@
 layout: post
 title: Python深度学习实战02-Keras构建一个神经网络
 categories:
-- Deep Learning
-- Machine Learning
+- DeepLearning
+- MachineLearning
 - Python
 ---
 

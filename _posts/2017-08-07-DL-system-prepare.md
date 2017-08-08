@@ -2,8 +2,8 @@
 layout: post
 title: Python深度学习实战01-环境配置
 categories:
-- Deep Learning
-- Machine Learning
+- DeepLearning
+- MachineLearning
 - Python
 ---
 

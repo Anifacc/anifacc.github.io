@@ -3,7 +3,7 @@ layout: post
 title: 线性代数:矩阵对角化
 categories:
 - Math
-- Linear Algebra
+- LinearAlgebra
 ---
 
 矩阵特征值和特征向量是线性代数中的一个重点内容。我们之前学习如何计算一个矩阵的特征值和特征向量，这里我们利用矩阵的特征值和特征向量对矩阵进行对角化处理。

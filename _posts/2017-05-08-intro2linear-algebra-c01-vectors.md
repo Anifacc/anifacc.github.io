@@ -3,7 +3,7 @@ layout: post
 title: 线性代数:向量-矩阵
 categories:
 - Math
-- Linear Algebra
+- LinearAlgebra
 ---
 
 The contents are from chapter 1 of Introduction to Linear Algebra, Book of Gilbert Strang, editon 4th.

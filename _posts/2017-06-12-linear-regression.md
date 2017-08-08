@@ -2,7 +2,7 @@
 layout: post
 title: 线性回归(Linear Regression)
 categories:
-- Machine Learning
+- MachineLearning
 ---
 
 ## 1. 摘要

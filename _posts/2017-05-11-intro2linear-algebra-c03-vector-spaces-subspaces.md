@@ -3,7 +3,7 @@ layout: post
 title: 线性代数:向量空间-子空间
 categories:
 - Math
-- Linear Algebra
+- LinearAlgebra
 ---
 
 The review of the key ideas are from chapter 3 of Introduction to Linear Algebra, Book of Gilbert Strang, editon 4th.

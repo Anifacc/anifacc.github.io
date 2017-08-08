@@ -3,7 +3,7 @@ layout: post
 title: 线性代数:线性方程
 categories:
 - Math
-- Linear Algebra
+- LinearAlgebra
 ---
 
 The review of the key ideas are from chapter 2 of Introduction to Linear Algebra, Book of Gilbert Strang, editon 4th.

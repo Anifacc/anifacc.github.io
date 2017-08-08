@@ -3,7 +3,7 @@ layout: post
 title: 线性代数:特征值
 categories:
 - Math
-- Linear Algebra
+- LinearAlgebra
 ---
 
 大学时期，学习特征值特性向量问题，单纯是为学习，记忆和考试。都不知道矩阵的特征值和特征向量具体解决什么问题，或者说是哪一类问题。读过 Gilbert Strang 的 Introduction to liner algebra 第4版讲解之后，结合振动基础中模态分析问题，这才明白过来，特征值特征向量的用处非同小可。

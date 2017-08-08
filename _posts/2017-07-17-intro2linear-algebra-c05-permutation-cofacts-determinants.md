@@ -3,7 +3,7 @@ layout: post
 title: 线性代数:行列式计算方法
 categories:
 - Math
-- Linear Algebra
+- LinearAlgebra
 ---
 
 The contents are from chapter 5 section 2 of Introduction to Linear Algebra, Book of Gilbert Strang, edition 4th.

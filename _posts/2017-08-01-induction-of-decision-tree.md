@@ -2,7 +2,7 @@
 layout: post
 title: 初探决策树-ID3
 categories:
-- Machine Learning
+- MachineLearning
 ---
 
 本文是阅读 J.R.Quinlan 1986 论文后的简单笔记记录。

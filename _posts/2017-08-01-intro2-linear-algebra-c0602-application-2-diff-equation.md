@@ -3,7 +3,7 @@ layout: post
 title: 线性代数:特征值特征向量应用微分方程
 categories:
 - Math
-- Linear Algebra
+- LinearAlgebra
 ---
 
 矩阵特征值特征向量简直是把利剑，应用相当广泛。现在就介绍应用于微分方程。将常系数微分方程转化到线性代数领域求解。这部分内容算是振动分析的数学基础。
