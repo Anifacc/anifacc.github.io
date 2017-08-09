@@ -237,7 +237,12 @@ The average score: 73.31% (+/- 4.39%)
 
 - [Model (functional API) - Keras Documentation](https://keras.io/models/model/)
 
----
+## ChangeLog
+
+```
+@Anifacc
+2017-08-09 Beta 1.0
+```
 
 [^1]:   [Deep Learning With Python](https://machinelearningmastery.com/deep-learning-with-python/)
 [^2]:   [《机器学习》 周志华 Amazon](https://www.amazon.cn/%E5%9B%BE%E4%B9%A6/dp/B01ARKEV1G)
