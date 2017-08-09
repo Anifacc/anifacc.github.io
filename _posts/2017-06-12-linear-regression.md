@@ -218,7 +218,7 @@ $$w^i = e^{(-\frac{(x^i - x)^2}{2\tau^2})}$$
 ## Reference
 
 1. [cs229-notes1.dvi - cs229-notes1.pdf](http://cs229.stanford.edu/notes/cs229-notes1.pdf)  
-2. [线性代数:正交 · Anifacc](https://anifacc.github.io/math/linear%20algebra/2017/05/17/intro2linear-algebra-c04-orthogonality/)
+2. [线性代数:正交 · Anifacc](https://anifacc.github.io/math/linearalgebra/2017/05/17/intro2linear-algebra-c04-orthogonality/)
 
 ---
 
@@ -231,4 +231,4 @@ Beta 1.0
 ---
 
 [1]:  http://cs229.stanford.edu/notes/cs229-notes1.pdf
-[2]:  https://anifacc.github.io/math/linear%20algebra/2017/05/17/intro2linear-algebra-c04-orthogonality/
+[2]:  https://anifacc.github.io/math/linearalgebra/2017/05/17/intro2linear-algebra-c04-orthogonality/
