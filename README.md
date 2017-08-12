@@ -27,6 +27,14 @@ blog fork [Yixuan的极客绿]( http://yixuan.li/)
 @Anifacc   
 2017-03-25 22:01:18
 
+# Change
+
+因博客文章页面出现无法显示CSS页面问题，准备将其改变，使用[projectpages/project-pages](https://github.com/projectpages/project-pages) 的模板
+
+2017-08-12 
+
+---
+
 
 
 
