@@ -167,7 +167,7 @@ print("Standardized: {0}% ({1}%)".format(results.mean()*100, results.std()*100))
 1. [sklearn.preprocessing.StandardScaler — scikit-learn 0.19.0 documentation](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html)  
 2. [sklearn.pipeline.Pipeline — scikit-learn 0.19.0 documentation](http://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html)
 
-# # 4.改变神经网络层数和节点数
+## 4.改变神经网络层数和节点数
 
 改变神经网络的拓扑结构, 来观察模型性能.
 
