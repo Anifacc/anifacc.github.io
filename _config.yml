@@ -17,7 +17,7 @@ title:               Anifacc
 tagline:             'α2Ω.客旅'
 description:         'Life is an _if_ case & an accumulation!'
 url:                 https://anifacc.github.io
-baseurl:             /
+baseurl:             https://anifacc.github.io/
 paginate:            7
 
 # About/contact
