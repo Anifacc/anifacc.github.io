@@ -20,6 +20,10 @@ Hola, I am __Jeremy Anifacc(Lei Zhang)__, a Christian. Now, I am focusing on pra
 - [Zhihu][8]
 - [LinkedIn][9]
 
+## Works
+
+- [C.S.Lewis — 惊喜之旅](http://jeremyanifaccc.pythonanywhere.com/)
+
 ## What I believe in
 
 - Jesus Christ
