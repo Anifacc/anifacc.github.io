@@ -1,12 +1,12 @@
 ---
-title: About
+title: About Me
 author: Anifacc
 layout: page
 ---
 
   <img width="300" height="400" alt="A photo of Anifacc" src="https://dn-jeremiahzhang.qbox.me/me.jpg">
 
-Hola, I am __Jeremy Anifacc(Lei Zhang)__, an Christian. Now, I am focusing on practicing Machine Learning with python, Value Investing to renew my mind, and make life more interesting.
+Hola, I am __Jeremy Anifacc(Lei Zhang)__, a Christian. Now, I am focusing on practicing Machine Learning with python, Value Investing to renew my mind, and make life more interesting.
 
 ## Linkings
 
@@ -38,6 +38,7 @@ That was inspired by the movie [The Matrix](https://en.wikipedia.org/wiki/The_Ma
 
 - Bible(daily)
 - C.S.Lewis: [Mere Christianity](https://en.wikipedia.org/wiki/Mere_Christianity#The_Case_for_Christianity_.28Broadcast_Talks_in_UK.29)
+- [Poor Charlie's Almanack: The Wit and Wisdom of Charles T. Munger](https://book.douban.com/subject/10485011/)
 
 ## Apps & Software
 
