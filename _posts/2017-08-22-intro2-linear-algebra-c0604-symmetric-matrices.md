@@ -104,7 +104,7 @@ $${\bar x}^T A x = {\bar x}^T \bar \lambda x$$
 
 $${\bar x}^T \lambda x = {\bar x}^T \bar \lambda x$$
 
-而 $${\bar x}^T x = |x_1|^2 + |x_2|^2 + \cdots \neq 0$$, 所以 $$\lambda = \bar \lambda$$, 得证 对称矩阵的特征值为实数.
+而 $${\bar x}^T x = \|x_1\|^2 + \|x_2\|^2 + \cdots \neq 0$$, 所以 $$\lambda = \bar \lambda$$, 得证 对称矩阵的特征值为实数.
 
 特征向量$$x$$来自于$$(A - \lambda I) x = 0$$, 则可得到$$x$$也为实数向量. 关键是他们还是相互正交的.
 
