@@ -135,7 +135,59 @@ $$A = \lambda_1 P_1 + \cdots \lambda_n P_n$$
 
 其中 $$\lambda_i$$ 为特征值, $$P_i$$为特征空间投影.
 
+---
+
 ## 2. 实数矩阵的复特征值
 
+实对称矩阵的特征值只有实数. 如果矩阵A不是对称矩阵, 那么A的特征值和特征向量会出现复数的情况. 比如:
+
+$$A = \begin{bmatrix} \cos{\theta} & -\sin{\theta} \\ \sin{\theta} & \cos{\theta}\end{bmatrix}$$, 其特征值:$$\lambda_1 = \cos{\theta} + i \sin{\theta}, \lambda_2 = \cos{\theta} - i \sin{\theta}$$
+
+---
+
+## 3. 特征值和矩阵主元
+
+矩阵特征值和矩阵主元是两个完全不同的概念, 对于一般矩阵而言, 它们之间的联系只有:
+
+**主元乘积 = 矩阵行列式 = 特征值乘积**
+
+但是来到对称矩阵的世界, 他们有着一些联系. 我们来看来.
+
+**对称矩阵的特征值和主元符号相同: 即 对称矩阵有多少个正的特征值, 其就有多少个正的主元. 比如: 如果一个对称矩阵的所有特征值都为正(正定矩阵), 那么其所有主元也都为正.**
+
+---
+
+## 4. 所有对称矩阵对角化
+
+一个矩阵A, 如果其特征值各部相同, 则其特征向量是相互独立, 那么A可以被对角化. 在非对称矩阵中, 如果存在重复的特征值, 那么会就缺少特征向量, 也就不能被对角化.
+
+这种情况就不会发生在对称矩阵中. **There are always enough Eigenvectors to diagonalize A = A^T(symmetric matrices)**
+
+如何证明, 书中用 Schur's Theorem 来证明.
+
+**Schur's Theorem**
+
+Every square matrix factors into $$A = Q T Q^{-1}$$ where T is upper triangular and $$\bar{Q}^T = Q^{-1}$$. If A has real eigenvalues then Q and T can be chosen real: $$Q^T Q=I$$.
+
+书中使用归纳法来证明, 有兴趣可以参考.
+
+---
+
+## Sum
+
+1. A symmetric matrix has real eigenvalues and perpendicular eigenvectors.
+2.  Diagonalization becomes $$A = Q \Lambda Q^T$$ with an orthogonal matrix Q.
+3. All symmetric matrices are diagonalizable, even with repeated eigenvalues.
+4. The signs ofthe eigenvalues match the signs of the pivots, when $$A = A^T$$
+5. Every square matrix can be "triangularized" by $$A = Q T Q^{-1}$$
+
+## ChangeLog
+
+```
+@Anifacc
+2017-08-24 用时 2:31
+```
+
+# Ref
 
 [^1]:   G. Strang, Introduction to Linear Algebra(4th edition)
