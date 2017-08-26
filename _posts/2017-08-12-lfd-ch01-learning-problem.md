@@ -1,8 +1,9 @@
 ---
 layout: post
-title: LearningFromData第一章:机器学习问题
+title: LFD第一章:机器学习问题
 categories:
 - MachineLearning
+- LearningFromData
 ---
 
 # L1 The learning problem
