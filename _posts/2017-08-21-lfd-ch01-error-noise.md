@@ -41,7 +41,7 @@ $$Error = E(h, f)$$
 
 而 out-of-sample error:
 
-$$E_out(h) = \Bbb E_X [e(h(X), f(X))]$$
+$$E_{out}(h) = \Bbb E_X [e(h(X), f(X))]$$
 
 其中, $$X$$ is from the input space(来自整个输入空间) $$\cal X$$
 
@@ -100,17 +100,17 @@ $$E_out(h) = \Bbb E_X [e(h(X), f(X))]$$
 
 ## 2.Noisy Target
 
-实际应用中, 目标函数 target function f 存在噪声, 训练样本并不处于确定性的目标函数, 而是处于带噪声的目标函数中. **Such that the output is not uniquely determined by the input**. 比如在之前的信用卡评估案例中, 两人相同的情况, 最终评定是否发放信用卡却不同(一个接受, 一个不接受). 因此, **the credit 'function' is not really a deterministic function, but a noisy one.**
+实际应用中, 目标函数 target function f 存在噪声, 训练样本并不出自于确定性的目标函数, 而是出自于带噪声的目标函数中. **Such that the output is not uniquely determined by the input**. 比如在之前的信用卡评估案例中, 两人相同的情况, 最终评定是否发放信用卡却不同(一个接受, 一个不接受). 因此, **the credit 'function' is not really a deterministic function, but a noisy one.**
 
 我们还是得引入概率来建模.
 
-将 output y 看作受 input x 影响的随机变量, 而不是由 input x确定的量(y = f(x)). 怎么表示呢? 以一个 target distribution $$P(y|x)$$ 替代确定性目标函数 $$y = f(x)$$. 因此一个数据样本$$(x, y)$$产生于联合分布: $$P(x, y) = P(x)P(y|x)$$.
+将 output y 看作受 input x 影响的随机变量, 而不是由 input x确定的量(y = f(x)). 怎么表示呢? 以一个 target distribution $$P(y \mid x)$$ 替代确定性目标函数 $$y = f(x)$$. 因此一个数据样本$$(x, y)$$产生于联合分布: $$P(x, y) = P(x)P(y \mid x)$$.
 
 > Noisy target = determined targe + added noise.
 
 如果y是实数, 则:
 
-- deterministic $$f(x) = \Bbb E(y|x)$$
+- deterministic $$f(x) = \Bbb E(y \mid x)$$
 - noise: $$y - f(x)$$.
 
 Noisy target = deterministic f + noise
@@ -119,27 +119,27 @@ Noisy target = deterministic f + noise
 
 deterministic target is a special case of noisy target:
 
-$$P(y|x) = 0 $$ expect for y = f(x).
+$$P(y \mid x) = 0 $$ expect for y = f(x).
 
-也就是, 不确定性(P(y|x))不存在嘛.
+也就是, 不确定性(P(y \mid x))不存在嘛.
 
 练习 1.13 可帮助理解.  
 
- $$P(y|x), P(x)$$的在学习中的不同之处.
+ $$P(y \mid x), P(x)$$的在学习中的不同之处.
 
- - target distribution $$P(y|x)$$: what we are trying to learn
+ - target distribution $$P(y \mid x)$$: what we are trying to learn
  - input distribution $$P(x)$$: only quantifies the relative importance of the point x in gauging how well we have learned.
- - Merging $$P(x)P(y|x) = P(x, y)$$: mixes two concepts.
+ - Merging $$P(x)P(y \mid x) = P(x, y)$$: mixes two concepts.
 
-学习可行性的分析同样适用 noisy target function. 因为霍夫丁不等式看用于随机未知的目标函数, 我们不用知道$$E_{out}$$, 我们只需要用$$E_{in}$$来近似.
+学习可行性的分析同样适用 noisy target function. 因为霍夫丁不等式能用于随机未知的目标函数, 我们不用知道 $$E_{out}$$, 我们只需要用 $$E_{in}$$ 来近似.
 
 ![joint_dis](https://dn-learnml.qbox.me/image/ai/ldf_joint_distribution.JPG)
 
-训练样本来自于独立联合分布. y 取自整个输入空间$$\cal X$$, 其概率分布为$$P(y|\cal X)$$; 而 x 取自概率分布$$P(\mathcal{X})$$.
+训练样本来自于独立联合分布. y 取自整个输入空间 $$\cal X$$, 其概率分布为 $$P(y \mid \cal X)$$; 而 x 取自概率分布 $$P(\mathcal{X})$$.
 
-Target function 中引入噪声后, $$E_{in}$$的情况变得糟糕, 因为噪声进入训练样本, 样本拟合学习难度增加.
+Target function 中引入噪声后, $$E_{in}$$ 的情况变得糟糕, 因为噪声进入训练样本, 样本拟合学习难度增加.
 
-在书籍第二章中, 在引入目标函数概率分布$$P(y|x)$$后, 会证明霍夫丁不等式的高阶版本. 敬请期待.
+在书籍第二章中, 在引入目标函数概率分布$$P(y \mid x)$$后, 会证明霍夫丁不等式的高阶版本. 敬请期待.
 
 ---
 
