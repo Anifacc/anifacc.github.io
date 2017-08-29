@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LFD第一章:机器学习问题
+title: LFD第一章笔记:机器学习问题
 categories:
 - MachineLearning
 - LearningFromData

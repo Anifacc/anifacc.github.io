@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LFD第二章:泛化误差
+title: LFD第二章笔记:泛化误差
 categories:
 - MachineLearning
 - LearningFromData

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LFD第一章:误差和噪声
+title: LFD第一章笔记:误差和噪声
 categories:
 - MachineLearning
 - LearningFromData

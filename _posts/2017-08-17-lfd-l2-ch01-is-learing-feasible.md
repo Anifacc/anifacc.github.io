@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LFD第一章:学习可行么?
+title: LFD第一章笔记:学习可行么?
 categories:
 - MachineLearning
 - LearningFromData
