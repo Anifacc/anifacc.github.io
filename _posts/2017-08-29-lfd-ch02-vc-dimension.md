@@ -120,6 +120,11 @@ VC bound 将边界范围缩小.
 
 出发点: 两个数据集上 $${\cal D, D'}$$ 上的$$E_{in}, E_{in}'$$.
 
+> The VC generalization bound (2. 12) is a universal result in the sense that it applies to all hypothesis sets, learning algorithms, input spaces, probability distributions, and binary target functions. It can be extended to other types of
+target functions as well. 
+
+VC 泛化边界的通用性.
+
 ## 3.SUM
 
 这一小节, 我们了解 VC维数的定义, 已经将泛化误差边界用 VC维数泛化边界表示.
@@ -138,4 +143,5 @@ VC bound 将边界范围缩小.
 ```
 @Anifacc
 2017-08-30 beta 1.0 WX
+2017-08-31 add VC bound 通用性
 ```
