@@ -36,7 +36,7 @@ $$\begin{align}
   &= \Bbb E_x \left[ \Bbb E_D \lbrack (g^{(D)}(x) - \bar g(x))^2 \rbrack + (\bar g(x) - f(x))^2  \right]
 \end{align}$$
 
-其中 $$\Bbb E_D \lbrack g^{(D)}(x) \rbrack = \bar g(x)$$, 从数据集D下的得到的假设 $$g^{(D)}$$ 期望值以"均值函数"表示(大数定理是趋近的). 也可以这么理解: 有 K 个数据集 $$D_1, D_2, ..., D_K$$, 在这些数据集下, 我们得到最终的假设分别为 $$g_1, g_2, ..., g_K$$, 那么可令
+其中 $$\Bbb E_D \lbrack g^{(D)}(x) \rbrack = \bar g(x)$$, 从数据集D下得到的假设 $$g^{(D)}$$ 期望值以"均值函数"表示(大数定理是趋近的). 也可以这么理解: 有 K 个数据集 $$D_1, D_2, ..., D_K$$, 在这些数据集下, 我们得到最终的假设分别为 $$g_1, g_2, ..., g_K$$, 那么可令
 
 $$\bar g(x) \approx \frac{1}{K} \sum_{k=1}^{K}g_k(x)$$
 
@@ -59,13 +59,87 @@ $$\begin{align}
   &= \ bias + \ var
 \end{align}$$
 
+Out-of-sample error $$E_{out}(g^{(D)})$$ 是基于数据集训练得到的最终假设 $$g^{(D)}(x)$$ 与目标函数 $$f(x)$$. 其样本 $$x$$ 来自于输入空间. 因为最终假设确定后, 目标函数也"确定"(虽然我们不知道它到底是什么), 这样在整个输入空间求误差平方的期望值.
+
+$$\Bbb E_D \lbrack E_{out}(g^{(D)})\rbrack$$: 不同的训练集 D 会产生各自的最终假设 $$g^{(D)}$$, 再求上面期望的期望, 就得到
+
+$$\begin{align}
+\Bbb E_D \lbrack E_{out}(g^{(D)}) \rbrack &= \Bbb E_x \left[ bias(x) + var(x)\right] \\
+  &= \Bbb E_x [bias(x)] + \Bbb E_x [var(x)]\\
+  &= \ bias + \ var
+\end{align} \tag{1}$$
+
+其中 $$bias = \Bbb E_x [bias(x)], var = \Bbb E_x [var(x)]$$.
+
+上面推演的前提: 数据没有噪声的影响. 如果有噪声影响, 那么结果会怎么样呢?
+
+??? 参见问题 problem 2.22 解答.
+
+上式(1), 在多个数据集D上计算期望, 对实践有什么意义呢? 单纯为了将其分解为 bias 和 variance 嘛? 现实中, 我们不是只要考虑 out-of-sample error $$E_{out}(g^{(D)})$$ 就行了么? 考察其期望, 是否更能理解 out-of-sample error? 期望: 看平均表现.
+
+**Bias-variance decomposition**
+
+上面推演将 out-of-sample error 分解为 bias 和 variance. 两种极端情况距离, 请参考书籍P64内容-Very small model 和 Very large model.
+
+(1) 从 bias 定义来看, bias(x) 是衡量输入空间内 $$\bar g(x)$$ 和目标函数 $$f(x)$$ 的误差. (2) 从 variance 定义来看, var(x) 是衡量数据集D得到的最终函数在输入空间上的结果 $$g^{(D)}(x)$$ 与均值 $$\bar g(x)$$ 的差距. 我们可以将 variance 作为学习模型的"非稳性(instability)"的度量. 数学上的"方差", 观察差异程度.
+
+书中 **Example 2.8** 举例讲述 bias 和 variance, 简单易懂.
+
+- 目标函数 $$f(x) = \sin(\pi x)$$
+- 数据集D样本个数 N = 2
+- 输入空间 X 的 x: [-1, 1] 随机均匀分布产生随机数, 得到$$(x_1, y_1), (x_2, y_2)$$
+- 2个学习模型:
+  - $${\cal H_0}: h(x) = b, b = \frac{y_1 + y_2}{2}$$, 两训练样本确定, 就可得到假设
+  - $${\cal H_1}: h(x) = ax + b$$, 通过两个训练样本的直线.
+- 产生好多组训练集 D, 计算 bias 和 variance.
+
+如下图所示, 不同的数据集, 产生的假设.
+
+![hypothesis](https://dn-learnml.qbox.me/image/ai/lfd_ch02_ex28_hypothesis.JPG)
+
+得到的 bias 和 variance 图形显示如下.
+
+![bias-variance](https://dn-learnml.qbox.me/image/ai/lfd_ch02_ex28_bias_variance.JPG)
+
+上图中的直线为 average hypothesis $$\bar g(x)$$, 阴影部分区域为 $$\bar g(x) \pm \sqrt{var(x)}$$
+
+模型 $${\cal H_1}$$ 的平均假设 $$\bar g$$ 拟合目标函数的bias 为0.21, 偏差比模型$${\cal H_0}$$的0.50小, 但是前者的 variance 为1.69 远远大于后者的0.25; 前者 out-of-sample error 为1.90, 而后者为0.75. 综合来看, $${\cal H_0}$$ 虽然简单, 但比复杂模型 $${\cal H_1}$$ 拟合的好些, 其 var 值减小, 是以 bias 增大为代价.
+
+实际中, 我们是不知道目标函数, 而且训练样本数目也不可能就那么2个, 也不可能获得多种不同的数据集.
+
+> We have one data set, and the simpler model results in a better out-of-sample error on average as we fit our model to just this one data. However, the var
+term decreases as N increases,  so if we get a bigger and bigger data set, the bias term will be the dominant part of $$E_{out}$$, and $$\cal H_1$$ will win.
+
+学习算法在 bias-variance 分析中扮演的角色(VC 分析中不考虑学习算法):
+
+1. VC 分析单单依赖于与学习算法 $$\cal A$$ 独立的假设集 $$\cal H$$. 在 Bias-variance 分析中, 两者都要考虑. 相同的假设集(模型) $$\cal H$$, 不同的学习算法会得到不同的最终假设 $$g^{(D)}$$. 而 $$g^{(D)}$$ 恰恰是 bias-variance 分析的基石, 从而导致产生不同的 bias 和 var 值.
+2. 上述的 bias-variance 分析以误差平方度量为基础, 但是学习算法自身并不需要以最小化误差平方为基础. 我们可以使用任何一个准则获得基于数据集D的最终假设 $$g^{(D)}$$. 但是, 一旦我们的学习算法产生最终假设  $$g^{(D)}$$, 我们就得使用误差平方来计算 bias 和 variance.
+
+遗憾的是, 上述 bias-variance 分析在实际中无法计算, 原因是目标函数未知. 这就是个理论工具, 对于研究创造新的模型有帮助. Bias 和 variance 分析的两个目标: (1) 降低 variance 同时 bias 的增加不怎么显著; (2) 降低 bias, 同时 variance 的增加不显著. 有许多方法来达到这两个目标, 比如 Regularization. 未来会讲述.
+
 ---
 
 ## 2.The Learning Curve
 
+>  The learning curves summarize the behavior of the in-sample and out-of-sample errors as we vary the size of the training set.
+
+![learning_curve](https://dn-learnml.qbox.me/image/ai/lfd_ch02_learning_curve_init.JPG)
+
+什么是学习曲线(learning curve)? 如上图所示, 简单模型和复杂模型的学习曲线. $$E_{in}, E_{out}$$ 的期望值 $$\Bbb E_{D}[E_{in}(g^{(D)})], \Bbb E_{D}[E_{out}(g^{(D)})]$$随数据集中样本数目 N 的变化而变化的曲线.
+
+自己看图观察上图中左右两个学习曲线图(简单模型-复杂模型)的区别. (1) 简单模型随 N 的增加, 其误差期望值收敛速度比复杂模型的快;(2) 两幅图中 $$E_{in}$$ 都随着 N 的增加而增加, $$E_{out}$$ 都随着 N 的增加而减小. (3) 至于收敛的最终值, 因为没有在同一幅图中显示, 我不知道该是否 复杂模型的收敛值比简单模型的小.(猜测: 不一定. 看具体的模型. 不能一概而论, 陷入教条.)
+
+下图是学习曲线和 VC 分析, Bias-Variance 分析的结合图.
+
+![vc_bias_var_analysis](https://dn-learnml.qbox.me/image/ai/lfd_ch02_learning_curve_vc_bias_var.JPG)
+
+在学习曲线的 VC分析中, 我们可以观察到 generalization error 和 in-sample error的表示. 在学习曲线的 Bias-Variance 分析中, 我们观察到 bias 和 variance 的表示(理想表示, 前提:  **since it assumes that, for every N, the average learned hypothesis g has the same performance as the best approximation to f in the learning model**).
+
 ---
 
 ## 3.Sum
+
+本节精度, 主要了解(1)Bias and Variance 偏差与方差, 如何得到, 以及案例讲述; (2)The Learning Curve 学习曲线, 什么是学习曲线及图解分析.
 
 ---
 
@@ -74,3 +148,11 @@ $$\begin{align}
 1. [Learning From Data - A Short Course](http://www.amlbook.com/support.html#_echapters) Chapter 2 Training VS Testing
 
 ## ChangeLog
+
+```
+@Anifacc
+read 1:27
+note 3:33
+all 5:00
+2017-09-07 ~ 2017-09-08 beta1.0 WX
+```
