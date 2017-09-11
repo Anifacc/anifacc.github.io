@@ -15,7 +15,7 @@ categories:
 
 ## 1.VC 维
 
-上一节书中得到假设集有效数 $$m_{\cal H}(N) \leq B(N, k) \leq \sum_{i=0}^{k-1}{N \choose i}$$, 其中 k 为假设集的 break point. 当书中得到证明之后, 我很幼稚的以为, 这下泛化误差边界总算可以确定, 用有效数提到M不就可以嘛? 然而, 书中还要提到 VC 维.
+上一节书中得到假设集有效数 $$m_{\cal H}(N) \leq B(N, k) \leq \sum_{i=0}^{k-1}{N \choose i}$$, 其中 k 为假设集的 break point. 当书中得到证明之后, 我很幼稚的以为, 这下泛化误差边界总算可以确定, 用有效数替代 M 不就可以嘛? 然而, 书中还要提到 VC 维.
 
 **Definition 2.5 VC-Dimension**
 
@@ -25,7 +25,7 @@ $$m_{\cal H}(N) = 2^N, \forall N \Rightarrow d_{vc}({\cal H}) = \infty$$
 
 从定义我们可以看出, VC 维 $$d_{vc} = k - 1$$.
 
-$$m_{\cal H}(N) = \sum_{i=0}^{d_{vc}} {N \choose i} \tag{2.9}$$
+$$m_{\cal H}(N) \leq \sum_{i=0}^{d_{vc}} {N \choose i} \tag{2.9}$$
 
 看这个有效数再引入 VC 维后, 变得好看一些. 通过归纳证明(书中第二章问题 Problem 2.5 就是此证明, 可以参考我的[练习与证明](https://github.com/JeremiahZhang/gopython/tree/master/AI/course-learning-from-data-of-caltech/exercise_problems_solu)), 还可以得到下面更简介形式, 关于 N 的多项式.
 
