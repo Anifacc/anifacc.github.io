@@ -23,7 +23,7 @@ categories:
 
 首先是 bias-variance 分析, 将 out-of-sample error (误差平方) 分解.
 
-$$E_{out}(g^{(D)}) = \Bbb E_D \lbrack \Bbb E_x \lbrack \lgroup g^{(D)}(x) - f(x) \rgroup ^2\rbrack \rbrack$$
+$$E_{out}(g^{(D)}) = \Bbb E_x \lbrack \lgroup g^{(D)}(x) - f(x) \rgroup ^2\rbrack$$
 
 其中 $$g^{(D)}$$ 表示算法基于数据集(训练集) $$\cal D$$ 得到的最终假设; $$\Bbb E_x$$ 表示: 输入空间 $$\cal X$$ 数据 $$x$$, 学习得到最终假设在数据 $$x$$ 上的结果 $$g^{(D)}(x)$$ 与目标函数 $$f(x)$$ 误差平方的期望值. 这容易理解. 关键是下面的处理得到 bias 和 variance.
 
