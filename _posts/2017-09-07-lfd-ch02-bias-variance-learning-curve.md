@@ -73,7 +73,28 @@ $$\begin{align}
 
 上面推演的前提: 数据没有噪声的影响. 如果有噪声影响, 那么结果会怎么样呢?
 
-??? 参见问题 problem 2.22 解答.
+参见问题 problem 2.22:
+
+> When there is noise in the data, $$ E_{out}(g^{(D)}) = \Bbb E_{x,y} \lbrack (g^{(D)} - y(x))^2\rbrack, y(x) = f(x) + \epsilon$$. If $$\epsilon$$ is a zero mean noise random variable with variance $$\sigma^2$$, show that the bias variance decomposition becomes:
+
+> $$\Bbb E_D[E_{out}(g^{(D)})] = \sigma^2 + \ bias + \ var$$
+
+按上文的分析来分解:
+
+$$\begin{align}
+\Bbb E_D[E_{out}(g^{(D)})] &= \Bbb E_D \lbrack \Bbb E_{x,y}[(g^{(D)}(x) -y(x))^2]\rbrack \\
+  &= \Bbb E_{x, y} \left[ \Bbb E_D \lbrack g^{(D)}(x)^2 - 2g^{(D)}(x)y(x) + y(x)^2\rbrack \right] \\
+  &= \Bbb E_{x,y} \left[ \Bbb E_D \left[ g^{(D)}(x)^2 - 2g^{(D)}(x)f(x) + f(x)^2 - 2g^{(D)}(x) \epsilon + 2f(x) \epsilon + \epsilon^2 \right] \right] \\
+  &= \Bbb E_{x,y} \left[ \Bbb E_D \left[ g^{(D)}(x)^2 - 2g^{(D)}(x)f(x) + f(x)^2 \right] - \Bbb E_D [2g^{(D)}(x)\epsilon] + \Bbb E_D [2f(x)\epsilon] + \Bbb E_D [\epsilon^2] \right] \\
+  &= \Bbb E_{x,y} \left[ \Bbb E_D \left[ g^{(D)}(x)^2 - 2g^{(D)}(x)f(x) \right] \right] + \Bbb E_{x,y} \left[ - 2 \bar g(x) \Bbb E_D[\epsilon] + 2 f(x) \Bbb E_D[\epsilon] + \Bbb E_D [\epsilon^2] \right] \\
+  &= bias \ + \ var + \Bbb E_{x,y} \left[ \Bbb E_D [\epsilon^2] \right] \\
+  &= bias \ + \ var + \Bbb E_D \left[ \Bbb E_{x,y}[\epsilon^2] \right] \\
+  &= bias \ + \ var + \sigma^2
+\end{align}$$
+
+因为 $$\Bbb E_D[\epsilon] = 0, \Bbb E_{x,y}[(\epsilon-0)^2] = \sigma^2$$
+
+所以得到上面的分解结果.
 
 上式(1), 在多个数据集D上计算期望, 对实践有什么意义呢? 单纯为了将其分解为 bias 和 variance 嘛? 现实中, 我们不是只要考虑 out-of-sample error $$E_{out}(g^{(D)})$$ 就行了么? 考察其期望, 是否更能理解 out-of-sample error? 期望: 看平均表现.
 
