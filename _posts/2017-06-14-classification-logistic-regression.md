@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 线性分类(Logistic Regression)
+title: 逻辑回归(Logistic Regression)
 categories:
 - MachineLearning
 ---
