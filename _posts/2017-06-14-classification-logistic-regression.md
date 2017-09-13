@@ -17,7 +17,7 @@ Logistic regression 和 linear regression 一样，是一种线性机器学习�
 
 ## 3. 策略
 
-对于分类问题，假设样本为（x,y），其真实值$$y\in \{0,1\}$$，相当于只有0，1两类标签，分类算法要么将样本判别为0类，要么判别为1类。
+对于下面的问题，假设样本为（x,y），其真实值$$y\in [0,1]$$，y在[0,1] 区间内. 分类算法要么将样本判别为0类，要么判别为1类。
 
 对于这样的分类问题，linear regression 预测函数$$h_{\theta}(x)$$（hypothesis）使用的是线性函数，是无法进行上面的判别的。这时就可使用 logistic regression， 其预测函数使用 logistic function(sigmoid function)，如下式所示：
 
