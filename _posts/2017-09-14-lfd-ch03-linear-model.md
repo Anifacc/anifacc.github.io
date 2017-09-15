@@ -11,6 +11,7 @@ categories:
 - 线性分类 linear classification
   - 感知器算法 PLA perceptron learning algorithm
 - 线性回归 linear regression
+  - 最小二乘法 ordinary least squares(OLS)
 - 逻辑回归 logistic regression
   - 梯度下降法 Gradient Descent  
 
@@ -76,12 +77,16 @@ $$\vec w(t+1) \leftarrow \vec w(t) + y(t) \vec x(t) \tag{1.3}$$
 PLA的具体流程[2]:
 
 ```
+# PLA
+
 1: Initialize at step t = 0 to w(0).
+
 2: for t = 0, 1, 2, ... do
 3:    the weight vector is w(t)
 4:    From training dataset(x_1, y_1), ...(x_N, y_N) pick any misclassified example.
             Call the misclassified example (x*, y*)
             sign(w(t)^T x*) != y*;
+
 5:    Update the weight: w(t+1) = w(t) + y*x*
 6:    t = t+1   
 ```
@@ -121,11 +126,15 @@ $$\min E_{in}(w) = \min_{\vec w \in \Bbb R^{d+1}} \frac{1}{N} \sum_{n=1}^{N} [[s
 ```
 # the pocket algorithm
 1: Set the pocket weight vector w* to w(0) of PLA
+
 2: for t = 0, ..., T-1, do
 3:    Run PLA for one update to obtain w(t+1)
+
 4:    Evaluate E_{in}(w(t+1))
+
 5:    If w(t+1) is better than w* in terms of E_{in}, then set
             w* := w(t+1)
+
 6: Return w*
 ```
 
@@ -237,7 +246,106 @@ $$\hat{\vec v} = - \frac{\nabla E_{in}(\vec w(t))}{\| \nabla E_{in}(\vec w(t))\|
 
 $$\triangle E_{in} \geq -\eta \| \nabla E_{in}(\vec w(t))\|$$.
 
+学习因子 $$\eta$$ 对算法搜索最优值的影响情况, 如下图所示.
+
+![learning_rate](https://dn-learnml.qbox.me/image/ai/lfd_ch03_GD_learning_rate.JPG)
+
+- 太小, 收敛速度慢
+- 太大, 则波动大, 不稳定, 有时难以收敛, 左右摇摆.
+- 适中, 最好.
+
+理想方法: 当离最小值非常远时, 步长也大一些, 使得收敛快一些; 当接近最小值时, 步长变小, 使其收敛.
+
+比如将学习因子设定成与 in-sample 误差梯度成比例的值.
+
+$$\eta_t = \eta \| \nabla E_{in}\|$$.
+
+这样取有一个方便:
+
+$$\begin{align}
+\vec w(t+1) &= \vec w(t) + \eta_t \hat{\vec v} \\
+    &= \vec w(t) + \eta \| \nabla E_{in}\vec w(t)\| (- \frac{\nabla E_{in}(\vec w(t))}{\| \nabla E_{in}(\vec w(t))\|}) \\
+    &= \vec w(t) - \eta \nabla E_{in}(\vec w(t)) \\
+    &= \vec w(t) + \eta \vec v_t
+\end{align}$$
+
+其中: $$\vec v_t = -\nabla E_{in}(\vec w(t)$$. 这时候方向向量不再是之前的单位向量(3.10). 这就是 **fixed learning rate gradient descent algorithm** for miniming $$E_{in}$$(with redefined $$\eta$$)[1].
+
+```
+# Fix learning rate gradient descent algorithm
+# (batch gradient descent)
+1: Initialize at step t = 0 to w(0).
+
+2: for t = 0, 1, 2, ..., do
+3:    Compute the gradient
+              g_t = ▽E_in(w(t))
+
+4:    Move in the direction
+              v_t = - g_t
+
+5:    Update the weights:
+              w(t+1) = w(t) + η v_t
+
+6:    Iterate 'until it is time to stop'
+7: end for
+8: Return the final weights.
+```
+
+学习因子需确定, 一般取 $$\eta = 0.1$$ 左右.
+
+in-sample error of logistic regression:
+
+$$E_{in}(\vec w) = \frac{1}{N} \sum_{n=1}^{N} \ln \left( 1 + e^{- y_n \vec w ^T \vec x_n} \right)$$
+
+$$\vec g_t = -\frac{1}{N} \sum_{n=1}^{N} \frac{y_n \vec x_n}{1 + e^{y_n \vec w^T (t) \vec x_n}}$$
+
+### 3.2 SGD (stochastic gradient descent)
+
+GD算法计算所有样本的 in-sample error $$E_{in}$$. 我们也可以随机挑选一个样本, 计算单个 in-sample error $$e$$, 并用起梯度更新权重.
+
+- (1) 首先(uniformly)从训练集中随机挑选一个训练样本 $$(\vec x_n, y_n)$$  
+- (2) 计算其误差: $$e_n(\vec w) = \ln(1 + e^{- y_n \vec w^T \vec x_n})$$
+- (3) 计算误差梯度: $$\nabla e_n(\vec w) = \frac{- y_n \vec x_n}{1 + e^{y_n \vec w^T \vec x_n}}$$
+- (4) 权重更新.
+
+$$\begin{align}
+\vec w(t+1) &\leftarrow \vec w(t) - \eta \nabla e_n(\vec w(t)) \\
+    &= \vec w(t) + y_n \vec x_n \left(\frac{\eta}{1 + e^{y_n \vec w^T \vec x_n}} \right)
+\end{align}$$
+
+这与我们使用整个训练集的误差和来优化(batch gradient descent)不同, 这里使用单个样本的误差, 但最后平均值是相同, 因为N个单个样本的权重变化期望为:
+
+$$- \eta \frac{1}{N} \sum_{n=1}^N \nabla e_n(\vec w)$$.
+
+与 batch gradient descent 权重更新中的相同.
+
+### 3.3 初始化和终止条件
+
+在上面的算法流程中, 初始化权重及算法停止条件需要确定.
+
+- 初始化权重 w(0):
+  - (1) 全部为 0 或者
+  - (2) 随机数: 如 均值为0, 方差较小的正太分布中随机选择数值.
+- 终止条件:(优化中重大话题)
+  - 迭代次数
+  - g_t < 阈值
+  - 误差阈值
+  - 混合
+
+### 3.4 线性模型联系
+
+另外书中讲到三个线性模型(线性分类, 线性回归逻辑) 之间其实本质相近.
+
+- 逻辑回归的输入值在[0,1]区间, 如果再设定一个阈值, 那么就可以变为线性分类.
+- 同样, 线性回归也可以设定阈值, 变为线性分类.
+
+[练习3.9](https://github.com/JeremiahZhang/gopython/blob/master/AI/course-learning-from-data-of-caltech/exercise_problems_solu/ch03_linear_model.ipynb) 是证明 线性分类的 error measure, 比线性回归和逻辑回归的 error measure 值小.
+
+因此, 线性回归或逻辑回归得到的权重可以作为线性分类的初始化权重.
+
 ## Sum
+
+本次主要学习了3个线性模型: 线性分类, 线性回归, 逻辑回归, 并了解与它们对应的算法: 感知器学习算法 PLA, 最小二乘法 OLS 和 梯度下降法.
 
 ## 参考
 
@@ -246,4 +354,10 @@ $$\triangle E_{in} \geq -\eta \| \nabla E_{in}(\vec w(t))\|$$.
 
 ## ChangeLog
 
+```
+@Anifacc
+read: 9: 17
+note: 6: 17
+all: 15: 34
+2017-09-12 ~ 09-15 beta 1.0 WX
 ```
