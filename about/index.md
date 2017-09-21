@@ -36,7 +36,7 @@ Know you are
 Free your mind and renew it
 ```
 
-That was inspired by the movie [The Matrix](https://en.wikipedia.org/wiki/The_Matrix):
+That was inspired by the movie [The Matrix](https://en.wikipedia.org/wiki/The_Matrix).
 
 ## Books I read frequently
 
@@ -58,18 +58,6 @@ That was inspired by the movie [The Matrix](https://en.wikipedia.org/wiki/The_Ma
 If you want to contact me, please __[send an email to me][10]__, thanks.
 
 	Immanuel, Peace with Us.
-
-## Support: Buy me a cup of coffee
-
-> Alipay(支付宝)
-
-![alipay](https://dn-jeremiahzhang.qbox.me/image/pay/alipay.JPG)
-
-> Wechat(微信)
-
-![wechatpay](https://dn-jeremiahzhang.qbox.me/image/pay/wechatpay.JPG)
-
-**Your support is greatly appreciated. Thank you!**
 
 ---
 
