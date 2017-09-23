@@ -5,7 +5,7 @@ categories:
 - MachineLearning
 - LearningFromData
 ---
-在书本[1]第4.1节中讲述 overfitting, 4.2节就讲述"治疗" overfitting 的一种办法: Regularization. 本节主要讲述 Regularization 的一些理论, 包括以下内容[1] [2]:
+在书本[1]第4.1节中讲述 overfitting, 4.2节就讲述"治疗" overfitting 的一种办法: Regularization. 本节主要讲述 Regularization 的一些理论, 包括以下内容[1-2]:
 
 - Constraint the Model
 - Weight Decay
