@@ -118,7 +118,7 @@ Polynomial models 线性模型(在 $$\cal Z$$ 空间中来看的话)的一种特
 如果加上 Softer Constraint, 得到 Regularized Regression 问题的矩阵形式.
 
 $$\begin{cases}
-\min_{{\bf w} \in \Bbb R^{Q+1}} E_{in}({\bf w}) = \frac{1}{N} ({\bf Z w - y})^T ({\bf Z w - y})
+\min_{\bf w} \in \Bbb R^{Q+1}} E_{in}({\bf w}) = \frac{1}{N} ({\bf Z w - y})^T ({\bf Z w - y})
  \\
 s.t. \ {\bf w^T w} \leq C \ (\text{the same as} \sum_{q=0}^Q w_q^2 \leq C) \end{cases}$$
 
