@@ -236,7 +236,7 @@ the VC line of reasoning.[1]
 ## 参考
 
 1. [Learning From Data - A Short Course](http://www.amlbook.com/support.html#_echapters) Chapter 1 & Chapter 3 The Linear Model
-2. [Learning From Data: Lecture-Slides L12](http://www.cs.rpi.edu/~magdon/courses/LFD-Slides/SlidesLect11.pdf)
+2. [Learning From Data: Lecture-Slides L12](http://www.cs.rpi.edu/~magdon/courses/LFD-Slides/SlidesLect12.pdf)
 3. [台大机器学习基石-L13_handout.pdf](http://www.csie.ntu.edu.tw/~htlin/mooc/doc/13_handout.pdf)
 4. [台大机器学习基石-L14_handout.pdf](http://www.csie.ntu.edu.tw/~htlin/mooc/doc/14_handout.pdf)
 
