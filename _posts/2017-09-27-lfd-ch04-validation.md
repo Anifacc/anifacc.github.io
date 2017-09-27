@@ -63,16 +63,16 @@ test error $$E_{test}$$ 是 out-of-sample error $$E_{out}$$ 的无偏估计 (很
 
 我们通过训练集 $$\cal D_{train}$$ 训练模型得到一个最终假设 $$g^{-} \in {\cal H}$$, 然后我们用这个假设在验证集(validation set) 上计算 validation error(验证误差)
 
-$$E_{val}(g^{-}) = \frac{1}{K} \sum_{{\bf x}_n \in {\cal D_{val}}}  {\bf e} \left( g^{-}({\bf x}_n, y_n)\right)$$
+$$E_{val}(g^{-}) = \frac{1}{K} \sum_{ {\bf x}_n \in {\cal D_{val}} }  {\bf e} \left( g^{-}({\bf x}_n, y_n)\right)$$
 
 其中 $${\bf e} \left( g^{-}({\bf x}_n, y_n)\right)$$ 为验证集中每个样本的误差. 对于分类问题: $${\bf e} \left( g^{-}({\bf x}_n, y_n)\right) = [[g^{-}({\bf x}) \neq y]]$$, 即 如果 $$g^{-}({\bf x}) \neq y$$, 则误差为1, 否则为0. 对于回归问题, 使用平方误差, 如 $${\bf e} \left( g^{-}({\bf x}_n, y_n)\right) = \left( g^{-}({\bf x}) - y \right)^2$$.
 
 Validation error $$E_{val}$$ 也是 out-of-sample error $$E_{out}$$ 的无偏估计(因为最终假设 $$g^{-} $$ 的确定不依赖于 验证集中的样本, 只依赖与训练集中的样本). 因此有:
 
 $$\begin{align}
-\Bbb E_{{\cal D_{val}}} \left[ E_{val}\right(g^{-})] &= \frac{1}{K} \sum_{{\bf x}_n \in {\cal D_{val}}} \Bbb E_{\cal D_{val}} \left[ {\bf e} \left( g^{-}({\bf x}_n, y_n)\right) \right] \\
-    &= \frac{1}{K} \sum_{{\bf x}_n \in {\cal D_{val}}} \Bbb E_{{\bf x}_n} \left[ {\bf e} \left( g^{-}({\bf x}_n, y_n)\right) \right]\\
-    &= \frac{1}{K} \sum_{{\bf x}_n \in {\cal D_{val}}} E_{out}(g^{-}) \\
+\Bbb E_{{\cal D_{val}}} \left[ E_{val}\right(g^{-})] &= \frac{1}{K} \sum_{ {\bf x}_n \in {\cal D_{val}} } \Bbb E_{\cal D_{val}} \left[ {\bf e} \left( g^{-}({\bf x}_n, y_n)\right) \right] \\
+    &= \frac{1}{K} \sum_{ {\bf x}_n \in {\cal D_{val}} } \Bbb E_{ {\bf x}_n } \left[ {\bf e} \left( g^{-}({\bf x}_n, y_n)\right) \right]\\
+    &= \frac{1}{K} \sum_{ {\bf x}_n \in {\cal D_{val}} } E_{out}(g^{-}) \\
     &= E_{out}(g^{-}) \tag{4.8}
 \end{align}$$
 
