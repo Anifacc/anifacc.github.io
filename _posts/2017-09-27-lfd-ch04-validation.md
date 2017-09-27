@@ -69,7 +69,7 @@ $$E_{val}(g^{-}) = \frac{1}{K} \sum_{ {\bf x}_n \in {\cal D_{val}} }  {\bf e} \l
 
 Validation error $$E_{val}$$ 也是 out-of-sample error $$E_{out}$$ 的无偏估计(因为最终假设 $$g^{-} $$ 的确定不依赖于 验证集中的样本, 只依赖与训练集中的样本). 因此有:
 
-$$\begin{align} \Bbb E_{{\cal D_{val}}} \left[ E_{val}\right(g^{-})] &= \frac{1}{K} \sum_{ {\bf x}_n \in {\cal D_{val}} } \Bbb E_{\cal D_{val}} \left[ {\bf e} \left( g^{-}({\bf x}_n, y_n)\right) \right] \\
+$$\begin{align} \Bbb E_{{\cal D_{val}}} \left[ E_{val} (g^{-}) \right] &= \frac{1}{K} \sum_{ {\bf x}_n \in {\cal D_{val}} } \Bbb E_{\cal D_{val}} \left[ {\bf e} \left( g^{-}({\bf x}_n, y_n)\right) \right] \\
     &= \frac{1}{K} \sum_{ {\bf x}_n \in {\cal D_{val}} } \Bbb E_{ {\bf x}_n } \left[ {\bf e} \left( g^{-}({\bf x}_n, y_n)\right) \right]\\
     &= \frac{1}{K} \sum_{ {\bf x}_n \in {\cal D_{val}} } E_{out}(g^{-}) \\
     &= E_{out}(g^{-}) \tag{4.8} \end{align}$$
