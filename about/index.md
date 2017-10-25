@@ -28,6 +28,7 @@ Hola, I am __Jeremy Anifacc(Lei Zhang)__, a Christian. Now, I am focusing on pra
 
 - Jesus Christ
 - You can learn anything.(Learn from Khan Academy)
+- Investing Intelligently
 - &
 
 ```
@@ -44,7 +45,7 @@ That was inspired by the movie [The Matrix](https://en.wikipedia.org/wiki/The_Ma
 - C.S.Lewis: [Mere Christianity](https://en.wikipedia.org/wiki/Mere_Christianity#The_Case_for_Christianity_.28Broadcast_Talks_in_UK.29)
 - [Poor Charlie's Almanack: The Wit and Wisdom of Charles T. Munger](https://book.douban.com/subject/10485011/)
 
-## Apps & Software
+## Apps & Software & Tools
 
 - Firefox
 - [NoteYoudao](http://note.youdao.com/)
@@ -52,12 +53,25 @@ That was inspired by the movie [The Matrix](https://en.wikipedia.org/wiki/The_Ma
 - MarginNote
 - Window 10(Working)
 - Linux Mint 18.1 Serena Cinnamon(Privately)
+- 双拼(小鹤方案)
 
 ## Hallelujah!
 
 If you want to contact me, please __[send an email to me][10]__, thanks.
 
 	Immanuel, Peace with Us.
+
+## Support: Buy me a cup of coffee
+
+> Alipay(支付宝)
+
+![alipay](https://dn-jeremiahzhang.qbox.me/image/pay/alipay.JPG)
+
+> WeChat(微信)
+
+![wechat](https://dn-jeremiahzhang.qbox.me/image/pay/wechatpay.JPG)
+
+**Your support is greatly appreciated. Thank you!**
 
 ---
 
