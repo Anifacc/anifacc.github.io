@@ -1,6 +1,6 @@
 ---
 layout: post
-title: VPS-Shadowsocks-雅各的天梯
+title: VPS-Shadowsocks-搭天梯
 categories:
 - Toolkit
 ---
@@ -55,6 +55,10 @@ So. __WHY__?
 图文详解请参考[搬瓦工搭建SS与VPN教程-紫杉倒影][2], 本ID就是按着这个教程来的, 只进行到可以科学上网, 其他加速啥的, 尚未设置. 
 
 多人共享使用, 请参考[多人共享][3].
+
+## PS
+
+点击我的[Unique Referral Link](https://bandwagonhost.com/aff.php?aff=14368) 还有些许折扣哦.
 
 ---
 
