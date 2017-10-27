@@ -4,8 +4,6 @@ author: Anifacc
 layout: page
 ---
 
-  <img width="300" height="400" alt="A photo of Anifacc" src="https://dn-jeremiahzhang.qbox.me/me.jpg">
-
 Hola, I am __Jeremy Anifacc(Lei Zhang)__, a Christian. Now, I am focusing on practicing Machine Learning with python, Value Investing to renew my mind, and make life more interesting.
 
 ## Linkings
