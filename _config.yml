@@ -5,7 +5,7 @@ kramdown:
   input: GFM
   hard_wrap: false
   math_engine: mathjax
-  
+
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
@@ -13,7 +13,7 @@ permalink:           pretty
 
 
 # Setup
-title:               Anifacc
+title:               Jeremy Anifacc
 tagline:             'α2Ω'
 description:         'Life is an _if_ case & an accumulation!'
 url:                 https://anifacc.github.io
@@ -24,7 +24,7 @@ paginate:            7
 author:
   name:              Jeremy Anifacc
   url:               https://jeremiahzhang.github.io
-  email:             z.l12@mail.scut.edu.cn
+  email:             zhangleisuda@gmail.com
 
 # Custom vers
 version:             3.0
