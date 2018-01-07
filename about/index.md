@@ -4,23 +4,23 @@ author: Anifacc
 layout: page
 ---
 
-Hola, I am __Jeremy Anifacc(Lei Zhang)__, a Christian. Now, I am focusing on practicing Machine Learning with python, Value Investing to renew my mind, and make life more interesting.
+Hola, I am __Jeremy Anifacc(Lei Zhang)__, a Christian. Now, I am focusing on practicing Machine Learning with Python, Value Investing to renew my mind, and making life more interesting.
 
 ## Linkings
 
 - [Jeremy Anifacc][1]
 - [Github][2]
 - [Gitbook][3]
+- [LinkedIn][9]
 - [~~Jianshu~~][4]
 - [~~Weibo~~][5]
 - [~~Twitter~~][6]
-- [Lofter][7]
-- [Zhihu][8]
-- [LinkedIn][9]
+- [~~Lofter~~][7]
+- [~~Zhihu~~][8]
 
 ## Works
 
-- [C.S.Lewis — 惊喜之旅](http://www.cslewis.site/)(喜爱C.S.Lewis而作)
+- [C.S.Lewis — 惊喜之旅](http://www.cslewis.site/): Journey with C.S.Lewis, for Narnia.
 
 ## What I believe in
 
@@ -51,7 +51,6 @@ That was inspired by the movie [The Matrix](https://en.wikipedia.org/wiki/The_Ma
 - MarginNote
 - Window 10(Working)
 - Linux Mint 18.1 Serena Cinnamon(Privately)
-- 双拼(小鹤方案)
 
 ## Hallelujah!
 
