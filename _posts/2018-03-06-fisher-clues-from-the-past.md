@@ -3,6 +3,7 @@ layout: post
 title: P.A.Fisher: [1]过去的线索
 categories:
 - Fisher
+- DeepValue
 ---
 ## Intro
 
