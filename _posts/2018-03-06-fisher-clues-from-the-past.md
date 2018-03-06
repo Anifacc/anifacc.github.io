@@ -1,6 +1,6 @@
 ---
 layout: post
-title: P.A.Fisher: [1]过去的线索
+title: P.A.Fisher之一过去的线索
 categories:
 - Fisher
 - DeepValue
