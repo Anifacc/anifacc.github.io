@@ -10,6 +10,7 @@ categories:
 - 书名: Common Stocks and Uncommon Profits and Other Writings 
 - By Philip A.Fisher
 - 出版社: John Wiley & Sons
+- 出版日期: 2003年(再版的, 首版是1957年)
 - ISBN 0-471-44550-9
 
 > This book is dedicated to all investors, large and small, who do NOT adhere to the philosophy: "I have already made up my mind, don't confuse me with facts."
@@ -57,4 +58,47 @@ P.Fisher 是给 3-W man: walk-worry-work.(1) 喜欢走路 (2) 常常 worry (3) �
 其实是为了解释给他的顾客听, 这样他的顾客才不会在不必要的时刻把钱退出, 而是放心交给P.Fisher管理. P.Fisher的客户没有超过12个. 
 
 ## 过去的线索
+
+文章第一章的标题是: Clues from the past. 从过去中, 作者获得的一些经验.
+
+1-1 买股票之前, 看看过去以什么样的方法最能赚到钱? 作者看出人们使用两种不同的方法累积财富.
+(1) In the nineteenth century and in the early part of the twentieth century, a number of big fortunes and many small ones were made largely by betting on the business cycle. (2) 在1913年 Federal Reserve System 建立, 以及后面的 Roosevelt 政府关于 证券和交易立法的通过, those who used a different method made far more money and took far less risk. Even in those earlier times, finding the really outstanding companies and staying with them through all the fluctuations of a gyrating market proved far more profitable to far more people than did the more colorful practice of trying to buy them cheap and sell them dear.
+
+第一种方法: 利用市场景气周期, 低买高卖. 第二种方法: 寻找有优秀企业, 和企业共同成长, 不论波动, 经历牛熊. 
+
+思考: 如何低买高卖, 你能否判断市场景气周期, 需要投资人的能力. 
+
+若采用第二种方法, 则需要投资者独特的分辨企业能力. 筛选将来获得显著投资收益的伟大企业, 而非那些未来会从成功走向失败的企业.
+
+> What was required was the ability to distinguish these relatively few companies with outstanding investment possibilities from much great number whose future would vary all the way from the moderately successful to the complete failure.
+
+那么现在(1957)还能否使用第2种方法呢? 作者的答案是: 肯定. 接下来就分析了原因.
+
+- 管理层改变, 
+    - 从家族世袭, 到任才而用, 追寻好的管理.
+    - 企业研究所和实验室不断成长. (研究开发是双刃剑, 研究到收益有利润时间长) 
+        - 警惕管理不良的研究成本.
+- Business cycle: should have influence on investment policies.(在后面的章节中分析.)
+
+最后的总结:
+
+> Before going further, it might be well to summarize briefly the various investment clues that can be gleaned from a study of the past and from a comparison of the major differences, from an investment standpoint, between the past and present. 
+
+> Such a study indicates that the greatest investment reward comes to those who by good luck or good sense find the occasional company that over the years can grow in sales and profits far more than industry as a whole. It further shows that when we believe we have found such a company we had better stick with it for a long period of time. 
+
+> It gives us a strong hint that such companies need not necessarily be young and small. Instead, regardless of size, what really counts is a management having both a determination to attain further important growth and an ability to bring its plans to completion.
+
+> The past gives us a further clue that this growth is often associated with knowing how to organize research in the various fields of the natural sciences so as to bring to market economically worthwhile and usually interrelated product lines. 
+
+> It makes clear to us that a general characteristic of such companies is a management that dose not let its preoccupation with longrange planning prevent it from exerting constant vigilance in performing the day-to-day tasks of ordinary business outstandingly well. 
+
+> Finally, it furnishes considerable assurance that in spite of the very many spectacular investment opporitunities that existed twenty-five or fifty years ago, there are probably even more such opportunities available today.
+
+## log
+
+```
+@Anifacc
+2018-03-06   
+2018-03-07  
+```
 
