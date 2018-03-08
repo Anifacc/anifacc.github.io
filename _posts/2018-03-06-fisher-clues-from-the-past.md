@@ -27,7 +27,7 @@ categories:
 
 > Working for my father was a bumpy ride, a bit like my first professional stock purchase---a reverse "ten bagger": it fell from ten to one. I tell you all this only so you can see that even a kid in his twenties, without a lifetime at the top of his school class, having never attended a big-name university, and with no major accomplishments under his belt to brag on, even that kid could go on and in just a few years learn to effectively use the principles in this book. And so can you.
 
-Yeah, 股市无需天才.
+股市无需天才, 但需要精力.
 
 ## Fifteen Points
 
@@ -39,7 +39,7 @@ A.Fisher在本书中提出的一些理念, 在 K 看来:
 
 > Scuttlebutt and the fifteen points work for growth stocks or value stocks, for big cap stocks or small cap stocks.
 
-K 更多是偏向价值投资这, 而A是成长股投资者.
+K 更多是偏向价值投资者, 而A是成长股投资者.
 
 ## P.A.Fisher
 
@@ -47,7 +47,7 @@ K 在介绍中详细介绍了他们家族和历史, 尤其是他的父亲 P.Fish
 
 > Stanford did not have an investment class as it does now; but as Father has described in other writings, there was then a class that traveled to visit and analyze local business.
 
-因为老Fisher那时读大学时有车, 会开车, 重视载着他的教授 Boris Emmett 去企业采访. 这对老Fisher的影响还是潜移默化的诺.
+因为老Fisher那时读大学时有车, 会开车, 载着他的教授 Boris Emmett 去企业采访. 这对老Fisher影响潜移默化.
 
 P.Fisher 是给 3-W man: walk-worry-work.(1) 喜欢走路 (2) 常常 worry (3) 经常 工作.
 
