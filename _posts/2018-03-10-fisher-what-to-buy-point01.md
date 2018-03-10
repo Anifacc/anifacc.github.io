@@ -14,7 +14,7 @@ Fisher described the fifteen points to look for in a common stock.
 
 **要点一**:
 
-> Point 1: Does the company have products or services with sufficient market potential to make possible a sizeble increase in sales for at least several years?
+> Point 1: Does the company have products or services with sufficient market potential to make possible a size-able increase in sales for at least several years?
 
 一家公司要么提供产品, 要么提供服务, 我们在判断公司的时候, 判断公司的产品和服务是否有足够的市场潜力大幅提高公司未来至少几年的营业额?
 
