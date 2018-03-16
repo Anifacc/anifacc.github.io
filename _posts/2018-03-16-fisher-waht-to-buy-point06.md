@@ -25,6 +25,8 @@ Fisher described the sixth point about what to buy.
 
 产品需求增长率 > 产品生产增长率，那么价格涨幅才会快。 整个行业利润率因产品价格上涨而提升，长期投资者需要考虑，如果其他公司争相进入，对所投资公司构成威胁。
 
+> When profit margins of a whole industry rise because of repeated price increases, the indication is not a good one for the long-range investor.
+
 **讨论02**
 
 提高产品的价格来提升利润率，投资者需谨慎思考分析。如果有公司通过提升产品的质量或设计，而非通过提高价格，那么这些公司值不值得投资者投资呢？
