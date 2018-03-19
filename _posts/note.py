@@ -7,7 +7,7 @@ from time import strftime
 
 def main():
     # init
-    post_name = raw_input("请输入文章英文名__> ")
+    post_name = raw_input("Please enter file name__> ")
     time_tuple = strftime("%Y-%m-%d", gmtime())
     file_name = time_tuple + "-" + post_name + ".md"
 
@@ -19,6 +19,15 @@ def main():
     f.write("- Fisher\n")
     f.write("- DeepValue\n")
     f.write("---\n")
+    f.write("\n")
+    
+    f.write("## log\n")
+    f.write("\n")
+    f.write("```\n")
+    f.write("@Anifacc\n")
+    f.write(time_tuple)
+    f.write("\n")
+    f.write("```")
 
     f.close()
 
