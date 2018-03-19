@@ -1,6 +1,6 @@
 ---
 layout: post
-title: VPS-Shadowsocks-搭天梯
+title: VPS搭梯子
 categories:
 - Toolkit
 ---
