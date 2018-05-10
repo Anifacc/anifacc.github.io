@@ -4,23 +4,23 @@ author: Anifacc
 layout: page
 ---
 
-Hola, I am __Jeremy Anifacc(Lei Zhang)__, a Christian. Now, I am focusing on practicing Machine Learning with Python, Value Investing to renew my mind, and making life more interesting.
+Hola, I am __Jeremy Anifacc__, a Christian. Now, I am focusing on practicing Value Investing with Python to renew my mind, and making life more interesting.
 
 ## Linkings
 
 - [Jeremy Anifacc][1]
 - [Github][2]
 - [Gitbook][3]
-- [LinkedIn][9]
+- [~~LinkedIn~~][8]
 - [~~Jianshu~~][4]
 - [~~Weibo~~][5]
-- [~~Twitter~~][6]
-- [~~Lofter~~][7]
-- [~~Zhihu~~][8]
+- [~~Lofter~~][6]
+- [~~Zhihu~~][7]
 
 ## Works
 
 - [C.S.Lewis — 惊喜之旅](http://www.cslewis.site/): Journey with C.S.Lewis, for Narnia.
+    - You can also visit this site throught [PythonAnywherewhere](http://jeremyanifaccc.pythonanywhere.com/)
 
 ## What I believe in
 
@@ -49,7 +49,6 @@ That was inspired by the movie [The Matrix](https://en.wikipedia.org/wiki/The_Ma
 - [NoteYoudao](http://note.youdao.com/)
 - Atom
 - MarginNote
-- Window 10(Working)
 - Linux Mint 18.1 Serena Cinnamon(Privately)
 
 ## Hallelujah!
@@ -59,10 +58,6 @@ If you want to contact me, please __[send an email to me][10]__, thanks.
 	Immanuel, Peace with Us.
 
 ## Support: Buy me a cup of coffee
-
-> Alipay(支付宝)
-
-![alipay](https://dn-jeremiahzhang.qbox.me/image/pay/alipay.JPG)
 
 > WeChat(微信)
 
@@ -81,8 +76,7 @@ Note: The intro page was inspired by [About Me - 吕小荣](http://mednoter.com/
 [3]:	https://www.gitbook.com/@jeremiahzhang
 [4]:	http://www.jianshu.com/u/e5fdf29b3150
 [5]:	http://weibo.com/ZhangXiaowoStef
-[6]:	https://twitter.com/Jeremy_Anifacc
-[7]:  http://anifacc.lofter.com/
-[8]:  https://www.zhihu.com/people/TolifAnifacc
-[9]:  https://www.linkedin.com/in/lei-zhang-169039ab/
+[6]:  http://anifacc.lofter.com/
+[7]:  https://www.zhihu.com/people/TolifAnifacc
+[8]:  https://www.linkedin.com/in/lei-zhang-169039ab/
 [10]: mailto:zhangleisuda@gmail.com
