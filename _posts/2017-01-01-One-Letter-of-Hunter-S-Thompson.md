@@ -52,11 +52,11 @@ That is another question. It is unquestionably better to enjoy the floating than
 
 The answer --- and, in a sense, the tragedy of life --- is that **we seek to understand the goal and not the man.** 
 
-> we set up a goal which demands of us certain things: and we do these things. We adjust to the demands of a concept which CANNOT be valid. When you were young, let us say that you wanted to be a fireman. I feel reasonably safe in saying that you no longer want to be a fireman. Why Because your perspective has changed. It's not the fireman who changed, but you. **==Every man is the sum total of his reactions to experience==.** As your experiences differ and multiply, you become a different man, and hence your perspective changes. This goes on and on. ==Every reaction is a learning process; every significant experience alters your perspective.==
+> we set up a goal which demands of us certain things: and we do these things. We adjust to the demands of a concept which CANNOT be valid. When you were young, let us say that you wanted to be a fireman. I feel reasonably safe in saying that you no longer want to be a fireman. Why Because your perspective has changed. It's not the fireman who changed, but you. **Every man is the sum total of his reactions to experience.** As your experiences differ and multiply, you become a different man, and hence your perspective changes. This goes on and on. **Every reaction is a learning process; every significant experience alters your perspective.**
 
 **So it would seem foolish, would it not, to adjust our lives to the demands of a goal we see from a different angle every day? How could we ever hope to accomplish anything other than galloping neurosis?**
 
-> The answer, then, must not deal with goals at all, or not with tangible goals, anyway. It would take reams of paper to develop this subject to fulfillment. God only knows how many books have been written on "the meaning of man" and that sort of thing, and god only knows how many people have pondered the subject.(I use the term "god only knowd" purely as an expression.) There's very little sense in my tryingt to give it up to you in the proverbial nutshell, beacause I'm the first to admit my absolute lack of qualifications for reducing the meaning of life to one or two paragraphs.
+> The answer, then, must not deal with goals at all, or not with tangible goals, anyway. It would take reams of paper to develop this subject to fulfillment. God only knows how many books have been written on "the meaning of man" and that sort of thing, and god only knows how many people have pondered the subject.(I use the term "god only known" purely as an expression.) There's very little sense in my trying to give it up to you in the proverbial nutshell, beacause I'm the first to admit my absolute lack of qualifications for reducing the meaning of life to one or two paragraphs.
 
 ---
 
@@ -64,7 +64,7 @@ I'm going to steer clear of the word "exisentialism," but you might keep it in m
 
 > As I said, to put our faith in tangible goals would seem to be, at beat, unwise. So we do not strive to be fireman, we do not strive to be bankers, nor policeman, nor doctors. 
 
-**==WE STRIVE TO BE OURSELVES==**.
+**WE STRIVE TO BE OURSELVES**.
 
 But don't misunderstand me. I don't mean that we can't BE fireman, bankers, or doctors --- **but that we must make the goal conform to the individual**, *rather than make the individual conform to the goal*. 
 
@@ -95,9 +95,9 @@ the definitive act of will which makes a man an individual.**
 
 Let's assume that you think you have a choice of eigth paths to follow (all pre-defined paths, of course). And let's assume that you can't see any real purpose in any of the eight. THEN --- and here is the essence of all I've said --- you MUST FIND A NINTH PATH.
 
-Naturally, it isn't easy as it sounds. You've lived a relatively narrow life, a vertical rather than horizontal existence. So it isn't any too difficult to understand why you seem to feel the way you do. But ** a man who procrastinatese in his CHOOSING will inevitably have his choice made for him by circumstance.
+Naturally, it isn't easy as it sounds. You've lived a relatively narrow life, a vertical rather than horizontal existence. So it isn't any too difficult to understand why you seem to feel the way you do. But a man who procrastinatese in his CHOOSING will inevitably have his choice made for him by circumstance.
 
-So if you now number yourself among the disenchanted, then you have no choice but to accept things as they are, or to seriously seek something else. But beware of looing for goals: look for a way of life. Decide how you want to live and then see what you can do to make a living WITHIN that way of life. But you say, "I don't know where to look; I don't know what to look for."
+So if you now number yourself among the disenchanted, then you have no choice but to accept things as they are, or to seriously seek something else. But beware of looking for goals: look for a way of life. Decide how you want to live and then see what you can do to make a living WITHIN that way of life. But you say, "I don't know where to look; I don't know what to look for."
 
 And there's the crux. 
 
