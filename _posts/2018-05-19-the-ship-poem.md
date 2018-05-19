@@ -13,7 +13,7 @@ categories:
 
 # 船
 
-![boat](https://dn-jeremiahzhang.qbox.me/image/anifacc/2018-05-19-boat.jpg =250x250)
+![Boat](https://dn-jeremiahzhang.qbox.me/image/anifacc/2018-05-19-boat.jpg)
 
 - 作者：[白桦](https://en.wikipedia.org/wiki/Bai_Hua)
 
