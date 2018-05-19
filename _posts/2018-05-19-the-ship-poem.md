@@ -11,7 +11,7 @@ categories:
 
 > 我们的征途是星辰大海。
 
-![boat](https://dn-jeremiahzhang.qbox.me/image/anifacc/2018-05-19-boat.jpg)
+![](https://dn-jeremiahzhang.qbox.me/image/anifacc/2018-05-19-boat.jpg =250x250)
 
 
 # 船
