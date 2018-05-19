@@ -11,10 +11,9 @@ categories:
 
 > 我们的征途是星辰大海。
 
-![](https://dn-jeremiahzhang.qbox.me/image/anifacc/2018-05-19-boat.jpg =250x250)
-
-
 # 船
+
+![boat](https://dn-jeremiahzhang.qbox.me/image/anifacc/2018-05-19-boat.jpg =250x250)
 
 - 作者：[白桦](https://en.wikipedia.org/wiki/Bai_Hua)
 
