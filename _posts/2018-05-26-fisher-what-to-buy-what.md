@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 
+title: P.A.Fisher-投资标的
 categories:
 - Fisher
 - DeepValue
