@@ -2,7 +2,7 @@
 layout: post
 title: 《船》-白桦的诗
 categories:
-- 他山之石
+- Philosopher'sStone
 ---
 
 此前看一席，[王德顺](www.baike.com/wiki/王德顺)在演讲[追求自由的亡命徒](https://v.qq.com/x/cover/7qm4vff0bszr5m0/m0169zkt728.html)最后朗诵了白桦的诗《船》，令人难忘，让我们一起体会一下诗人的宽阔胸怀。「下面的视频来源youtube，无法观看可查阅[白桦的诗《船》](https://www.bilibili.com/video/av4589749/)」
