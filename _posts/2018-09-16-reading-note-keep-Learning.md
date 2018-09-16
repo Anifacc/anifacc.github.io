@@ -71,9 +71,9 @@ Carol Dweck 所写文章, 作者是[看见成长的自己](https://book.douban.c
 延伸阅读:
 
 - [Growing Great Employees by Erika Andersen](http://www.erikaandersen.com/growing-great-employees/)
-- [Being Strategic | Erika Andersen](http://erikaandersen.com/books/being-strategic)
-- [Leading So People Will Follow | Erika Andersen](http://erikaandersen.com/books/leading-so-people-will-follow)
-- [Be Bad First | Erika Andersen](http://erikaandersen.com/books/be-bad-first)
+- [Being Strategic by Erika Andersen](http://erikaandersen.com/books/being-strategic)
+- [Leading So People Will Follow by Erika Andersen](http://erikaandersen.com/books/leading-so-people-will-follow)
+- [Be Bad First by Erika Andersen](http://erikaandersen.com/books/be-bad-first)
 
 ## Why Organizations Don't Learn(Francesca Gino)
 
