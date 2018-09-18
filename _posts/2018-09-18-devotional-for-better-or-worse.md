@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 阅读志:For Better or For Worse
+title: For Better or For Worse
 categories:
 - Philosopher'sStone
 ---
