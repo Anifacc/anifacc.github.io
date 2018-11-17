@@ -4,7 +4,7 @@ author: Anifacc
 layout: page
 ---
 
-Hola, I am __Jeremy Anifacc__, a Christian. Now, I am focusing on practicing Value Investing with Python to renew my mind, and making life more interesting.
+Hola, I am __Jeremy Anifacc__, a Christian & a lifelong learner.
 
 ## Linkings
 
@@ -37,37 +37,11 @@ Free your mind and renew it
 
 That was inspired by the movie [The Matrix](https://en.wikipedia.org/wiki/The_Matrix).
 
-## Books I read frequently
-
-- Bible(daily)
-- C.S.Lewis: [Mere Christianity](https://en.wikipedia.org/wiki/Mere_Christianity#The_Case_for_Christianity_.28Broadcast_Talks_in_UK.29)
-- [Poor Charlie's Almanack: The Wit and Wisdom of Charles T. Munger](https://book.douban.com/subject/10485011/)
-
-## Apps & Software & Tools
-
-- Firefox
-- [NoteYoudao](http://note.youdao.com/)
-- Atom
-- MarginNote
-- Linux Mint 18.1 Serena Cinnamon(Privately)
-
 ## Hallelujah!
 
 If you want to contact me, please __[send an email to me][10]__, thanks.
 
 	Immanuel, Peace with Us.
-
-## Support: Buy me a cup of coffee
-
-> WeChat(微信)
-
-![wechat](https://dn-jeremiahzhang.qbox.me/image/pay/wechatpay.JPG)
-
-**Your support is greatly appreciated. Thank you!**
-
----
-
-Note: The intro page was inspired by [About Me - 吕小荣](http://mednoter.com/about.html).
 
 ---
 
