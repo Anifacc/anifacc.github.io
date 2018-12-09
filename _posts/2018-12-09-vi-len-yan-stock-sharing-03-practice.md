@@ -648,6 +648,11 @@ test）时，通常都不把存货计算在内。
 - “快、狠、准”破产有你份
 - 养成反向思维
 
+## 延伸
+
+- [Fong Shi Ling talks about how to be a constant winner in stock market](https://www.youtube.com/watch?v=bcTsmJiOtp0)
+- [冯时能分享好股 RM1](https://www.youtube.com/watch?v=P1B4KMr1Dwg&list=RDP1B4KMr1Dwg&start_radio=1&t=15)
+
 ## log
 
 ```

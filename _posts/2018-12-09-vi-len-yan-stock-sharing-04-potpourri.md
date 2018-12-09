@@ -393,6 +393,11 @@ EQ 虽然较亲切（因为常带感情），却是损友，亲近她使你荷�
 
 享受复利的奇迹. 享受神奇的复利.
 
+## 延伸
+
+- [Fong Shi Ling talks about how to be a constant winner in stock market](https://www.youtube.com/watch?v=bcTsmJiOtp0)
+- [冯时能分享好股 RM1](https://www.youtube.com/watch?v=P1B4KMr1Dwg&list=RDP1B4KMr1Dwg&start_radio=1&t=15)
+
 ## log
 
 ```

@@ -544,7 +544,10 @@ O-EPS: Operating Earnings Per Share, 读者我参考巴菲特致股东信而得�
 
 > 通常当一只股票被我列入“可买”之名单内时，为谨慎起见，我会先买进 1 千股，使该股出现在我的组合中，然后我一面观察有关股票的市场表现，一面继续通过各种管道，包括阅读年报、文告、分析报告，甚至亲自访问有关公司，以对有关股票有更深入的认识，同时证实我早些时所作的观察是正确的，然后我会分批买进，以完成该股在我的组合中所占的比例。
 
----
+## 延伸
+
+- [Fong Shi Ling talks about how to be a constant winner in stock market](https://www.youtube.com/watch?v=bcTsmJiOtp0)
+- [冯时能分享好股 RM1](https://www.youtube.com/watch?v=P1B4KMr1Dwg&list=RDP1B4KMr1Dwg&start_radio=1&t=15)
 
 ## log
 

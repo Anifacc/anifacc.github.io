@@ -315,6 +315,11 @@ categories:
 
 > “ 冷眼方程式: 反向＋成长＋时间=财富 ” ，就是治本之道 。
 
+## 延伸
+
+- [Fong Shi Ling talks about how to be a constant winner in stock market](https://www.youtube.com/watch?v=bcTsmJiOtp0)
+- [冯时能分享好股 RM1](https://www.youtube.com/watch?v=P1B4KMr1Dwg&list=RDP1B4KMr1Dwg&start_radio=1&t=15)
+
 ## log
 
 ```
