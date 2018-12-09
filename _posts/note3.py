@@ -16,8 +16,8 @@ def main():
     f.write("layout: post\n")
     f.write("title: \n")
     f.write("categories:\n")
-    f.write("- Fisher\n")
-    f.write("- DeepValue\n")
+    f.write("- \n")
+    #f.write("- DeepValue\n")
     f.write("---\n")
     f.write("\n")
     
