@@ -3,7 +3,6 @@ layout: post
 title: P.A.Fisher十五要点之四
 categories:
 - Fisher
-- DeepValue
 ---
 Fisher described the 4th point about what to buy.
 

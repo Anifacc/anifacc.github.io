@@ -3,7 +3,6 @@ layout: post
 title: P.A.Fisher十五要点之九
 categories:
 - Fisher
-- DeepValue
 ---
 Fisher在第九个要点中提出管理的深度问题。
 

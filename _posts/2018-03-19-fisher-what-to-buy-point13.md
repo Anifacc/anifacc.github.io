@@ -3,7 +3,6 @@ layout: post
 title: P.A.Fisher十五要点之十三
 categories:
 - Fisher
-- DeepValue
 ---
 Fisher的第13个要点是：
 

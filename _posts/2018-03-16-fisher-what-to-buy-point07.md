@@ -3,7 +3,6 @@ layout: post
 title: P.A.Fisher十五要点之柒
 categories:
 - Fisher
-- DeepValue
 ---
 Fisher described the 7th point about what to buy.
 

@@ -2,7 +2,7 @@
 layout: post
 title: 聪明的投资者-格雷厄姆简介
 categories:
-- DeepValue
+- Ben Graham
 ---
 
 ## intro

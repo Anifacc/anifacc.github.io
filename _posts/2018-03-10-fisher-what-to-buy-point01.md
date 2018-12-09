@@ -3,7 +3,6 @@ layout: post
 title: P.A.Fisher十五要点之一
 categories:
 - Fisher
-- DeepValue
 ---
 
 Fisher described the fifteen points to look for in a common stock.

@@ -3,7 +3,6 @@ layout: post
 title: P.A.Fisher十五要点之十五
 categories:
 - Fisher
-- DeepValue
 ---
 第15个要点出现，为15个要点划上句号。
 

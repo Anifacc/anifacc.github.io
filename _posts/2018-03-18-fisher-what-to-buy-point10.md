@@ -3,7 +3,6 @@ layout: post
 title: P.A.Fisher十五要点之十
 categories:
 - Fisher
-- DeepValue
 ---
 Fisher第10个要点的问题是关于公司成本分析与财务管理。
 

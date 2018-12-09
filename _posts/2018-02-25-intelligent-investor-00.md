@@ -2,7 +2,7 @@
 layout: post
 title: 聪明的投资者-巴菲特序
 categories:
-- DeepValue
+- Ben Graham
 ---
 
 # The Intelligent Investor

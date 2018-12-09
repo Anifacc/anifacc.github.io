@@ -3,7 +3,6 @@ layout: post
 title: P.A.Fisher十五要点之十一
 categories:
 - Fisher
-- DeepValue
 ---
 Fisher的第11个问题有点长，投资者可以先看看：
 

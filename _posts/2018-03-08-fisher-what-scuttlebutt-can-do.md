@@ -3,7 +3,6 @@ layout: post
 title: P.A.Fisher之二Scuttlebutt
 categories:
 - Fisher
-- DeepValue
 ---
 
 本篇是 Common stocks and uncommon profits 第二篇内容的笔记, 作者主要讲述 Scuttlebutt 是什么?

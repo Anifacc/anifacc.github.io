@@ -3,7 +3,6 @@ layout: post
 title: P.A.Fisher十五要点之十二
 categories:
 - Fisher
-- DeepValue
 ---
 Fisher 问了第12个问题：
 

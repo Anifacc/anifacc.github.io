@@ -3,7 +3,6 @@ layout: post
 title: P.A.Fisher十五要点之六
 categories:
 - Fisher
-- DeepValue
 ---
 Fisher described the sixth point about what to buy.
 

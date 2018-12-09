@@ -3,7 +3,6 @@ layout: post
 title: P.A.Fisher十五要点之八
 categories:
 - Fisher
-- DeepValue
 ---
 Fisher的第八个要点讲述公司内部行政管理人员方面的关系，主要还是管理。
 

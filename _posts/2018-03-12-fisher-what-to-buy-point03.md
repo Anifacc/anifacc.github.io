@@ -3,7 +3,6 @@ layout: post
 title: P.A.Fisher十五要点之三
 categories:
 - Fisher
-- DeepValue
 ---
 Fisher described the fifteen points about what to buy.
 

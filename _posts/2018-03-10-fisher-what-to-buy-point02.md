@@ -3,7 +3,6 @@ layout: post
 title: P.A.Fisher十五要点之二
 categories:
 - Fisher
-- DeepValue
 ---
 Fisher described Point 2 in his book about What to buy.
 
