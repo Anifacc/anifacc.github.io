@@ -24,7 +24,7 @@ def main():
     f.write("## log\n")
     f.write("\n")
     f.write("```\n")
-    f.write("@Anifacc\n")
+    f.write("@Jeremy Anifacc\n")
     f.write(time_tuple)
     f.write("\n")
     f.write("```")
