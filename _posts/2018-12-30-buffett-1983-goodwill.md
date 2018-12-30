@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 阅读志:巴菲特论商誉与摊销 
+title: 阅读志:巴菲特论商誉及其摊销
 categories:
 - Buffett 
 ---
@@ -74,7 +74,7 @@ future earning power in constant 1972 dollars.
 
 税后净有形资产25%的净利润.
 
-(1)
+(一) What
 
 > Thus **our first lesson: businesses logically are worth far more than net
 tangible assets when they can be expected to produce earnings on such
@@ -111,6 +111,8 @@ stations, and an enduring position as the low cost producer in an industry.**
 - (1) 消费者的市场经济专利是主导因素
 - (2) 不受利润监管的政府的专营权: 比如: 电视台,(电力行业就不是了, 受政府价格监管控制)
 - (3) 行业中低成本生产者的持久地位
+
+(二) 喜诗糖果一例
 
 回到喜诗糖果: 1972年, Blue Chip收购喜诗糖果的收购价约为(1700w+800w), 其净有形资产为800w, 与净有形资产差异为 1700w, 分40年摊销, 每年需摊销:42.5w. 1983年, 11年下来, 还需要1232.5w刀. 伯克希尔拥有 Blue Chip 60%的股份, 也就拥有60%的喜诗糖果. 这么看来, 伯克希尔资产负债表上因反应60%的喜诗糖果的会计商誉, 约为750w刀.  
 
@@ -179,9 +181,13 @@ economic Goodwill increased in irregular but very substantial fashion.**
 > Another reality is that **annual amortization charges in the future will
 not correspond to economic costs**. It is possible, of course, that See’s
 economic Goodwill will disappear. But it won’t shrink in even decrements
-or anything remotely resembling them. What is more likely is that the
-Goodwill will *increase* - in current, if not in constant, dollars -
+or anything remotely resembling them. What is more likely is that *the
+Goodwill will increase* - in current, if not in constant, dollars -
 because of inflation.
+
+经济商誉会随通货膨胀而增加.
+
+(三) 商誉与通货膨胀
 
 > That probability exists because true economic Goodwill tends to rise in
 nominal value proportionally with inflation. To illustrate how this
