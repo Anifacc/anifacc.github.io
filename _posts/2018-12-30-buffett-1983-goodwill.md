@@ -119,7 +119,7 @@ purchase of See’s at 💵 17 million  over net tangible assets required that
 a Goodwill account of this amount be established as an asset on Blue
 Chip’s books and that 💵 425,000 be charged to income annually for 40
 years to amortize that asset. By 1983, after 11 years of such charges,
-the $17 million had been reduced to about $12.5 million. Berkshire,
+the 💵 17 million had been reduced to about 💵 12.5 million. Berkshire,
 meanwhile, owned 60% of Blue Chip and, therefore, also 60% of See’s.
 This ownership meant that Berkshire’s balance sheet reflected 60% of See
 ’s Goodwill, or about 💵 7.5 million.
@@ -138,9 +138,9 @@ to make acquisitions, by the market value of the shares given up.
 
 > The assets "purchased" consisted of 40% of everything owned by Blue Chip
 (as noted, Berkshire already owned the other 60%). What Berkshire "paid"
-was more than the net identifiable assets we received by $51.7 million,
-and was assigned to two pieces of Goodwill: $28.4 million to See’s and
-$23.3 million to Buffalo Evening News.
+was more than the net identifiable assets we received by 💵 51.7 million,
+and was assigned to two pieces of Goodwill: 💵 28.4 million to See’s and
+💵 23.3 million to Buffalo Evening News.
 
 收购后, 伯克希尔公司的会计商誉:
 
@@ -170,7 +170,7 @@ boggling and require arbitrary rules.)
 amortization charges that have been deducted as costs in the earnings
 statement each year since acquisition of See’s were not true economic
 costs.** We know that because See’s last year earned 💵 13 million after
-taxes on about $20 million of net tangible assets - a performance
+taxes on about 💵 20 million of net tangible assets - a performance
 indicating the existence of economic Goodwill far larger than the total
 original cost of our accounting Goodwill. **In other words, while
 accounting Goodwill regularly decreased from the moment of purchase,
@@ -189,12 +189,12 @@ works, let’s contrast a See’s kind of business with a more mundane
 business. When we purchased See’s in 1972, it will be recalled, it was
 earning about 💵 2 million on 💵 8 million of net tangible assets. Let us
 assume that our hypothetical mundane business then had 💵 2 million of
-earnings also, but needed $18 million in net tangible assets for normal
+earnings also, but needed 💵 18 million in net tangible assets for normal
 operations. Earning only 11% on required tangible assets, that mundane
 business would possess little or no economic Goodwill.
 
 > A business like that, therefore, might well have sold for the value of
-its net tangible assets, or for $18 million. In contrast, we paid $25
+its net tangible assets, or for 💵 18 million. In contrast, we paid 💵 25
 million for See’s, even though it had no more in earnings and less than
 half as much in "honest-to-God" assets. Could less really have been
 more, as our purchase price implied? The answer is "yes" - *even if both
@@ -205,7 +205,7 @@ anticipated, as we did in 1972, a world of continuous inflation.
 
 > To understand why, imagine the effect that a doubling of the price level
 would subsequently have on the two businesses. Both would need to double
-their nominal earnings to $4 million to keep themselves even with
+their nominal earnings to 💵 4 million to keep themselves even with
 inflation. This would seem to be no great trick: just sell the same
 number of units at double earlier prices and, assuming profit margins
 remain unchanged, profits also must double.
@@ -238,14 +238,14 @@ nominal value for every new dollar invested. (This is the same
 dollar-for-dollar result they would have achieved if they had added
 money to a savings account.)
 
-> See’s, however, also earning $4 million, might be worth 💵 50 million(2 m时的收购价为25 m) if
+> See’s, however, also earning 💵 4 million, might be worth 💵 50 million(2 m时的收购价为25 m) if
 valued (as it logically would be) on the same basis as it was at the
-time of our purchase. So it would have gained $25 million in nominal
+time of our purchase. So it would have gained 💵 25 million in nominal
 value while the owners were putting up only 💵 8 million in additional
-capital - over 💵 3 of nominal value gained for each $1 invested.
+capital - over 💵 3 of nominal value gained for each 💵 1 invested.
 
 > **Remember, even so, that the owners of the See’s kind of business were
-forced by inflation to ante up $8 million in additional capital just to
+forced by inflation to ante up 💵 8 million in additional capital just to
 stay even in real profits. Any unleveraged business that requires some
 net tangible assets to operate (and almost all do) is hurt by inflation.
 Businesses needing little in the way of tangible assets simply are hurt
@@ -313,9 +313,9 @@ business.
 > Assume an investor buys the stock at 💵 100 per share, paying in effect
 💵 80 per share for Goodwill (just as would a corporate purchaser buying
 the whole company). Should the investor impute a 💵 2 per share
-amortization charge annually ($80 divided by 40 years) to calculate
+amortization charge annually (💵 80 divided by 40 years) to calculate
 "true" earnings per share? And, if so, should the new "true" earnings of
-$3 per share cause him to rethink his purchase price?
+💵 3 per share cause him to rethink his purchase price?
 
 = = = = = = = 
 
