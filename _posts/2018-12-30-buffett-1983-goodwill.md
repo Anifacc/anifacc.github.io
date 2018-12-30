@@ -61,12 +61,12 @@ follow. We’ll also mention some implications for investors and managers.
 
 ## 经济商誉
 
-> Blue Chip Stamps bought See’s early in 1972 for $25 million, at which
-time See’s had about $8 million of net tangible assets. (Throughout this
+> Blue Chip Stamps bought See’s early in 1972 for 💵25 million, at which
+time See’s had about 💵8 million of net tangible assets. (Throughout this
 discussion, accounts receivable will be classified as tangible assets, a
 definition proper for business analysis.) This level of tangible assets
 was adequate to conduct the business without use of debt, except for
-short periods seasonally. See’s was earning about $2 million after tax
+short periods seasonally. See’s was earning about 💵2 million after tax
 at the time, and such earnings seemed conservatively representative of
 future earning power in constant 1972 dollars.
 
@@ -115,14 +115,14 @@ stations, and an enduring position as the low cost producer in an industry.**
 回到喜诗糖果: 1972年, Blue Chip收购喜诗糖果的收购价约为(1700w+800w), 其净有形资产为800w, 与净有形资产差异为 1700w, 分40年摊销, 每年需摊销:42.5w. 1983年, 11年下来, 还需要1232.5w刀. 伯克希尔拥有 Blue Chip 60%的股份, 也就拥有60%的喜诗糖果. 这么看来, 伯克希尔资产负债表上因反应60%的喜诗糖果的会计商誉, 约为750w刀.  
 
 > Let’s return to the accounting in the See’s example. Blue Chip’s
-purchase of See’s at $17 million over net tangible assets required that
+purchase of See’s at 💵 17 million  over net tangible assets required that
 a Goodwill account of this amount be established as an asset on Blue
-Chip’s books and that $425,000 be charged to income annually for 40
+Chip’s books and that 💵 425,000 be charged to income annually for 40
 years to amortize that asset. By 1983, after 11 years of such charges,
 the $17 million had been reduced to about $12.5 million. Berkshire,
 meanwhile, owned 60% of Blue Chip and, therefore, also 60% of See’s.
 This ownership meant that Berkshire’s balance sheet reflected 60% of See
-’s Goodwill, or about $7.5 million.
+’s Goodwill, or about 💵 7.5 million.
 
 1983年, 伯克希尔与Blue Chip合并.
 
@@ -150,9 +150,9 @@ $23.3 million to Buffalo Evening News.
 - 水牛城晚报: 23.3 m
 
 > After the merger, therefore, Berkshire was left with a Goodwill asset
-for See’s that had two components: the $7.5 million remaining from the
-1971 purchase, and $28.4 million newly created by the 40% "purchased" in 1983. Our amortization charge now will be about $1.0 million for the
-next 28 years, and $.7 million for the following 12 years, 2002 through 2013.
+for See’s that had two components: the 💵 7.5 million remaining from the
+1971 purchase, and 💵 28.4 million newly created by the 40% "purchased" in 1983. Our amortization charge now will be about 💵 1.0 million for the
+next 28 years, and 💵 0.7 million for the following 12 years, 2002 through 2013.
 
 > In other words, different purchase dates and prices have given us vastly
 different asset values and amortization charges for two pieces of the
@@ -169,7 +169,7 @@ boggling and require arbitrary rules.)
 > But what are the economic realities? **One reality is that the
 amortization charges that have been deducted as costs in the earnings
 statement each year since acquisition of See’s were not true economic
-costs.** We know that because See’s last year earned $13 million after
+costs.** We know that because See’s last year earned 💵 13 million after
 taxes on about $20 million of net tangible assets - a performance
 indicating the existence of economic Goodwill far larger than the total
 original cost of our accounting Goodwill. **In other words, while
@@ -187,8 +187,8 @@ because of inflation.
 nominal value proportionally with inflation. To illustrate how this
 works, let’s contrast a See’s kind of business with a more mundane
 business. When we purchased See’s in 1972, it will be recalled, it was
-earning about $2 million on $8 million of net tangible assets. Let us
-assume that our hypothetical mundane business then had $2 million of
+earning about 💵 2 million on 💵 8 million of net tangible assets. Let us
+assume that our hypothetical mundane business then had 💵 2 million of
 earnings also, but needed $18 million in net tangible assets for normal
 operations. Earning only 11% on required tangible assets, that mundane
 business would possess little or no economic Goodwill.
@@ -225,24 +225,24 @@ business, not the prosperity of the owner.**
 
 但是，至关重要的是，为了实现这一目标，两家企业可能不得不将净有形资产的名义投资增加一倍，因为这是通货膨胀通常对企业施加的经济要求，无论好坏。美元销售额增加一倍意味着必须立即在应收账款和存货中使用更多的美元。在固定资产中使用的美元对通货膨胀的反应会更慢，但可能也是如此。所有这些通胀所需的投资都不会带来回报率的提高。这项投资的动机是企业的生存，而不是业主的繁荣。
 
-> Remember, however, that See’s had net tangible assets of only $8
-million. So it would only have had to commit an additional $8 million to
+> Remember, however, that See’s had net tangible assets of only 💵 8
+million. So it would only have had to commit an additional 💵 8 million to
 finance the capital needs imposed by inflation. The mundane business,
-meanwhile, had a burden over twice as large ? a need for $18 million of
+meanwhile, had a burden over twice as large - a need for 💵 18 million of
 additional capital.
 
-> After the dust had settled, the mundane business, now earning $4 million
-annually, might still be worth the value of its tangible assets, or $36
+> After the dust had settled, the mundane business, now earning 💵 4 million
+annually, might still be worth the value of its tangible assets, or 💵 36
 million. That means its owners would have gained only a dollar of
 nominal value for every new dollar invested. (This is the same
 dollar-for-dollar result they would have achieved if they had added
 money to a savings account.)
 
-> See’s, however, also earning $4 million, might be worth $50 million(2 m时的收购价为25 m) if
+> See’s, however, also earning $4 million, might be worth 💵 50 million(2 m时的收购价为25 m) if
 valued (as it logically would be) on the same basis as it was at the
 time of our purchase. So it would have gained $25 million in nominal
-value while the owners were putting up only $8 million in additional
-capital ? over $3 of nominal value gained for each $1 invested.
+value while the owners were putting up only 💵 8 million in additional
+capital - over 💵 3 of nominal value gained for each $1 invested.
 
 > **Remember, even so, that the owners of the See’s kind of business were
 forced by inflation to ante up $8 million in additional capital just to
@@ -300,19 +300,19 @@ as if the acquisition had been a sensible one.
 > If you cling to any belief that accounting treatment of Goodwill is the
 best measure of economic reality, I suggest one final item to ponder.
 
-> Assume a company with $20 per share of net worth, all tangible assets.
+> Assume a company with 💵 20 per share of net worth, all tangible assets.
 Further assume the company has internally developed some magnificent
 consumer franchise, or that it was fortunate enough to obtain some
 important television stations by original FCC grant. Therefore, it earns
-a great deal on tangible assets, say $5 per share, or 25%.
+a great deal on tangible assets, say 💵 5 per share, or 25%.
 
-> With such economics, it might sell for $100 per share or more, and it
+> With such economics, it might sell for 💵 100 per share or more, and it
 might well also bring that price in a negotiated sale of the entire
 business.
 
-> Assume an investor buys the stock at $100 per share, paying in effect
-$80 per share for Goodwill (just as would a corporate purchaser buying
-the whole company). Should the investor impute a $2 per share
+> Assume an investor buys the stock at 💵 100 per share, paying in effect
+💵 80 per share for Goodwill (just as would a corporate purchaser buying
+the whole company). Should the investor impute a 💵 2 per share
 amortization charge annually ($80 divided by 40 years) to calculate
 "true" earnings per share? And, if so, should the new "true" earnings of
 $3 per share cause him to rethink his purchase price?
@@ -343,7 +343,7 @@ market prices of the securities involved at the time of merger
 and irrespective of whether pooling treatment was allowed.** For
 example, what we truly paid in the Blue Chip merger for 40% of
 the Goodwill of See’s and the News was considerably more than
-the $51.7 million entered on our books. This disparity exists
+the 💵 51.7 million entered on our books. This disparity exists
 because the market value of the Berkshire shares given up in the
 merger was less than their intrinsic business value, which is
 the value that defines the true cost to us.
@@ -356,13 +356,13 @@ purchase - although it’s a good place to look for one.
 economics measured by (1) and that provide reasonable returns measured
 by (2). Accounting consequences will be totally ignored.
 
-> At yearend 1983, net Goodwill on our accounting books totaled $62
-million, consisting of the $79 million you see stated on the asset side
-of our balance sheet, and $17 million of negative Goodwill that is
+> At yearend 1983, net Goodwill on our accounting books totaled 💵 62
+million, consisting of the 💵 79 million you see stated on the asset side
+of our balance sheet, and 💵 17 million of negative Goodwill that is
 offset against the carrying value of our interest in Mutual Savings and
 Loan.
 
-> We believe net economic Goodwill far exceeds the $62 million accounting
+> We believe net economic Goodwill far exceeds the 💵 62 million accounting
 number.
 
 ## log
