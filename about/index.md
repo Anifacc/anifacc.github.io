@@ -11,7 +11,6 @@ Hola, I am __Jeremy Anifacc__, a Christian & a lifelong learner.
 - [Jeremy Anifacc][1]
 - [Github][2]
 - [Gitbook][3]
-- [~~LinkedIn~~][8]
 - [~~Jianshu~~][4]
 - [~~Weibo~~][5]
 - [~~Lofter~~][6]
@@ -20,7 +19,6 @@ Hola, I am __Jeremy Anifacc__, a Christian & a lifelong learner.
 ## Works
 
 - [C.S.Lewis — 惊喜之旅](http://jeremyanifaccc.pythonanywhere.com/): Journey with C.S.Lewis, for Narnia.
-    - You can also visit this site throught [PythonAnywherewhere](http://jeremyanifaccc.pythonanywhere.com/)
 
 ## What I believe in
 
@@ -52,5 +50,4 @@ If you want to contact me, please __[send an email to me][10]__, thanks.
 [5]:	http://weibo.com/ZhangXiaowoStef
 [6]:  http://anifacc.lofter.com/
 [7]:  https://www.zhihu.com/people/TolifAnifacc
-[8]:  https://www.linkedin.com/in/lei-zhang-169039ab/
 [10]: mailto:zhangleisuda@gmail.com
