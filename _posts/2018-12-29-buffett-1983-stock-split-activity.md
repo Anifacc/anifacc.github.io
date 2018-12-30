@@ -10,6 +10,8 @@ categories:
 
 # *Stock Splits and Stock Activity*
 
+## 股票分割与股东质量
+
 > We often are asked why Berkshire does not split its stock.  The assumption behind this question usually appears to be that a split would be a pro-shareholder action.  We disagree.  Let me tell you why.
 
 需要拆分公司股票的前提, 大家认为是对股东有利. 然而巴菲特并不这么认为.
@@ -20,7 +22,7 @@ categories:
 
 股票价格理性反应公司内在价值, 需要股东的理性. 
 
-这么看来, 如果股东(市场上的投资人不理性, 那么市场价格与公司内在价值就会出现偏离.)
+这么看来, 如果股东(市场上的投资人)不理性, 那么市场价格与公司内在价值就会出现偏离.
 
 > If the holders of a company’s stock and/or the prospective buyers attracted to it are prone to make irrational or emotion-based decisions, some pretty silly stock prices are going to appear periodically.  **Manic-depressive personalities produce manic-depressive valuations.**  Such aberrations may help us in buying and selling the stocks of other companies.  But we think it is in both your interest and ours to minimize their occurrence in the market for Berkshire.
 
@@ -35,13 +37,15 @@ conflicting messages* - and then let self selection follow its course.  For exam
 
 > Investors possessing those characteristics are in a small minority, but we have an exceptional collection of them.  I believe well over 90% - probably over 95% - of our shares are held by those who were shareholders of Berkshire or Blue Chip five years ago.  And I would guess that over 95% of our shares are held by investors for whom the holding is at least double the size of their next largest.  **Among companies with at least several thousand public shareholders and more than $1 billion of market value, we are almost certainly the leader in the degree to which our shareholders think and act like owners.  Upgrading a shareholder group that possesses these characteristics is not easy.**
 
-> **Were we to split the stock or take other actions focusing on stock price rather than business value, we would attract an entering class of buyers inferior to the exiting class of sellers.**  At $1300, there are very few investors who can’t afford a Berkshire share.  **Would a potential one-share purchaser be better off if we split 100 for 1 so he could buy 100 shares?  Those who think so and who would buy the stock because of the split or in anticipation of one would definitely downgrade the quality of our present shareholder group.**(*Could we really improve our shareholder group by trading some of our present clear-thinking members for impressionable new ones who, preferring paper to value, feel wealthier with nine $10 bills than with one $100 bill?*) 
+> **Were we to split the stock or take other actions focusing on stock price rather than business value, we would attract an entering class of buyers inferior to the exiting class of sellers.**  At $1300, there are very few investors who can’t afford a Berkshire share.  **Would a potential one-share purchaser be better off if we split 100 for 1 so he could buy 100 shares?  Those who think so and who would buy the stock because of the split or in anticipation of one would definitely downgrade the quality of our present shareholder group.**(*Could we really improve our shareholder group by trading some of our present clear-thinking members for impressionable new ones who, preferring paper to value, feel wealthier with nine 10💵 bills than with one 100💵 bill?*) 
 
 > **People who buy for non-value reasons are likely to sell for non-value reasons. Their presence in the picture will accentuate erratic price swings unrelated to underlying business developments.** 
 
 (股票分割, 引入特质不好的投机者, 那么麻烦啦.) 
 
-> We will try to avoid policies that attract buyers with a short-term focus on our stock price and try to follow policies that attract informed long-term investors focusing on business values. just as you purchased your Berkshire shares in a market populated by rational informed investors, you deserve a chance to sell - should you ever want to - in the same kind of market.  We will work to keep it in existence.
+> **We will try to avoid policies that attract buyers with a short-term focus on our stock price and try to follow policies that attract informed long-term investors focusing on business values.** Just as you purchased your Berkshire shares in a market populated by rational informed investors, you deserve a chance to sell - should you ever want to - in the same kind of market.  We will work to keep it in existence.
+
+## 股市交易
 
 > **One of the ironies of the stock market is the emphasis on activity.**  Brokers, using terms such as “marketability" and “liquidity", sing the praises of companies with high share turnover (**those who cannot fill your pocket will confidently fill your ear**).  **But investors should understand that what is good for the croupier is not good for the customer.  A hyperactive stock market is the pickpocket of enterprise.**
 
@@ -55,7 +59,7 @@ conflicting messages* - and then let self selection follow its course.  For exam
 
 > Days when the market trades 100 million shares (and that kind of volume, when over-the-counter trading is included, is today abnormally low) are a curse for owners, not a blessing - for they mean that owners are paying twice as much to change chairs as they are on a 50-million-share day.  If 100 million-share days persist for a year and the average cost on each purchase and sale is 15 cents a share, the chair-changing tax for investors in aggregate would total about $7.5 billion - an amount roughly equal to the combined 1982 profits of Exxon, General Motors, Mobil and Texaco, the four largest companies in the Fortune 500.
 
-0.15 x 2 x 100 m x 365 x 2/3 = 7,300 million = 7.3 billion (一买一卖交易费用一年) 是财富500强公司中四大公司(Exxon, 通用汽车, 美孚, Texaco)的年利润总和.
+0.15 x 2 x 100 m x 365 x 2/3 = 7,300 million = 7.3 billion (一买一卖交易时的 税费) 是财富500强公司中四大公司(Exxon, 通用汽车, 美孚, Texaco)的年利润总和.
 
 > These companies had a combined net worth of $75 billion at yearend 1982 and accounted for over 12% of both net worth and net income of the entire Fortune 500 list.  **Under our assumption investors, in aggregate, every year forfeit all earnings from this staggering sum of capital merely to satisfy their penchant for “financial flip-flopping".**  In addition, investment management fees of over $2 billion annually - sums paid for chair-changing advice - require the forfeiture by investors of all earnings of the five largest banking organizations (Citicorp, Bank America, Chase Manhattan, Manufacturers Hanover and J. P. Morgan).  **These expensive activities may decide who eats the pie, but they don’t enlarge it.**
 
