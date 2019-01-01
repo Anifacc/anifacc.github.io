@@ -190,8 +190,11 @@ categories:
 阅读和写作同样重要，一个输入，一个输出，做一个主动的自我要求的读者，来掌握阅读的艺术。这是一个过程，一个刻意练习的过程。
     
 
-Saturday, 16. January 2016 10:34AM 1h  
-Sunday, 17. January 2016 01:40AM 
- note 0:45h 前2个层次的阅读+目录   
-Monday, 18. January 2016 10:06AM 1h 3 如何做自我要求的读者
-Tuesday, 19. January 2016 11:04AM 分析阅读 前两个阶段
+## ChangeLog
+
+```
+Saturday, 16. January 2016 10:34AM 1h     
+Sunday, 17. January 2016 01:40AM note 0:45h 前2个层次的阅读+目录      
+Monday, 18. January 2016 10:06AM 1h 3 如何做自我要求的读者    
+Tuesday, 19. January 2016 11:04AM 分析阅读 前两个阶段    
+```
