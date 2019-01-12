@@ -11,16 +11,16 @@ categories:
 The companies in which we have our largest investments have 
 all engaged in significant stock repurchases at times when wide 
 discrepancies existed between price and value.  As shareholders, 
-we find this encouraging and rewarding for two important reasons 
-- one that is obvious, and one that is subtle and not always 
+we find this encouraging and rewarding for two important reasons - 
+one that is obvious, and one that is subtle and not always 
 understood.  The obvious point involves basic arithmetic: major 
 repurchases at prices well below per-share intrinsic business 
 value immediately increase, in a highly significant way, that 
 value.  When companies purchase their own stock, they often find 
-it easy to get $2 of present value for $1.  Corporate acquisition 
+it easy to get 2 dollars of present value for 1 dollar.  Corporate acquisition 
 programs almost never do as well and, in a discouragingly large 
-number of cases, fail to get anything close to $1 of value for 
-each $1 expended.
+number of cases, fail to get anything close to 1 dollar of value for 
+each 1 dollor expended.
 
 The other benefit of repurchases is less subject to precise 
 measurement but can be fully as important over time.  By making 
