@@ -24,7 +24,7 @@ Hola, I am __Jeremy Anifacc__, a Christian & a lifelong learner.
 
 - Python: [gopython repo](https://github.com/JeremiahZhang/gopython/)
 - CS: 
-    - [SICPer | MIT 6.001 course & Structure and Interpretation of Computer Programs Note](https://jeremiahzhang.github.io/SICPer/)
+    - [SICPer MIT 6.001 course & Structure and Interpretation of Computer Programs Note](https://jeremiahzhang.github.io/SICPer/)
 - Engineering
     - [Physics-NVH 文集](https://www.jianshu.com/nb/8041870)
     - [Linear Algebra 文集](https://www.jianshu.com/nb/7906919)
