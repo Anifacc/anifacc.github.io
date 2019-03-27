@@ -68,7 +68,7 @@ $$AS=A\begin{bmatrix}x_1 & x_2 & \cdots & x_n\end{bmatrix}=\begin{bmatrix}\lambd
 
 矩阵的幂：$$A^k=S \Lambda ^ k S^{-1}=S\begin{bmatrix} \lambda_1^k & & \\ & \ddots & \\ & & \lambda_n^k\end{bmatrix}S^{-1}$$.
 
-问题：什么情况下，$$k \rightarrow \infty, A^k \rightarrow zero \ matrix$$？（ALL $$|\lambda| < 1$$）.
+问题：什么情况下，$$k \rightarrow \infty, A^k \rightarrow zero \ matrix$$？（ALL $$\lvert \lambda \rvert < 1$$）.
 
 ## 2.应用：斐波拉契数列
 
