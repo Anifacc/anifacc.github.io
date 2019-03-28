@@ -28,6 +28,7 @@ Hola, I am __Jeremy Anifacc__, a Christian & a lifelong learner.
 - Engineering
     - [Physics-NVH 文集](https://www.jianshu.com/nb/8041870)
     - [Linear Algebra 文集](https://www.jianshu.com/nb/7906919)
+    - [Vibration & Modal Space](https://jeremiahzhang.github.io/modal-space/)
 
 ## What I believe in
 
