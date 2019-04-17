@@ -5,6 +5,7 @@ kramdown:
   input: GFM
   hard_wrap: false
   math_engine: mathjax
+  parse_block_html: true
 
 # Permalinks
 #
