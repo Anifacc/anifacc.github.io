@@ -2,7 +2,7 @@
 layout: post
 title: 阅读志:持续学习
 categories:
-- Philosopher'sStone
+- Stone
 ---
 
 # 学习才是你赢得成功的唯一资本.

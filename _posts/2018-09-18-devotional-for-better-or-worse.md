@@ -2,7 +2,7 @@
 layout: post
 title: For Better or For Worse
 categories:
-- Philosopher'sStone
+- Stone
 ---
 
 The article below is copied from [Fighting for My Marriage](http://www.fightingformymarriage.com/) in YouVesion Bible APP. I like this article, so archive in my blog.

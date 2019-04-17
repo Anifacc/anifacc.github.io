@@ -2,7 +2,7 @@
 layout: post
 title: 阅读志:如何阅读一本书
 categories:
-- Philosopher'sStone
+- Stone
 ---
 书籍很多, 好书很好, 如何阅读一本书非常重要.
 

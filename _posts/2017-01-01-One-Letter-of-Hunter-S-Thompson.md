@@ -2,7 +2,7 @@
 layout: post
 title: Hunter.S.Thompson致友信
 categories:
-- Philosopher'sStone
+- Stone
 ---
 
 今日[csinvesting ](http://csinvesting.org/)上看到[Hunter S. Thompson](https://en.wikipedia.org/wiki/Hunter_S._Thompson)的一封信。

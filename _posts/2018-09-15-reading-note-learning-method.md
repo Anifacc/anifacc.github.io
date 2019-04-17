@@ -2,7 +2,7 @@
 layout: post
 title: 阅读志:学习法
 categories:
-- Philosopher'sStone
+- Stone
 ---
 
 # 费曼学习法
