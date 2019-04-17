@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 阅读志-如何衡量你的人生
+title: 阅读志:如何衡量你的人生
 categories:
 - Stone
 ---
