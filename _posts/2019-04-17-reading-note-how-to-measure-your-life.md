@@ -4,6 +4,9 @@ title: 阅读志:如何衡量你的人生
 categories:
 - Stone
 ---
+* any list
+{:toc}
+
 我们如何衡量自己的人生? 需要外界评价, 还是内在驱动?
 
 ## 目录
