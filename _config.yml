@@ -1,6 +1,5 @@
 # Dependencies
 markdown:            kramdown
-toc_levels:          1..2
 highlighter:         rouge
 kramdown:
   input: GFM
