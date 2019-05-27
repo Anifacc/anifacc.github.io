@@ -8,19 +8,24 @@ from time import strftime
 def main():
     # init
     post_name = input("Please enter file name__> ")
+    # title_name = input("Please input title_name__> ")
     time_tuple = strftime("%Y-%m-%d", gmtime())
     file_name = time_tuple + "-" + post_name + ".md"
+    # title = "title: " + title_name + "\n"
+    title = "title: " + "\n"
+    content_set = "* any list" + "\n" + "{:toc}" + "\n\n"
 
     f = open(file_name, 'w')
     f.write('---\n')
     f.write("layout: post\n")
-    f.write("title: \n")
+
+    f.write(title)
     f.write("categories:\n")
     f.write("- \n")
     #f.write("- DeepValue\n")
     f.write("---\n")
-    f.write("\n")
-    
+    # f.write("\n")
+    f.write(content_set)
     f.write("## log\n")
     f.write("\n")
     f.write("```\n")
