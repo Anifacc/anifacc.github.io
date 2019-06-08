@@ -26,7 +26,7 @@ def main():
     f.write("---\n")
     # f.write("\n")
     f.write(content_set)
-    f.write("## log\n")
+    f.write("## ChangeLog\n")
     f.write("\n")
     f.write("```\n")
     f.write("@Jeremy Anifacc\n")
