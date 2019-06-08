@@ -13,7 +13,7 @@ def main():
     file_name = time_tuple + "-" + post_name + ".md"
     # title = "title: " + title_name + "\n"
     title = "title: " + "\n"
-    content_set = "## Content" + "\n" + "* any list" + "\n" + "{:toc}" + "\n\n"
+    content_set = "Content" + "\n" + "* any list" + "\n" + "{:toc}" + "\n\n"
 
     f = open(file_name, 'w')
     f.write('---\n')
