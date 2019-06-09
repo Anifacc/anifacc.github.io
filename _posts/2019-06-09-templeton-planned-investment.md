@@ -34,7 +34,7 @@ The stock market always has been, and always will be, subject to *wide degrees o
 
 没有计划你的投资, 当你需要"子弹"的时候, 你没有"子弹", 你如何是好呢? 过早卖出或全部卖出, 你有如何是好呢?
 
-If an investor can sell out when the very top is reached and then buy back at the nadir of the subsequent stock market decline, he will indeed, grow rich quickly. But this can be done only by extraordinary luck. We have never found anyone who could forecast the rises and declines of the stock market correctly and consistently. Mr. Alfred Cowles recently completed a week-by-week study of the results which would have been obtained by following strictly the forecasting advice of eleven agencies which have published stock market trend forecasts throughout the 15 years from 1928 to 1943. **He found that the forecasts were correct only 0.2 of 1 percent more than would be expected if the forecasts had been made just at random.**
+If an investor can sell out when the very top is reached and then buy back at the nadir of the subsequent stock market decline, he will indeed, grow rich quickly. But this can be done only by extraordinary luck. We have never found anyone who could forecast the rises and declines of the stock market correctly and consistently. Mr. Alfred Cowles recently completed a week-by-week study of the results which would have been obtained by following strictly the forecasting advice of eleven agencies which have published stock market trend forecasts throughout the 15 years from 1928 to 1943. **He found that the forecasts were correct only 0.2 of 1 percent(0.2%) more than would be expected if the forecasts had been made just at random.**
 
 低买高卖, 说的容易做到难! 没有人能精确预测股市, 不要预测股市如何, 不要想着每一次都能精确地低买高卖.
 
@@ -64,7 +64,7 @@ If an investor can sell out when the very top is reached and then buy back at th
 
 股市一直以来总是处于大幅波动中。当价格不断下跌，本性会让我们更加谨慎。没有事先计划指导的投资者不仅无法在低位加仓（有时是因为他们已无“弹”可用），还会常常因其部分或全部卖出股票而暴露于下行压力之下。相反地，在其他时候商人和朋友们压倒性的热情和乐观，股价被人们的购买欲推高至远离实际价值的高位。
 
-如果投资者能在最高点卖出（做空），随后在市场下跌中全部买回，那么他一定能暴富。但是除非是极其幸运，否则不可能做到。我们从未找到一个能够持续正确地预测股市上升和下跌的人。阿尔弗雷德·考尔斯先生最近完成了对每周结果的研究，这些结果是通过跟踪11家发布股市趋势预测的机构1928～1943年15年内的预测建议所得。他发现，这些预测结果仅比随机预测结果精确0.2%。
+如果投资者能在最高点卖出（做空），随后在市场下跌中全部买回，那么他一定能暴富。但是除非是极其幸运，否则不可能做到。我们从未找到一个能够持续正确地预测股市上升和下跌的人。阿尔弗雷德·考尔斯先生最近完成了对每周结果的研究，这些结果是通过跟踪11家发布股市趋势预测的机构1928～1943年15年内的预测建议所得。他发现，**这些预测结果仅比随机预测结果精确0.2%**。
 
 人们可能会问：如果**没有人能够持续、正确地预测股市趋势**，那么投资计划怎样才能使基金所持有的股票和债券之间保持平衡呢？为了回答这一问题，公司在1938年设立并实际运用了一些可以在不做预测的基础上利用主要市场波动的原则。这些原则后来叫作“耶鲁计划”或“瓦萨尔计划”。媒体曾报导过这两所大学（耶鲁和瓦萨尔）捐款基金运用这些原则所取得的出色收益纪录。
 
