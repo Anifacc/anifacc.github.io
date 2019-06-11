@@ -18,11 +18,11 @@ The economic theory developed by Templeton, Dobbrow & Vance, Inc. for calculatin
 2. Stock prices would be normal if they bore the same relationship to the current cost of replacing the assets of the corporations as has been customary in the latest 20 years.  
 3. When, because of changes in tax laws or changes in the money supply, high-grade preferred stocks sell lower in relation to dividends than has been customary in the last 20 years, then it should be normal for common stocks to sell lower in relation to earnings; and vice versa.
 
-1.**当前PE** 与最近20年的一般水平保持一致.思考: 是静态PE好呢?还是动态PE好呢? 判断当前股价水平, 是不是以静态PE为好, 来判断当前的股价水平?
+1.**当前PE** 与最近20年的一般水平保持一致.思考: 是静态PE好呢?还是动态PE好呢? 判断当前股价水平, 是不是以静态PE为好, 来判断当前的股价水平? 可以参考: [Cyclically adjusted price-to-earnings ratio](https://en.wikipedia.org/wiki/Cyclically_adjusted_price-to-earnings_ratio) by [Robert J. Shiller](http://www.econ.yale.edu/~shiller/)
 
-2.**股价/当前企业资产重置成本**与最近20年的一般水平保持一致. 思考: 如何计算当前企业资产重置成本呢?
+2.**股价/当前企业资产重置成本**与最近20年的一般水平保持一致. 思考: 如何计算当前企业资产重置成本呢? 该概念参考: British economist Andrew Smithers 书籍: [Valuing Wall Street (New York: McGraw-Hill, 2000)](https://book.douban.com/subject/1695411/) and [Wall Street Revalued (Chichester, UK: John Wiley & Sons, 2009)](https://book.douban.com/subject/4054928/).
 
-3.**高评级优先股/分红**比近20年的一般水平低, 那么普通股股价/盈利更低也正常. 反之亦然.
+3.**高评级优先股/分红**比近20年的一般水平低, 那么普通股股价/盈利更低也正常. 反之亦然.(The relationship between the yield on fixed interest securities and the yield on equities is a widely used analytical tool, one formulation of which is the basis of the so-called Federal Reserve model, so called because of its use in research published by the U.S. central bank in the 1990s.) 具体可以阅读[Fed model](https://en.wikipedia.org/wiki/Fed_model).
 
 Although the theory is simple, the actual calculation involves many thousands of figures. We take care to define accurately each word used in the three principles above; and then the arithmetic is worked out on the basis of a large sample of representative stocks.
 
@@ -81,8 +81,9 @@ Fourth Zone Below Normal | 193–214(10%) | 90% Minimum in Stocks
     - 还有没有其他的原则, 可不可以改进? 
 - 市场水平以区间表示, 任何人都无法准确预测市场.
 
+## 总结
 
-
+在上一篇备忘中, 你知道了投资管理不能随意而为, 需要规划: (1) 资金配置 (2) 调仓计划. 在这份备忘录中, 你了解了如何评价股价正常水平, 而后根据股价水平, 有计划调仓配置在股市的资金比例.
 
 ## 参考
 
