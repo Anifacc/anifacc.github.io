@@ -42,6 +42,33 @@ Templeton,Dobbrow and Vance公司首创用于以计算正常水平股价的方�
 
 基于上述原则的正常股价水平比其他尝试计算正常水平机构所得的数据更高。这意味着Templeton,Dobbrow and Vance公司的客户普通股的仓位一直以来都更重，截至目前客户的仓位已经处于盈利水平。
 
+## 根据道指水平调仓^1
+
+One of Templeton’s colleagues at Templeton, Dobbrow & Vance, Brevoort Stout, added some further explanatory detail of the practical issues involved in running such a program for clients. The table at the end of his memo (reproduced here as Table 2.1) illustrates how simply a client’s stock market exposure would be adjusted for different levels of the stock market, as represented by the Dow Jones Industrial Average. 
+
+--- | Dow Jones Industrial Average Above 546 | Program Calls for No Stocks
+---|---|---
+Sixth Zone Above Normal  | 496–546(10%) | 10% Maximum in Stocks
+Fifth Zone Above Normal  | 451–496(10%) | 20% Maximum in Stocks
+Fourth Zone Above Normal | 410–451(10%) | 30% Maximum in Stocks
+Third Zone Above Normal  | 373–410(10%) | 40% Maximum in Stocks
+Second Zone Above Normal | 339–373(10%) | 50% Maximum in Stocks
+First Zone Above Normal  | 308–339(10%) | 60% Maximum in Stocks
+Normal Zone              | 293–308 | No Change Necessary
+First Zone Below Normal  | 264–293(10%) | 60% Minimum in Stocks
+Second Zone Below Normal | 238–264(10%) | 70% Minimum in Stocks
+Third Zone Below Normal  | 214–238(10%) | 80% Minimum in Stocks
+Fourth Zone Below Normal | 193–214(10%) | 90% Minimum in Stocks
+---                      | Below 193 | Fully Invested in Stocks
+
+根据市场水平, 配置在股市内的资金. 道指水平每增加10%, 股市资金就减少10%, 反之亦然. 
+
+- 关键就是如何判断市场处于正常水平(Normal Zone). 
+- 市场水平以区间表示, 任何人都无法准确预测市场.
+
+
+
+
 ## 参考
 
 1. [Templeton's Way with Money](https://book.douban.com/subject/6915772/)
