@@ -7,7 +7,6 @@ categories:
 Content
 * any list
 {:toc}
-
 计划你的交易, 交易你的计划. 计划你的投资, 投资你的计划. 有计划投资, 是不是能确保投资呢? 看看约翰邓普顿在他写给投资者的备忘录中如何说的.
 
 ## 原文: Memorandum to Clients 1945 ^[1]
