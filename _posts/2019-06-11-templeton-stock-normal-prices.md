@@ -10,9 +10,9 @@ categories:
 
 证券投资需管理资金的投资, 包括: 资金配置和调仓计划, 那么如何调仓并配置资金呢? 如果是你, 你会如何配置资金和调仓, 你的依据有哪些呢? 下面是邓普顿备忘录中描述如何评估股市正常水平, 其基金公司同事也解释了公司是如何根据道指水平调整客户在股市内的资金比例.
 
-## What Is Normal for Stock Prices?
+## What Is Normal for Stock Prices?^[1]
 
-From: Confidential Memorandum to Clients(May 17, 1954)^[1]
+From: Confidential Memorandum to Clients(May 17, 1954)
 
 The economic theory developed by Templeton, Dobbrow & Vance, Inc. for calculating the normal level of stock prices is simple. There are only three elements:
 
