@@ -32,7 +32,7 @@ Fourth Zone Below Normal | 193–214(10%) | 90% Minimum in Stocks
 
 ![Standard&Poors1922-1956-en](https://raw.githubusercontent.com/Anifacc/anifacc.github.io/master/images/templeton-normal-stock-prices-en.png)
 
-![Standard&Poors1922-1956-cn](https://raw.githubusercontent.com/Anifacc/anifacc.github.io/master/images/templeton-normal-stock-prices-cn.png)
+![Standard&Poors1922-1956-cn](https://raw.githubusercontent.com/Anifacc/anifacc.github.io/master/images/templeton-normal-stock-prices-cn.png =762x382)
 
 上图中阴影部分是该公司评估的股价正常水平, B: Buy 代表买入, S: Sell 代表卖出. 上图中使用的是标准普尔指数S&P(425只股票), 如何判断市场(指数)的正常水平区域, 可以参考[邓普顿投资备忘录(1954)之股价正常水平](https://anifacc.github.io/templeton/2019/06/11/templeton-stock-normal-prices/). 根据市场平均水平, 以及计划, 交易操作. 从上图可以看出, 1920 - 1930年S&P呈现上升形态. 如果根据其正常水平区间, 会慢慢减少在股市中的资金比例, 会错过最高水平的收益. 然而这是事后来看的, 身在当时, 任何人也无法预测短期市场走势, 更别想这在最高点抛出了. 
 
