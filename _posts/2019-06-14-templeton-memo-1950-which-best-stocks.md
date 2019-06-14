@@ -71,7 +71,9 @@ Usually a stock selected for purchase because its market price is very low in re
 
 > 通常一只因为其股价相对于内在价值过低而买进的股票迟早会引起大众的兴趣，而使得市价回升至内在价值之上。但是即使股票没有变成大众热点，在长期该投资还是会被证明是有利可图的。比如，如果你买入一只20美元的股票，那么每股有20美元的资产，其每年可以产生20%的盈利且将其中一半派发投资者，仅持有该股5年，你就能收到超过10美元的股息且每股资产也将增加超过10美元。换言之，尽管该股票仍然不热门且以相对盈利、股息和资产价值更低的股价交易，你仍然可能得到100%的投资利润。无论何时你能以低价买入大量的未来赢利能力，这都是一笔好投资. ^[2]
 
+<div align=center>
 ![gross-revenue/net-income](https://raw.githubusercontent.com/Anifacc/anifacc.github.io/master/images/templeton-gross-revenue-to-netincome.png)
+</div>
 
 ## 参考
 
