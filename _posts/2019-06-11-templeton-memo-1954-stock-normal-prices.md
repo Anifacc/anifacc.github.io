@@ -9,7 +9,7 @@ categories:
 {:toc}
 证券投资需管理资金的投资, 包括: 资金配置和调仓计划, 那么如何调仓并配置资金呢? 如果是你, 你会如何配置资金和调仓, 你的依据有哪些呢? 下面是邓普顿备忘录中描述如何评估股市正常水平, 其基金公司同事也解释了公司是如何根据道指水平调整客户在股市内的资金比例.
 
-## What Is Normal for Stock Prices?^[1]
+## What Is Normal for Stock Prices?[^1]
 
 From: Confidential Memorandum to Clients(May 17, 1954)
 
@@ -39,7 +39,7 @@ In the latest 20 years normal has shown a strong upward tendency, partly because
 
 Normal for stock prices based on the principles expressed above has been computed consistently at a higher figure than the figure arrived at by any other agency attempting to calculate normal. This has meant that the clients of Templeton, Dobbrow & Vance, Inc. have been more heavily invested in common stocks and this has been a profitable situation so far.
 
-## 何为股价正常水平^[2]
+## 何为股价正常水平[^2]
 
 Templeton,Dobbrow and Vance公司首创用于以计算正常水平股价的方法，其经济学理论非常简单，只有以下三条原则。
 
@@ -55,7 +55,7 @@ Templeton,Dobbrow and Vance公司首创用于以计算正常水平股价的方�
 
 基于上述原则的正常股价水平比其他尝试计算正常水平机构所得的数据更高。这意味着Templeton,Dobbrow and Vance公司的客户普通股的仓位一直以来都更重，截至目前客户的仓位已经处于盈利水平。
 
-## 根据市场水平调仓^1
+## 根据市场水平调仓[^1]
 
 One of Templeton’s colleagues at Templeton, Dobbrow & Vance, Brevoort Stout, added some further explanatory detail of the practical issues involved in running such a program for clients. The table at the end of his memo (reproduced here as Table 2.1) illustrates how simply a client’s stock market exposure would be adjusted for different levels of the stock market, as represented by the Dow Jones Industrial Average. 
 
@@ -86,14 +86,14 @@ Fourth Zone Below Normal | 193–214(10%) | 90% Minimum in Stocks
 
 在上一篇备忘中, 你知道了投资管理不能随意而为, 需要规划: (1) 资金配置 (2) 调仓计划. 在这份备忘录中, 你了解了如何评价股价正常水平, 而后根据股价水平, 有计划调仓配置在股市的资金比例. 当然, 这只是大致的思想, 你是否可以据此修正纳入自己的投资原则之中呢?
 
-## 参考
-
-1. [Templeton's Way with Money](https://book.douban.com/subject/6915772/)
-2. [约翰•邓普顿的投资之道](https://book.douban.com/subject/25723410/)
-
 ## ChangeLog
 
 ```
 @Jeremy Anifacc
 2019-06-11
 ```
+
+---
+
+[^1]:[Templeton's Way with Money](https://book.douban.com/subject/6915772/)
+[^2]:[约翰•邓普顿的投资之道](https://book.douban.com/subject/25723410/)

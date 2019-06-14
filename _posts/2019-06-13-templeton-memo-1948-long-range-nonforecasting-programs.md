@@ -11,7 +11,7 @@ Content
 
 ## The Best Thing That Could Happen
 
-From: Memorandum to Clients September 21, 1948^[1]
+From: Memorandum to Clients September 21, 1948[^1]
 
 The stock market went down yesterday. My friends in Wall Street are sad. I can understand their emotions; but it only illustrates again the fact that more and more investors should adopt and adhere to **the long-range non-forecasting programs** used by the clients of Templeton, Dobbrow & Vance, Inc. These programs are **designed to profit from stock market cycles without the need for predicting such cycles**.
 
@@ -39,7 +39,7 @@ This memorandum is not written merely to point out the silver lining of a cloud.
 
 坚持长投投资计划, 享受复利.
 
-## 可能发生的最好之事^[2]
+## 可能发生的最好之事[^2]
 
 股市昨日下跌了。我在华尔街的朋友们很悲伤。我可以理解他们的心情，但这只是再一次佐证了一个事实，即越来越多的投资者应该采用并遵守长期非预测的投资，就像Templeton,Dobbrow and Vance公司的客户们那样。这些投资项目是为了**能在不预测市场周期的基础上赚取收益而设计的**。
 
@@ -63,14 +63,14 @@ This memorandum is not written merely to point out the silver lining of a cloud.
 
 从邓普顿的备忘录中, 你是否可以看出长期非预测投资计划的益处, 它虽然不能保证你一定赚最多的钱, 起码长期非预测投资计划可以确保你不去预测股市, 在低估中慢慢买入便宜的股票, 耐心等待.
 
-## 参考
-
-1. [Templeton's Way with Money](https://book.douban.com/subject/6915772/)
-2. [约翰•邓普顿的投资之道](https://book.douban.com/subject/25723410/)
-
 ## ChangeLog
 
 ```
 @Jeremy Anifacc
 2019-06-13
 ```
+
+---
+
+[^1]:[Templeton's Way with Money](https://book.douban.com/subject/6915772/)
+[^2]:[约翰•邓普顿的投资之道](https://book.douban.com/subject/25723410/)

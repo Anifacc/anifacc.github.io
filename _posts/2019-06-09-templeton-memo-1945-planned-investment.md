@@ -9,7 +9,7 @@ Content
 {:toc}
 计划你的交易, 交易你的计划. 计划你的投资, 投资你的计划. 有计划投资, 是不是能确保投资呢? 看看约翰邓普顿在他写给投资者的备忘录中如何说的.
 
-## 原文: Memorandum to Clients 1945 ^[1]
+## 原文: Memorandum to Clients 1945[^1]
 
 It is a continual source of surprise to Mr. Vance, Mr. Dobbrow and me, when speaking for the first time with investors with whom we have not spoken before, that **so very many people seem never to have thought out comprehensively the nature and problems of investment management.** So many go along, year after year, in a haphazard manner, buying a stock now and then whenever some situation, which particularly strikes their fancy, is called to their attention.
 
@@ -49,7 +49,7 @@ If an investor can sell out when the very top is reached and then buy back at th
 
 计划需要时间, 投资需要耐心, 需要坚持.
 
-## 译文^[2]
+## 译文[^2]
 
 从初次与未曾交谈过的投资者讨论起，万斯先生（Vance）、杜布劳先生（Dobbrow）和我就一直惊讶于有如此多人从未对投资管理的本质和问题有过大致了解。许多人年复一年随意地时不时地买入股票，其幻想不断遭受打击，这些人请注意。
 
@@ -71,14 +71,14 @@ If an investor can sell out when the very top is reached and then buy back at th
 
 **任何好的长期投资都需要耐心和坚持。也许这也是为什么只有极少数投资者能遵循计划的原因。**可能需要许多年，随意买入股票的风险才会以亏损形式显露出来。也可能需要许多年，用经验来证明规划投资能带来更高的安全性和持续增长。但在20年里，期望规划投资带来100%的收益并不过分。(注: 这是个有趣的现象。可以假定他的意思是，投入资金能够翻番。初始投资若要在20年内翻番，必须每年增长3.5%。)
 
-## 参考
-
-1. [Templeton's Way with Money](https://book.douban.com/subject/6915772/)
-2. [约翰•邓普顿的投资之道](https://book.douban.com/subject/25723410/)
-
 ## ChangeLog
 
 ```
 @Jeremy Anifacc
 2019-06-09
 ```
+
+---
+
+[^1]:[Templeton's Way with Money](https://book.douban.com/subject/6915772/)
+[^2]:[约翰•邓普顿的投资之道](https://book.douban.com/subject/25723410/)

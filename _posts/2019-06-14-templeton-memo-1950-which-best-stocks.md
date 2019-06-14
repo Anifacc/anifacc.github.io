@@ -47,7 +47,7 @@ To appraise the value of a stock the analyst must consider not just one or two *
 
 The appraisal of value is complex and subject to numerous uncertainties. *It should not be expected that all selections made on this basis, or any other basis, can prove successful.* **But although the “intrinsic value” is only an estimate, the person or company whose studies are crystalized logically, systematically and consistently into a specific estimate has an advantage over other stock purchasers and sellers whose ideas are often nebulous and incomplete.** A comprehensive and systematic analysis reduces the human tendency to overemphasize one or two dramatic factors and overlook others.
 
-> 评估公司价值复杂且受制于各种不确定因素. 我们不应当期待在此基础上或其他基础上做出的选择被证明是成功的。但是尽管“内在价值”只是一个估计值，根据这种一致的逻辑清晰的系统研究所得算出估计值的公司或个人，相对于那些观念含糊且不完善的股票买卖者总是有优势的。广泛而系统的研究减少了对戏剧性因素过度反应或反应不足的人类天性。^[2]
+> 评估公司价值复杂且受制于各种不确定因素. 我们不应当期待在此基础上或其他基础上做出的选择被证明是成功的。但是尽管“内在价值”只是一个估计值，根据这种一致的逻辑清晰的系统研究所得算出估计值的公司或个人，相对于那些观念含糊且不完善的股票买卖者总是有优势的。广泛而系统的研究减少了对戏剧性因素过度反应或反应不足的人类天性。[^2]
 
 **The investor who purchases a stock because of basic value can enjoy a certain peace of mind.** If after purchasing a stock at a low price in relation to value, the price continues to decline, then it is simply a better bargain than it was before. On the other hand, the speculator who purchases in the hope of a quick profit places himself at the mercy of market fluctuations, because he can succeed only by selling his shares to other speculators at higher prices.
 
@@ -73,14 +73,14 @@ Usually a stock selected for purchase because its market price is very low in re
 
 ![gross-revenue/net-income](https://raw.githubusercontent.com/Anifacc/anifacc.github.io/master/images/templeton-gross-revenue-to-netincome.png){: .text-center}
 
-## 参考
-
-[^1]:[Templeton's Way with Money](https://book.douban.com/subject/6915772/)
-[^2]:[约翰•邓普顿的投资之道](https://book.douban.com/subject/25723410/)
-
 ## ChangeLog
 
 ```
 @Jeremy Anifacc
 2019-06-14
 ```
+
+---
+
+[^1]:[Templeton's Way with Money](https://book.douban.com/subject/6915772/)
+[^2]:[约翰•邓普顿的投资之道](https://book.douban.com/subject/25723410/)

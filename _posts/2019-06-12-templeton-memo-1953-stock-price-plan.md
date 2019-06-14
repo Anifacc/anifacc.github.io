@@ -9,7 +9,7 @@ Content
 {:toc}
 上一篇邓普顿在备忘录中讲述判断股价正常水平的原则, 本篇文章备份下邓普顿基金公司(Templeton, Dobbrow & Vance Inc)实操图例说明以及邓普顿的一些评论.
 
-## 图例说明^[1-2]
+## 图例说明[^1]
 
 One of Templeton’s colleagues at Templeton, Dobbrow & Vance, Brevoort Stout, added some further explanatory detail of the practical issues involved in running such a program for clients. The table at the end of his memo (reproduced here as Table 2.1) illustrates how simply a client’s stock market exposure would be adjusted for different levels of the stock market, as represented by the Dow Jones Industrial Average. 
 
@@ -45,7 +45,7 @@ Fourth Zone Below Normal | 193–214(10%) | 90% Minimum in Stocks
 ![fund-a-en](https://raw.githubusercontent.com/Anifacc/anifacc.github.io/master/images/templeton-fund-a-en.png)
 ![fund-a-cn](https://raw.githubusercontent.com/Anifacc/anifacc.github.io/master/images/templeton-fund-a-cn.png)
 
-下表^[2]是邓普顿的评论表, 对于道指水平的评论.
+下表[^2]是邓普顿的评论表, 对于道指水平的评论.
 
 ![dow-index-en](https://raw.githubusercontent.com/Anifacc/anifacc.github.io/master/images/templeton-1947-predict-dow-index-en.png)
 
@@ -55,14 +55,14 @@ Fourth Zone Below Normal | 193–214(10%) | 90% Minimum in Stocks
 
 根据邓普顿的评述, 对于你判断市场水平, 以及何时进场, 思考市场, 是否有所帮助呢?
 
-## 参考
-
-1. [Templeton's Way with Money](https://book.douban.com/subject/6915772/)
-2. [约翰•邓普顿的投资之道](https://book.douban.com/subject/25723410/)
-
 ## ChangeLog
 
 ```
 @Jeremy Anifacc
 2019-06-12
 ```
+
+---
+
+[^1]:[Templeton's Way with Money](https://book.douban.com/subject/6915772/)
+[^2]:[约翰•邓普顿的投资之道](https://book.douban.com/subject/25723410/)
