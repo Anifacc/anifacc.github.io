@@ -29,7 +29,7 @@ Other people use the words “best stocks” to mean stocks having **“a good s
 
 Now when we use the words “best stocks,” **we mean simply the best values—that is to say, those stocks whose market prices are lowest in relation to their intrinsic value.** The question of **investment quality and the question of short-term outlook are only two among the multitude of factors which must be computed and combined in the complex task of estimating the intrinsic value.** For each stock we arrive at a specific estimate of intrinsic value. These estimates are kept up-to-date by frequent review. Each month the market price for each stock is compared with the estimated intrinsic value of that stock.
 
-当公司市价低于公司内在价值式, 买入该公司股权. 公司的市价很容易得到, 那么如何判断公司的内在价值呢? 你有没有一套方法判断公司内在价值呢? 
+当公司市价低于公司内在价值时, 买入该公司股权. 公司的市价很容易得到, 那么如何判断公司的内在价值呢? 你有没有一套方法判断公司内在价值呢? 
 
 公司市价的最低点, 你能预测么? 如果你无法预测, 是不是判断公司内在价值更合理一些呢? 等待市价低于其内在价值, 到达某一区域, 开始建仓.
 
@@ -47,7 +47,7 @@ To appraise the value of a stock the analyst must consider not just one or two *
 
 The appraisal of value is complex and subject to numerous uncertainties. *It should not be expected that all selections made on this basis, or any other basis, can prove successful.* **But although the “intrinsic value” is only an estimate, the person or company whose studies are crystalized logically, systematically and consistently into a specific estimate has an advantage over other stock purchasers and sellers whose ideas are often nebulous and incomplete.** A comprehensive and systematic analysis reduces the human tendency to overemphasize one or two dramatic factors and overlook others.
 
-> 评估公司价值复杂且受制于各种不确定因素. 我们不应当期待在此基础上或其他基础上做出的选择被证明是成功的。但是尽管“内在价值”只是一个估计值，根据这种一致的逻辑清晰的系统研究所得算出估计值的公司或个人，相对于那些观念含糊且不完善的股票买卖者总是有优势的。广泛而系统的研究减少了对戏剧性因素过度反应或反应不足的人类天性。
+> 评估公司价值复杂且受制于各种不确定因素. 我们不应当期待在此基础上或其他基础上做出的选择被证明是成功的。但是尽管“内在价值”只是一个估计值，根据这种一致的逻辑清晰的系统研究所得算出估计值的公司或个人，相对于那些观念含糊且不完善的股票买卖者总是有优势的。广泛而系统的研究减少了对戏剧性因素过度反应或反应不足的人类天性。^[2]
 
 **The investor who purchases a stock because of basic value can enjoy a certain peace of mind.** If after purchasing a stock at a low price in relation to value, the price continues to decline, then it is simply a better bargain than it was before. On the other hand, the speculator who purchases in the hope of a quick profit places himself at the mercy of market fluctuations, because he can succeed only by selling his shares to other speculators at higher prices.
 
@@ -55,13 +55,13 @@ The appraisal of value is complex and subject to numerous uncertainties. *It sho
 
 The investor who selects stocks on the basis of long-term intrinsic value must expect certain problems. 
 
-(1)
+> (1) 买入不受大众欢迎的公司
 
 **In the first place, he should expect usually to purchase stocks which are thoroughly unpopular. Only when a stock is unpopular is the price likely to be depressed greatly below intrinsic value. It is not easy to act contrary to popular opinion.** When the price of a stock is very low, there are usually obvious reasons which have caused others to sell the shares and thereby depress the price. 
 
 For example, after the Japanese attack at Pearl Harbor the outlook for the automobile industry was recognized as unfavorable. It was widely predicted that the manufacture of automobiles might be stopped completely. Shares of General Motors sold as low as 28⅝. The manufacture of automobiles was in fact stopped completely a few months later and not resumed for several years. However, the bargain hunters, who were willing to act against public opinion and purchase General Motors below 30 after Pearl Harbor, were well rewarded because the shares were later split 2-for-1 and are now selling at 47.
 
-(2)
+> (2) 长期内在价值投资者不要期望购入公司股票后立即盈利
 
 In the second place, **the investor who selects stocks on the basis of long-term intrinsic value should not expect that the stocks selected will immediately begin to show a profit.** If the intrinsic value of a stock is estimated at $40 and then over a period of years unfavorable news depresses the price to $20, the investor may begin to buy this stock because it appears to be one of the best bargains in the market. However, it would be an unusual coincidence if he should happen to make the purchase just at the time when the downward trend is reversed. *Ordinarily the downward trend persists for at least a few weeks and sometimes much longer.* The investor may hold the shares for a long time before others begin to recognize the intrinsic value.
 
