@@ -69,14 +69,14 @@ In the second place, **the investor who selects stocks on the basis of long-term
 
 Usually a stock selected for purchase because its market price is very low in relation to intrinsic value sooner or later attracts public favor so that the market price rises above intrinsic value. Even if the stock does not become popular, however, the investment may prove lucrative in the long run. For example, if you can purchase at $20 a stock having $20 a share in assets, earning 20 percent annually on assets and paying out half of earnings, then simply by holding this stock for five years you will receive more than $10 in dividends and more than $10 in the form of increased assets per share. In other words, you may obtain even 100 percent profit on the investment even though the stock continues to be unpopular and sells equally low in relation to earnings, dividends and asset values. Whenever you can buy a large amount of future earning power for a low price, you have made a good investment. (See Table Below)
 
-> 通常一只因为其股价相对于内在价值过低而买进的股票迟早会引起大众的兴趣，而使得市价回升至内在价值之上。但是即使股票没有变成大众热点，在长期该投资还是会被证明是有利可图的。比如，如果你买入一只20美元的股票，那么每股有20美元的资产，其每年可以产生20%的盈利且将其中一半派发投资者，仅持有该股5年，你就能收到超过10美元的股息且每股资产也将增加超过10美元。换言之，尽管该股票仍然不热门且以相对盈利、股息和资产价值更低的股价交易，你仍然可能得到100%的投资利润。无论何时你能以低价买入大量的未来赢利能力，这都是一笔好投资. ^[2]
+> 通常一只因为其股价相对于内在价值过低而买进的股票迟早会引起大众的兴趣，而使得市价回升至内在价值之上。但是即使股票没有变成大众热点，在长期该投资还是会被证明是有利可图的。比如，如果你买入一只20美元的股票，那么每股有20美元的资产，其每年可以产生20%的盈利且将其中一半派发投资者，仅持有该股5年，你就能收到超过10美元的股息且每股资产也将增加超过10美元。换言之，尽管该股票仍然不热门且以相对盈利、股息和资产价值更低的股价交易，你仍然可能得到100%的投资利润。无论何时你能以低价买入大量的未来赢利能力，这都是一笔好投资.^[2]
 
 ![gross-revenue/net-income](https://raw.githubusercontent.com/Anifacc/anifacc.github.io/master/images/templeton-gross-revenue-to-netincome.png){: .text-center}
 
 ## 参考
 
-[^1]: [Templeton's Way with Money](https://book.douban.com/subject/6915772/)
-[^2]: [约翰•邓普顿的投资之道](https://book.douban.com/subject/25723410/)
+[^1]:[Templeton's Way with Money](https://book.douban.com/subject/6915772/)
+[^2]:[约翰•邓普顿的投资之道](https://book.douban.com/subject/25723410/)
 
 ## ChangeLog
 
