@@ -38,7 +38,7 @@ A far wiser method for increasing your income is to **select stocks with the hig
 
 Such earnings are partly reinvested by the company for the benefit of stockholders which, in turn, leads to still higher earnings per share in future years. **Of course, in seeking such stocks you should skip those whose earnings are high for one or two years for abnormal reasons and search rather for those likely to have a high level of earnings for many years in the future.**
 
-### 2.Growth Stocks(Earn More, Increased Dividends in Future years)
+### 2.Growth Stocks(Earn More, Increased Dividends in Future Years)
 
 > (2) Growth Stocks: 未来盈利多且不断增加, 分红不断增加的公司. 
 
