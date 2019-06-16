@@ -8,22 +8,28 @@ categories:
 * any list
 {:toc}
 
-## Rules[^1]
+## Rules[^1][^2]
 
 1. Invest for maximum real total return
 2. Invest: don't trade or speculate
-3. Remain flexible
+3. Remain flexible and open-minded about types of investment
+    - "The fact is there is no one kind of investment that is always best."
 4. Buy low
-5. Search for quality among bargain stocks
-6. Buy value, not market trends
-7. Diversify your holdings
-8. Do your homework
+5. When buying stocks, search for quality among bargain stocks
+6. Buy value, not market trends or the economic outlook
+7. Diversify your holdings 
+8. Do your homework or hire wise experts to help you
 9. Aggressively monitor your investments
 10. Don't panic
+    - Don't rush to sell the next day. 
+    - The time to sell is before the crash, not after
+    - If you can't find more attractive stocks, hold on to what you have.
 11. Learn from you mistakes
 12. Begin with a prayer
+    - If you begin with a prayer, you can think more clearly and make fewer mistakes.
 13. Outperforming the market is difficult
 14. Success is a process of continually seeking answers to new questions
+    - An investor who has all the answers doesn't even understand all the questions
 15. There is no free lunch
 16. Be positive
 
