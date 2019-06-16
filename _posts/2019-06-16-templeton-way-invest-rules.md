@@ -33,6 +33,12 @@ categories:
 15. There is no free lunch
 16. Be positive
 
+好奇, 自信 而不是 自大.
+
+> There is not much to add to Sir John’s comments on this: “An investor who has all the answers doesn’t even understand all the questions. A cocksure approach to investing will lead, probably sooner rather than later, to disappointment, if not outright disaster. Even if we can identify an unchanging handful of principles, we cannot apply these rules to an unchanging universe of investments, or an unchanging economic or political environment. **Everything is in a constant state of change, and the wise investor recognizes that success is a process of continually seeking answers to new questions**.”
+
+> “If a particular industry or type of security becomes popular with investors, that popularity will always prove temporary and once lost, won’t return for many years.” It is the nature of the investment business that it has a constant need for new ideas or instruments that it can market, and investors need to be vigilant in order not to fall into the easy trap of following fads.
+
 ## ChangeLog
 
 ```
