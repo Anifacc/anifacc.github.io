@@ -7,6 +7,7 @@ categories:
 目录  
 * any list
 {:toc}
+邓普顿投资工作分析的一个重点: 未来5年的盈利预期. 为什么要用这个尺度, 而不是其他的呢?
 
 ## Questions[^1]
 
@@ -22,19 +23,27 @@ categories:
 
 > One of the first of these that he set out to study was **the relationship between long-term earnings, share price performance, and investor returns**. This produced a set of results that, though based on just a single five-year period, so clearly and so emphatically reinforced the wisdom of John Templeton’s intuition that no further analysis seemed necessary at the time. Subsequently, however, and in order to test the validity of this initial finding more thoroughly, the study has been expanded across a wide range of other markets and periods to establish exhaustive and statistically robust conclusions.
 
-但不知作者如何研究, 只给出了研究结果.
+但不知作者如何研究, 只给出了研究结果. 研究总结如下:
 
-- The most important imperfection in the way that the stock market prices stocks is to be found in the short time horizons of the majority of investors.
-- There is no statistically significant relationship between one-year forward earnings and future share price performance. (It follows that there should be no surprise that stockbroking analysts have such an indifferent record in forecasting share price performance over such short periods.)
-- The same is true for earnings two years ahead. There is no statistically reliable correlation between the earnings a company will make two years ahead and its share price performance. It is only when comparing three year forward earnings with share prices that the first signs of a significant causal relationship begins to appear.
-- Further analysis shows that the closest and strongest correlation between current share prices and forward earnings comes over five years, which was precisely the time horizon on which Templeton expected his analysts to concentrate when preparing their analyses of quoted companies.
-- This relationship appears to hold for most markets around the world and is consistent over any period that is chosen for study. (Our analysis dates back to the mid-1970s, when the comprehensive data that allows such analysis first became available.)
-- It follows that investors who can forecast, within reasonable margins of error, the five-year forward earnings for most of the stocks they own are likely to be rewarded with above average performance over that time period.
-- It is no coincidence that five years happened to be Templeton’s own average holding period for the stocks in his portfolios; and also the period over which his funds most reliably outperformed the market. His intuition about five years being the critical forecasting period ultimately derived from his own experience as an investor.
+- The most important imperfection in the way that the stock market prices stocks is to be found in the short time horizons of the majority of investors. 股票市场对股票定价方式中最重要的缺陷在于大多数投资者的短期视野。
+- There is no statistically significant relationship between one-year forward earnings and future share price performance. (It follows that there should be no surprise that stockbroking analysts have such an indifferent record in forecasting share price performance over such short periods.) 一年期预期收益和未来股价表现之间没有显著的统计关系。(由此可见，股票经纪分析师在如此短的时间内预测股价表现的记录良莠不齐，这并不奇怪。)
+- The same is true for earnings two years ahead. There is no statistically reliable correlation between the earnings a company will make two years ahead and its share price performance. It is only when comparing three year forward earnings with share prices that the first signs of a significant causal relationship begins to appear. 未来两年的收益也是如此。一家公司未来两年的收益和股价表现之间没有统计上可靠的相关性。只有当将三年期预期收益与股价进行比较时，重大因果关系的最初迹象才开始显现。
+- Further analysis shows that the closest and strongest correlation between current share prices and forward earnings comes over five years, which was precisely the time horizon on which Templeton expected his analysts to concentrate when preparing their analyses of quoted companies. 进一步的分析显示，当前股价和远期收益之间最密切、最强的相关性出现在五年以上，这正是邓普顿期望其分析师在准备对上市公司进行分析时所关注的时间期限。
+- This relationship appears to hold for most markets around the world and is consistent over any period that is chosen for study. (Our analysis dates back to the mid-1970s, when the comprehensive data that allows such analysis first became available.) 这一关系似乎适用于世界上大多数市场，并且在任何被选择进行研究的时段都是一致的。(我们的分析可以追溯到20世纪70年代中期，当时允许这种分析的综合数据首次出现。)
+- It follows that investors who can forecast, within reasonable margins of error, the five-year forward earnings for most of the stocks they own are likely to be rewarded with above average performance over that time period. 由此可见，那些能够在合理的误差范围内预测其所持大部分股票五年期预期收益的投资者，很可能在这段时间内获得高于平均水平的回报。
+- It is no coincidence that five years happened to be Templeton’s own average holding period for the stocks in his portfolios; and also the period over which his funds most reliably outperformed the market. His intuition about five years being the critical forecasting period ultimately derived from his own experience as an investor. 5年恰好是邓普顿自己投资组合中股票的平均持有期，这绝非巧合；5年期也是他的基金最可靠地超过市场的时期。他对5年是关键预测期的直觉归根结底来自他自己作为投资者的经历。
 
-> The study provides strong empirical evidence, therefore, not just that Templeton was right to focus on five-year future earnings as a key variable in stock selection, but that those who can forecast them with any degree of effectiveness can expect to be handsomely rewarded by the market. When the majority of investors are asking the wrong question, anyone who can ask the right one starts out with a huge advantage. Although he continued to study alternative methods until the end of his life, it was an article of faith with John Templeton that there was no more reliable way to produce exceptional long-term results. (真的如此吗? 就没有其他的方法了吗? Open-minded.)
+> **The study provides strong empirical evidence, therefore, not just that Templeton was right to focus on five-year future earnings as a key variable in stock selection, but that those who can forecast them with any degree of effectiveness can expect to be handsomely rewarded by the market. When the majority of investors are asking the wrong question, anyone who can ask the right one starts out with a huge advantage.** Although he continued to study alternative methods until the end of his life, it was an article of faith with John Templeton that there was no more reliable way to produce exceptional long-term results. (真的如此吗? 就没有其他的方法了吗? Open-minded.)
 
-问题也来了, 如何预测某一公司未来5年的盈利呢?
+邓普顿将未来5年的盈利作为评估公司的一个尺度. 问题也来了, 如何预测某一公司未来5年的盈利呢? 
+
+## 数据研究: 未来5年期与投资收益
+
+"The initial study looked at the relationship between earnings and share prices in the U.S. market between 1990 and 1995. The coverage has subsequently been expanded to incorporate 30 years of data (every year back to 1970); companies from every sector; all investable markets (both developed and emerging); and a full range of market capitalizations (from large cap to small cap). As distortions caused by survivorship bias are an important risk to any study of historical relationships, significant efforts have been made to recreate the investable universe as it would have looked in the past. Today a team of three at Edinburgh Partners continues the analysis using more than 40 years of data from over 25,000 companies."
+
+研究的假设: 要有 perfect forecasting ability, 一般人有么? 投资花功夫.
+
+"The methodology used is based on the **assumption of perfect forecasting ability**. In other words, for any given period of historical data, the earnings actually achieved by the universe of companies being studied are compared to the price at which their shares traded at specific earlier periods (one, two, three, four, and five years before). The implicit price-earnings ratio at the original date can then be plotted against, and compared with, the eventual return that was subsequently achieved. Returns are calculated in both local and common currency (USD) and in both nominal and real (inflation-adjusted) terms."
 
 ## ChangeLog
 
