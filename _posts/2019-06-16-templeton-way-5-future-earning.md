@@ -12,9 +12,9 @@ categories:
 
 > Why was Templeton so sure that five-year forward earnings forecasts should be at the heart of his stock picking methods? Why five years rather than some other period? Why earnings rather than some other commonly used metric, such as cash flow or balance sheet analysis? (“In most cases, in assessing a company, we place more emphasis on future earnings rather than current earnings or assets. . . . The yardstick of value we have used most often is price relative to probable future earnings.”)
 
-## Study
+## Study Conclusions[^1]
 
-按书中[^2]所述, [Alasdair/Sandy Nairn](https://www.edinburghpartners.com/staff/dr-sandy-nairn)研究了该问题.
+按书中所述, [Alasdair/Sandy Nairn](https://www.edinburghpartners.com/staff/dr-sandy-nairn)研究了该问题.
 
 > To do so, we draw on the findings of the detailed research that one of the current authors has been undertaking, in ever greater depth, since he first worked for the Templeton organization more than 15 years ago. As Director of Global Equity Research at Templeton Investment Management in the mid-1990s, he took it upon himself to start testing empirically some of the many investment ideas and hypotheses that John Templeton had come to believe in through his own studies and experience.
 

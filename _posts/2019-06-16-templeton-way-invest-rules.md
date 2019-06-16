@@ -7,6 +7,7 @@ categories:
 目录  
 * any list
 {:toc}
+投资十六则是作者[^1]总结的邓普顿投资法则.
 
 ## Rules[^1][^2]
 
