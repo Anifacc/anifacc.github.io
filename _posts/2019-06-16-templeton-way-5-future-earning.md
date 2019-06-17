@@ -45,6 +45,38 @@ categories:
 
 "The methodology used is based on the **assumption of perfect forecasting ability**. In other words, for any given period of historical data, the earnings actually achieved by the universe of companies being studied are compared to the price at which their shares traded at specific earlier periods (one, two, three, four, and five years before). The implicit price-earnings ratio at the original date can then be plotted against, and compared with, the eventual return that was subsequently achieved. Returns are calculated in both local and common currency (USD) and in both nominal and real (inflation-adjusted) terms."
 
+下面列出 PE(Price/Earning) 与 Total Return 的关系[^1]:
+
+> 1 Strength of Relationship
+
+![5-1-Strength-Relationship](https://raw.githubusercontent.com/Anifacc/anifacc.github.io/master/images/templeton-5year-forward-pe.png)
+
+上图说明: 5年的 PE 和总回报率有相关关系.
+
+> 2 PEs versus Total Return, 2003 to 2008
+
+![5-2-PEs-versus-Total-Return-2003to2008](https://raw.githubusercontent.com/Anifacc/anifacc.github.io/master/images/templeton-5year-forward-pe-2.png)
+
+从上图可以看出: 5年PE相对越低, 总回报相对更高.
+
+> 3 Five-Year Total Real Return versus Year 5 Real PE, 1974 to 2008 (NOTE: 0.4 = 40% per annum.)
+
+![5-3-5years-total-return](https://raw.githubusercontent.com/Anifacc/anifacc.github.io/master/images/templeton-5year-forward-pe-1974-2008.png)
+
+不同年份, 5年PE与投资总回报的关系曲线图.
+
+> 4 PEs versus Total Return—World (1985–1987 and 2006–2008)
+
+![5-4-PEsVSTotalReturn](https://raw.githubusercontent.com/Anifacc/anifacc.github.io/master/images/templeton-2year-forward-pe-2008.png)
+
+> "上图给出了不同的两年期内实际市盈率与美元计实际总收益的关系。与该研究中所有图表一样，该图也是基于完美的后见之明（实际可得的盈利与收益）的假设。"
+
+> "这一结果清楚地说明了，由短期内表现出的相关关系推断一个可以在不同经济和市场周期中均成立的普遍真理的危险之处。比如，2006～2008年的两年期结果最初显示在该期间内存在合理的相关关系。但是与另一组两年期比较，例如1985～1987年，这种相关关系几乎完全逆转了，最高平均收益是由一只未来两年期市盈率超过30的股票创造的！"
+
+> "这一结果有着许多重要的应用。在一年期和两年期内，研究表示即使假设存在完美的预知能力，起始市盈率与随后获得的总收益之间也不存在确定性关系。因此，那些尝试仅依靠这种方法选股的投资者注定会在一段时期内表现出色而在其他时候表现糟糕。尽管有时候他们的方法可能会产生不错甚至惊人的成绩，他们并不能被认为是值得信赖的或是始终有理有据的。基于未来市盈率选股，唯一系统一致而又值得信赖的方法只有选择5年期的时间期限，并用纪律与聪明才智去运用它。这就是邓普顿着手去做并成功做到的事。"
+
+"买相对便宜的优质股", 做简单的事情, 不要把投资看复杂了. 提升自己估算未来盈利的能力, 虽然需要付出努力, 但也是值得的. 
+
 ## ChangeLog
 
 ```
