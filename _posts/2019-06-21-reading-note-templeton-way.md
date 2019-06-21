@@ -28,10 +28,10 @@ categories:
 
 书摘: 
 
-- [邓普顿投资备忘录(1945)之规划投资 · Jeremy Anifacc](https://anifacc.github.io/templeton/2019/06/09/templeton-memo-1945-planned-investment/)  
-- [邓普顿投资备忘录(1954)之股价正常水平 · Jeremy Anifacc](https://anifacc.github.io/templeton/2019/06/11/templeton-memo-1954-stock-normal-prices/)
-- [邓普顿投资备忘录(1953)之投资平衡实例 · Jeremy Anifacc](https://anifacc.github.io/templeton/2019/06/12/templeton-memo-1953-stock-price-plan/)
-- [邓普顿投资备忘录(1950)之优质股 · Jeremy Anifacc](https://anifacc.github.io/templeton/2019/06/14/templeton-memo-1950-which-best-stocks/)
+- [邓普顿投资备忘录(1945)之规划投资](https://anifacc.github.io/templeton/2019/06/09/templeton-memo-1945-planned-investment/)  
+- [邓普顿投资备忘录(1954)之股价正常水平](https://anifacc.github.io/templeton/2019/06/11/templeton-memo-1954-stock-normal-prices/)
+- [邓普顿投资备忘录(1953)之投资平衡实例](https://anifacc.github.io/templeton/2019/06/12/templeton-memo-1953-stock-price-plan/)
+- [邓普顿投资备忘录(1950)之优质股](https://anifacc.github.io/templeton/2019/06/14/templeton-memo-1950-which-best-stocks/)
 
 ## 2 长期非预测投资
 
@@ -39,9 +39,9 @@ categories:
 
 书摘:
 
-- [邓普顿投资备忘录(1948)之长期非预测投资 · Jeremy Anifacc](https://anifacc.github.io/templeton/2019/06/13/templeton-memo-1948-long-range-nonforecasting-programs/)
-- [邓普顿投资备忘录(1954)之投资为自己加薪 · Jeremy Anifacc](https://anifacc.github.io/templeton/2019/06/14/templeton-memo-1954-invest2increase-income/)
-- [邓普顿之道-未来盈利与股价 · Jeremy Anifacc](https://anifacc.github.io/templeton/2019/06/16/templeton-way-5-future-earning/)
+- [邓普顿投资备忘录(1948)之长期非预测投资](https://anifacc.github.io/templeton/2019/06/13/templeton-memo-1948-long-range-nonforecasting-programs/)
+- [邓普顿投资备忘录(1954)之投资为自己加薪](https://anifacc.github.io/templeton/2019/06/14/templeton-memo-1954-invest2increase-income/)
+- [邓普顿之道-未来盈利与股价](https://anifacc.github.io/templeton/2019/06/16/templeton-way-5-future-earning/)
 
 ## 3 投资建议与原则
 
@@ -49,8 +49,8 @@ categories:
 
 书摘：
 
-- [邓普顿之道-给投资者的建议 · Jeremy Anifacc](https://anifacc.github.io/templeton/2019/06/15/templeton-advice-2-investors/)
-- [邓普顿之道-投资十六则 · Jeremy Anifacc](https://anifacc.github.io/templeton/2019/06/16/templeton-way-invest-rules/)
+- [邓普顿之道-给投资者的建议](https://anifacc.github.io/templeton/2019/06/15/templeton-advice-2-investors/)
+- [邓普顿之道-投资十六则](https://anifacc.github.io/templeton/2019/06/16/templeton-way-invest-rules/)
 
 ## ChangeLog
 
