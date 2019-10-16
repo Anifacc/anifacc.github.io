@@ -43,12 +43,12 @@ If you want to contact me, please __[send an email to me][10]__, thanks.
 Buy me coffee. 
 
 微信(Wechat)扫码支持:
-![wepay](https://raw.githubusercontent.com/Anifacc/anifacc.github.io/master/images/wepay.jpg){:height="100" width="100"}
+![wepay](https://raw.githubusercontent.com/Anifacc/anifacc.github.io/master/images/wepay.jpg){:height="150" width="150"}
 
 
 
 支付宝(Alipay)扫码支持:
-![alipay](https://raw.githubusercontent.com/Anifacc/anifacc.github.io/master/images/alipay.jpg){:height="100" width="100"}
+![alipay](https://raw.githubusercontent.com/Anifacc/anifacc.github.io/master/images/alipay.jpg){:height="150" width="150"}
 
 Thanks.
 
