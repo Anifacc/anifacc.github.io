@@ -4,6 +4,9 @@ title: 阅读志:如何阅读一本书
 categories:
 - Stone
 ---
+目录 
+* any list
+{:toc}
 书籍很多, 好书很好, 如何阅读一本书非常重要.
 
 ## 写在前面

@@ -4,6 +4,10 @@ title: 非线性人生
 categories:
 - Thinking
 ---
+目录 
+* any list
+{:toc}
+你我人生，线性还是非线性？
 
 ## 1 Free Vibration
 
