@@ -31,8 +31,8 @@ author:
 reward:
   enable: true
   reward_comment: '如果喜欢, 请 Jeremy 喝杯咖啡'
-  wechatpay: '/images/wepay.jpg'
-  alipay: '/images/alipay.jpg'
+  wechatpay: '{{ site.baseurl }}images/wepay.jpg'
+  alipay: '{{ site.baseurl }}images/alipay.jpg'
 
 # Custom vers
 version:             3.0
