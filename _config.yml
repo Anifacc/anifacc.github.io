@@ -27,6 +27,13 @@ author:
   url:               https://jeremiahzhang.github.io
   email:             zhangleisuda@gmail.com
 
+# Reward 赞赏功能 by Ray-Eldath
+reward:
+  enable: true
+  reward_comment: '如果喜欢, 请 Jeremy 喝杯咖啡'
+  wechatpay: '/images/wepay.jpg'
+  alipay: '/images/alipay.jpg'
+
 # Custom vers
 version:             3.0
 
