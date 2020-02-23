@@ -62,25 +62,25 @@ refer to:
   <a class="rewardButton" title="请{{ site.author.name }}喝杯咖啡？">赞 赏</a>
 
   <div class="QR" style="display: none;">
-    <!-- {% if site.reward.reward_comment %} -->
+    {% if site.reward.reward_comment %}
     <div>
       <span style="font-family: '微软雅黑'; font-size: 18px; ">{{ site.reward.reward_comment }}</span>
     </div>
-    <!-- {% endif %} -->
+    {% endif %}
 
-    <!-- {% if site.reward.wechatpay %} -->
+    {% if site.reward.wechatpay %}
     <div class="wechat" style="display: inline-block">
-      <img class="wechat_qr" src="{{ site.reward.wechatpay }}" title="用微信请{{ site.author.name }}喝杯咖啡？" alt="用微信请{{ site.author.name }}喝杯咖啡？" />
+      <img class="wechat_qr" src="{{ site.baseurl }}images/wepay.jpg" title="用微信请{{ site.author.name }}喝杯咖啡？" alt="用微信请{{ site.author.name }}喝杯咖啡？" />
       <p>微信支付</p>
     </div>
-    <!-- {% endif %} -->
+    {% endif %}
 
-    <!-- {% if site.reward.alipay %} -->
+    {% if site.reward.alipay %}
     <div class="alipay" style="display: inline-block">
-      <img class="alipay_qr" src="{{ site.reward.alipay }}" title="用支付宝请{{ site.author.name }}喝杯咖啡？" alt="用支付宝请{{ site.author.name }}喝杯咖啡？" />
+      <img class="alipay_qr" src="{{ site.baseurl }}images/wepay.jpg" title="用支付宝请{{ site.author.name }}喝杯咖啡？" alt="用支付宝请{{ site.author.name }}喝杯咖啡？" />
       <p>支付宝</p>
     </div>
-    <!-- {% endif %} -->
+    {% endif %}
   </div>
 </div>
 

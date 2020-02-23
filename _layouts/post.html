@@ -16,7 +16,9 @@ layout: default
 </div>
 
 <div class="reward">
+  {% if site.reward.enable %}
     {% include reward.html %}
+  {% endif %}
 </div>
 
 
