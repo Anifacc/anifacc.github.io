@@ -29,7 +29,7 @@ I have no idea. I just think about it.
 
 有些人，天生系统出了些问题，但却做着自己的 free vibration。
 
-永远逃不过 force vibration，除非系统出现问题。那么在fore vibration，不如提高输入信息的质量，去读超一流的作品，去接近超一流的人物，从古至今。
+永远逃不过 force vibration，除非系统出现问题。那么在force vibration，不如提高输入信息的质量，去读超一流的作品，去接近超一流的人物，从古至今。
 
 ---
 
