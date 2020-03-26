@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 人的三種義務
+title: 阅读志:如何创造财富
 categories:
-- Thinking
+- Stone
 ---
 目錄 
 * any list
