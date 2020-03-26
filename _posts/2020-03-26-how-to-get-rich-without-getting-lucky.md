@@ -16,7 +16,7 @@ English texts are tweetlightment by Naval Ravikant
 1:23 am – 31 May 2018 
 @naval
 ```
-## 追求财富, 不单单金钱或权位
+## 追求财富, 而非金钱或权位
 
 > Seek wealth, not money or status
 
