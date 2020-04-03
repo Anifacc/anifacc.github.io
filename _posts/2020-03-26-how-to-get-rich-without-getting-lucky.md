@@ -68,14 +68,14 @@ English texts are tweetlightment by Naval Ravikant
 - 杆杆: 商业
 	- *“Give me a lever long enough,  and a place to stand,  I will move the earth.”*  - Archimedes 
 	- Fortunes require leverage. 
-	- Business leverage comes from capital, people, and products with no marginal cost of replication (code and media). 
- 		- *Capital* means money. To raise money, apply your specific knowledge, with accountability, and show resulting good judgment. 
- 		- *Labor* means people working for you. It's the oldest and most fought-over form of leverage. 
- 			- Labor leverage will impress your parents, but don’t waste your life chasing it.  
+	- Business leverage comes from capital, people, and products with no marginal cost of replication (code and media).
+		- *Capital* means money. To raise money, apply your specific knowledge, with accountability, and show resulting good judgment. 
+		- *Labor* means people working for you. It's the oldest and most fought-over form of leverage.
+			- Labor leverage will impress your parents, but don’t waste your life chasing it.  
  		- Capital and labour are permissioned leverage.
  			- Everyone is chasing capital, but someone has to give it to you. 
  			- Everyone is trying to lead, but someone has to follow you. 
-- 代码和媒体也是杆杆
+- 代码和媒体也是杆杆  
  	- **Code and media are permissionless leverage.**
  	- They're the leverage behind the newly rich. You can create software and media that works for you while you sleep. 
  	- An army of robots is freely available - it's just packed in data centres for heat and space efficiency.  Use it. 
