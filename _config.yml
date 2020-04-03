@@ -30,7 +30,7 @@ author:
 # Reward 赞赏功能 by Ray-Eldath
 reward:
   enable: true
-  reward_comment: '如果喜欢, 请 Jeremy 吃颗糖'
+  reward_comment: '如果喜欢, 请 Jeremy 喝杯咖啡'
   wechatpay: '{{ site.baseurl }}images/wepay.jpg'
   alipay: '{{ site.baseurl }}images/alipay.jpg'
 
