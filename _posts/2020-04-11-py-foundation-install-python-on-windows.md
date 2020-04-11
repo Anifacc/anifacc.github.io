@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python基础: 安装Python(Win10)
+title: Python基础之安装Python(Win10)
 categories:
 - Coding
 ---
