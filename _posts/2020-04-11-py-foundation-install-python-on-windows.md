@@ -11,7 +11,7 @@ categories:
 
 ## 1、缘起
 
-入手一台新电脑作为工作电脑，系统 Win 10。 平常先用Python，需自行安装。 (PS：Linux 和 MacOS 系统自带 Python，无需安装即可使用。)
+入手一台新电脑作为工作电脑，系统 Win 10。 平常要用Python，需自行安装。 (PS：Linux 和 MacOS 系统自带 Python，无需安装即可使用。)
 
 ## 2、Python 版本选择
 
