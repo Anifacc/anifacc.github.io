@@ -7,14 +7,13 @@ blog fork [Yixuan的极客绿]( http://yixuan.li/)
 		+ _includes
 			+ analytics.html
 中相关内容.
-
 2. 使用了自己的 Disqus, 更改
 
 		+ _layouts
 			+ post.html
 中相关内容.
-
 3. 添加 Mathjax 支持.
+4. 添加目录的链接跳转
 
 ## 其他
 
@@ -29,13 +28,15 @@ blog fork [Yixuan的极客绿]( http://yixuan.li/)
 @Anifacc   
 2017-03-25 22:01:18
 
+2020-04-12
+
 # Change
 
 因博客文章页面出现无法显示CSS页面问题，多次解决未果，以后索性改换使用[projectpages/project-pages](https://github.com/projectpages/project-pages) 的模板。
 
 谢谢[sunoonlee](https://sunoonlee.github.io/about/)的推荐。
 
-终于解决博客css render 问题, 是因为 baseurl 的问题. 因此 就需要换博客主题.
+终于解决博客css render 问题, 是因为 baseurl 的问题. 因此无需更换博客主题.
 
 2017-08-12 
 2017-08-19
