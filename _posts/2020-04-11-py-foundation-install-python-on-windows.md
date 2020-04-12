@@ -19,7 +19,7 @@ categories:
 
 > The End Of Life date (EOL, sunset date) for Python 2.7 has been moved five years into the future, to 2020.
 
-> Being the last of the 2.x series, 2.7 received bugfix support until 2020. Support officially stopped January 1 2020, and 2.7.18 code freeze occurred on January 1 2020, but the final release will occur after that date. [^1][1]
+> Being the last of the 2.x series, 2.7 received bugfix support until 2020. Support officially stopped January 1 2020, and 2.7.18 code freeze occurred on January 1 2020, but the final release will occur after that date. ^[1][1]
 
 ## 3、Chocolatey
 
@@ -63,7 +63,7 @@ choco upgrade all -y
 
 ## 5、Setuptools + Pip
 
-> The two most crucial third-party Python packages are setuptools and pip, which let you download, install and uninstall any compliant Python software product with a single command. It also enables you to add this network installation capability to your own Python software with very little work.
+> The two most crucial third-party Python packages are setuptools and pip, which let you download, install and uninstall any compliant Python software product with a single command. It also enables you to add this network installation capability to your own Python software with very little work.^[2][2]
 
 Python 3.x 自带 [pip - The Python Package Installer](https://pip.pypa.io/en/stable/) 和 [Setuptools](https://github.com/pypa/setuptools)，更新 `pip` 和 `setuptools`:
 
@@ -76,7 +76,7 @@ python -m pip install -U setuptools
 
 ## 6、Pipenv & Virtual Environments
 
-> A Virtual Environment is a tool to keep the dependencies required by different projects in separate places, by creating virtual Python environments for them. It solves the “Project X depends on version 1.x but, Project Y needs 4.x” dilemma, and keeps your global site-packages directory clean and manageable.[^2][2]
+> A Virtual Environment is a tool to keep the dependencies required by different projects in separate places, by creating virtual Python environments for them. It solves the “Project X depends on version 1.x but, Project Y needs 4.x” dilemma, and keeps your global site-packages directory clean and manageable.^[2][2]
 
 为不同的项目创建各自的虚拟环境，方便。 下面就安装 pipenv，用 pipenv 去创建 Virtual Environments。
 
@@ -138,6 +138,7 @@ Jeremy.Anifacc
 ## 参考
 
 1. https://www.linkedin.com/pulse/how-use-python-pipenv-mac-windows-mahmud-ahsan/
+2. https://docs.python-guide.org/starting/install3/win/
 
 ---
 
