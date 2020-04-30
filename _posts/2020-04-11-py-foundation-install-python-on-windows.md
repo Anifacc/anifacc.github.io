@@ -76,6 +76,8 @@ python -m pip install -U setuptools
 
 ## 6、Pipenv & Virtual Environments
 
+这部分内容，初学者可以略过。
+
 > A Virtual Environment is a tool to keep the dependencies required by different projects in separate places, by creating virtual Python environments for them. It solves the “Project X depends on version 1.x but, Project Y needs 4.x” dilemma, and keeps your global site-packages directory clean and manageable.^[2][2]
 
 为不同的项目创建各自的虚拟环境，方便。 下面就安装 pipenv，用 pipenv 去创建 Virtual Environments。
@@ -125,8 +127,6 @@ pipenv run python main.py
 ```
 
 显示：`Your IP is 8.8.8.8`。
-
-这部本内容，初学者可以略过。
 
 ## Log
 
