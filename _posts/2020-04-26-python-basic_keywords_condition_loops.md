@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python基础语法之一
+title: Python基础之基本语法一
 categories:
 - Coding
 ---
@@ -391,7 +391,7 @@ def recursive_function(parameters):
 
 ## 参考
 
-- [Crash Course on Python - Home | Coursera](https://www.coursera.org/learn/python-crash-course/home/welcome)
+- [Crash Course on Python Coursera](https://www.coursera.org/learn/python-crash-course/home/welcome)
 - [Learn Python in Y Minutes](https://learnxinyminutes.com/docs/python/)
 - [Type Conversion in Python-Intellipaat](https://intellipaat.com/blog/tutorial/python-tutorial/type-conversion-in-python/)
 - [List of Keywords in Python Programming](https://www.programiz.com/python-programming/keyword-list)
