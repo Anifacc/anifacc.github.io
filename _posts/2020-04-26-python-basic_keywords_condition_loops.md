@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python基础之基本语法一
+title: Python基础之基础语法一
 categories:
 - Coding
 ---
