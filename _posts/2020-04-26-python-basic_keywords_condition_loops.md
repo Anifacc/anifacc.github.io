@@ -1,3 +1,12 @@
+---
+layout: post
+title: Python基础语法之一
+categories:
+- Coding
+---
+目錄 
+* any list
+{:toc}
 人生客旅，我用Python
 
 ## 前言
