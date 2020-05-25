@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 经济学-资源与决策
+title: 什么是经济学
 categories:
 - Economics
 ---
