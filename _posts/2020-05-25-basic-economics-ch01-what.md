@@ -4,8 +4,7 @@ title: 什么是经济学
 categories:
 - Economics
 ---
-
-我读 Basic Economics
+我读 Basic Economics Chapter 1.
 
 第一章主要介绍什么是经济学及其作用。经济学与稀缺性（Scarcity）和生产效率（Productivity）相关。
 
