@@ -516,11 +516,11 @@ and often lead to success.
 
 ## Log
 
-摘录自：Golden Nuggets from Sir John Templeton
-出版社：TEMPLETON FOUNDATION PRESS
-年份：1997 
-eISBN: 1-932031-15-4
-部分翻译：Jeremy
+摘录自：Golden Nuggets from Sir John Templeton  
+出版社：TEMPLETON FOUNDATION PRESS  
+年份：1997   
+eISBN: 1-932031-15-4  
+部分翻译：Jeremy  
 
 ```
 @Jeremy.Anifacc
