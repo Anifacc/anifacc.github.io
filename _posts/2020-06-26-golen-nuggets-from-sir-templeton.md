@@ -3,6 +3,7 @@ layout: post
 title: 邓普顿爵士的人生金律
 categories:
 - Stone
+- Templeton
 ---
 Golden Nuggets from Sir John Templeton
 
