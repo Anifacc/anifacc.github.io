@@ -5,6 +5,9 @@ categories:
 - Stone
 - Templeton
 ---
+目录  
+* any list
+{:toc}
 Golden Nuggets from Sir John Templeton
 
 ## 简介
