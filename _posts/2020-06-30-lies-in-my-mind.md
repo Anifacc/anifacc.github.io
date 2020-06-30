@@ -4,6 +4,10 @@ title: 心智谎言一
 categories:
 - Thinking
 ---
+目录  
+* any list
+{:toc}
+
 诗曰：
 
 ```
