@@ -50,7 +50,7 @@ English texts are tweetlightment by Naval Ravikant
 	- Learn to *build*.
 	- If you can do both, you will be unstoppable.
 
-## 武装自己: 奇技、责任、杆杆
+## 武装自己: 奇技、责任、杠杆
 
 > Arm yourself with **specific knowledge**, **accountability**, and **leverage**.
 
@@ -65,7 +65,7 @@ English texts are tweetlightment by Naval Ravikant
 	- **Embrace accountability, and take business risks under your own name.**  
  	- Society will reward you with responsibility, equity, and leverage. 
  	- The most accountable people have singular, public, and risky brands: Oprah, Trump, Kanye, Elon. 
-- 杆杆: 商业
+- 杠杆: 商业
 	- *“Give me a lever long enough,  and a place to stand,  I will move the earth.”*  - Archimedes 
 	- Fortunes require leverage. 
 	- Business leverage comes from capital, people, and products with no marginal cost of replication (code and media).
@@ -75,7 +75,7 @@ English texts are tweetlightment by Naval Ravikant
 		- Capital and labour are permissioned leverage.
 			- Everyone is chasing capital, but someone has to give it to you. 
 			- Everyone is trying to lead, but someone has to follow you. 
-- 代码和媒体也是杆杆  
+- 代码和媒体也是杠杆  
 	- **Code and media are permissionless leverage.**
 	- They're the leverage behind the newly rich. You can create software and media that works for you while you sleep. 
 	- An army of robots is freely available - it's just packed in data centres for heat and space efficiency.  Use it. 
