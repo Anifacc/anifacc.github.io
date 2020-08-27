@@ -19,7 +19,7 @@ categories:
 	- 买卖以[估值](https://qieman.com/idx-eval)为准
 2. 定期购买低估优质&长寿企业（永续、存留）
 	- ROE(5-10年以上的长期平均值)>=15% & 每年净资产增长率>10%
-	- & PE < 7
+	- & PE < 10
 	- & PB < 1.5 
 	- & 殖利率(股息/股价) > [3.5%](https://www.ceicdata.com/zh-hans/indicator/china/long-term-interest-rate)
 	- & 净利润>30%
