@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 阅读志: 生存12法则
+title: 阅读志:生存12法则
 categories:
 - Stone
 ---
