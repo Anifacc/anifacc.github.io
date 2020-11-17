@@ -76,7 +76,7 @@ categories:
 
 > A red herring introduces an irrelevant point into an argument. Someone may think (or may want us to think) it proves his side, but it really doesn’t.
 
-## 参考
+**案例**
 
 Logical Form:
 
@@ -597,7 +597,7 @@ TC喊口号就如此，不断Brainwahsing. 广告的狂轰乱炸就是如此，�
 
 ---
 
-## 结语
+# 结语
 
 The Fallacy Detective 以38小课的内容介绍了一些谬误，包括逃避问题、假设错误、统计谬误以及宣传上常见的一些谬误。读者可以根据这些扩展，形成自己的谬误栅格。
 
