@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 阅读志:如何培养习惯
+title: 阅读志:掌控自己培养微习惯
 categories:
 - Stone
 ---
