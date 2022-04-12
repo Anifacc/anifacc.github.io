@@ -13,8 +13,6 @@ Hola, I am __Jeremy Anifacc__, a Christian & a lifelong learner.
 - [Gitbook][3]
 - [~~Jianshu~~][4]
 - [~~Weibo~~][5]
-- [~~Lofter~~][6]
-- [~~Zhihu~~][7]
 
 ## Works
 
@@ -38,7 +36,7 @@ Hola, I am __Jeremy Anifacc__, a Christian & a lifelong learner.
 
 ## Contact & Support
 
-If you want to contact me, please __[send an email to me][10]__, thanks.
+If you want to contact me, please __[send an email to me][6]__, thanks.
 
 Buy me coffee. 
 
@@ -61,6 +59,4 @@ Thanks.
 [3]:	https://www.gitbook.com/@jeremiahzhang
 [4]:	http://www.jianshu.com/u/e5fdf29b3150
 [5]:	http://weibo.com/ZhangXiaowoStef
-[6]:    http://anifacc.lofter.com/
-[7]:    https://www.zhihu.com/people/TolifAnifacc
-[10]:   mailto:zhangleisuda@gmail.com
+[6]:   mailto:zhangleisuda@gmail.com
