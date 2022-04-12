@@ -61,6 +61,6 @@ Thanks.
 [3]:	https://www.gitbook.com/@jeremiahzhang
 [4]:	http://www.jianshu.com/u/e5fdf29b3150
 [5]:	http://weibo.com/ZhangXiaowoStef
-[6]:  http://anifacc.lofter.com/
-[7]:  https://www.zhihu.com/people/TolifAnifacc
-[10]: mailto:zhangleisuda@gmail.com
+[6]:    http://anifacc.lofter.com/
+[7]:    https://www.zhihu.com/people/TolifAnifacc
+[10]:   mailto:zhangleisuda@gmail.com
