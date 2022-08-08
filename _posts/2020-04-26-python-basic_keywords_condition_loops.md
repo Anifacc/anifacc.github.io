@@ -396,6 +396,7 @@ def recursive_function(parameters):
 - [Type Conversion in Python-Intellipaat](https://intellipaat.com/blog/tutorial/python-tutorial/type-conversion-in-python/)
 - [List of Keywords in Python Programming](https://www.programiz.com/python-programming/keyword-list)
 - [Python break and continue](https://www.programiz.com/python-programming/break-continue)
+- [Python For Loop](https://www.scaler.com/topics/python/for-loop-in-python/)
 
 ## Log
 
