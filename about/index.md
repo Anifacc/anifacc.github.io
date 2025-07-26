@@ -4,15 +4,13 @@ author: Anifacc
 layout: page
 ---
 
-Hola, I am __Jeremy Anifacc__, a Christian & a lifelong learner.
+Hello, I am __Jeremy__, a Christian & a lifelong learner.
 
 ## Linkings
 
 - [Jeremy Anifacc][1]
 - [Github][2]
 - [Gitbook][3]
-- [~~Jianshu~~][4]
-- [~~Weibo~~][5]
 
 ## Works
 
