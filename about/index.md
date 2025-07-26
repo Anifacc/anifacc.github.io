@@ -20,9 +20,11 @@ Hola, I am __Jeremy Anifacc__, a Christian & a lifelong learner.
 
 ## Never Stop Learning
 
-- Python: [gopython repo](https://github.com/JeremiahZhang/gopython/)
-- CS: 
-    - [SICPer MIT 6.001 course & Structure and Interpretation of Computer Programs Note](https://jeremiahzhang.github.io/SICPer/)
+- Certificates
+    - [Google Agile Essentials](https://www.credly.com/badges/cb27ab6f-1a28-4415-8793-4c0e2a36237d/public_url)
+    - [Google AI Essentials](https://www.credly.com/badges/45a98f80-8ac8-467f-bc39-f6666466fbe3/public_url)
+    - [Google Prompting Essentials](https://www.credly.com/badges/6b9d4549-e76d-4d7c-871f-75e3a8cb2ae6/public_url)
+    - [Data Analysis with Python(freeCodeCamp)](https://www.freecodecamp.org/certification/JeremyZhang/data-analysis-with-python-v7)
 - Engineering
     - [Physics-NVH 文集](https://www.jianshu.com/nb/8041870)
     - [Linear Algebra 文集](https://www.jianshu.com/nb/7906919)
@@ -31,22 +33,11 @@ Hola, I am __Jeremy Anifacc__, a Christian & a lifelong learner.
 ## What I believe in
 
 - Jesus Christ
-- You can learn anything.(Learn from Khan Academy)
-- Investing Intelligently
+- You can learn anything.
 
 ## Contact & Support
 
 If you want to contact me, please __[send an email to me][6]__, thanks.
-
-Buy me coffee. 
-
-**微信(Wechat)**扫码支持:
-![wepay](https://raw.githubusercontent.com/Anifacc/anifacc.github.io/master/images/wepay.jpg){:height="150" width="150"}
-
-
-
-**支付宝(Alipay)**扫码支持:
-![alipay](https://raw.githubusercontent.com/Anifacc/anifacc.github.io/master/images/alipay.jpg){:height="150" width="150"}
 
 Thanks.
 
